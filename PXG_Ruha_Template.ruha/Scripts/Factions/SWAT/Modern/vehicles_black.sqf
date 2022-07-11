@@ -2,11 +2,9 @@ _availableVehicles =
 [
 	["Utility",
 	["UK3CB_AAF_B_SUV_Armoured",
-	"C_Offroad_01_covered_F",
-	"C_Offroad_01_comms_F",
-	"C_Offroad_01_repair_F",
-	"C_Van_02_vehicle_F",
-	"C_Van_01_box_F"]],
+	"B_GEN_Offroad_01_gen_F",
+	"B_GEN_Offroad_01_comms_F",
+	"C_Van_02_transport_F"]],
 	
 	["Armed Car/MRAP",
 	["UK3CB_AAF_B_SUV_Armed"]],

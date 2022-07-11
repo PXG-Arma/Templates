@@ -48,7 +48,7 @@ _resupplyAvailable = [
 	],
 	["40mm Grenades",
 		[
-			["1Rnd_HE_Grenade_Shell",30]
+			["1Rnd_HE_Grenade_Shell",20]
 		]
 	],
 	["40mm Smoke Rounds",

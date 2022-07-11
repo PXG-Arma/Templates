@@ -11,6 +11,12 @@ _resupplyAvailable = [
 			["hlc_200rnd_556x45_T_SAW",10]
 		]
 	],
+	["Shotgun Resupply",
+		[
+			["rhsusf_8Rnd_00Buck",20],
+			["rhsusf_8Rnd_Slug",20]
+		]
+	],
 	["MMG Resupply",
 		[
 			["rhsusf_100Rnd_762x51_m61_ap",10],
@@ -40,7 +46,8 @@ _resupplyAvailable = [
 	],
 	["Hand Grenades",
 		[
-			["HandGrenade",30]
+			["HandGrenade",20],
+			["ACE_M84",10]
 		]
 	],
 	["Smoke Grenades",
@@ -69,7 +76,14 @@ _resupplyAvailable = [
 			["UGL_FlareWhite_F",20],
 			["UGL_FlareCIR_F",20]
 		]
-	],	
+	],
+	["Breaching Charges",
+		[
+			["tsp_popperCharge_mag",16],
+			["tsp_stickCharge_mag",8],
+			["tsp_frameCharge_mag",8]
+		]
+	],
 	["Explosives",
 		[
 			["DemoCharge_Remote_Mag",10],
@@ -113,6 +127,8 @@ _resupplyAvailable = [
 			["hlc_20rnd_762x51_T_G3",20],
 			["hlc_200rnd_556x45_B_SAW",5],
 			["hlc_200rnd_556x45_T_SAW",5],
+			["rhsusf_8Rnd_00Buck",8],
+			["rhsusf_8Rnd_Slug",8],
 			["rhs_weap_M136",2],
 			["HandGrenade",10],
 			["rhs_mag_an_m8hc",10],

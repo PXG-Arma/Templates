@@ -67,7 +67,12 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToVest "SmokeShell"};
 		for "_i" from 1 to 1 do { player addItemToVest "SmokeShellGreen"};
 		for "_i" from 1 to 1 do { player addItemToVest "SmokeShellRed"};
-		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_rgo"};
+		for "_i" from 1 to 2 do { player addItemToVest "rhs_grenade_khattabka_vog25_mag"};
+	};
+	case "sqd_brc": {
+		for "_i" from 1 to 2 do { player addItemToVest "SmokeShell"};
+		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_zarya2"};
+		for "_i" from 1 to 2 do { player addItemToVest "rhs_grenade_khattabka_vog25_mag"};
 	};
 };
 

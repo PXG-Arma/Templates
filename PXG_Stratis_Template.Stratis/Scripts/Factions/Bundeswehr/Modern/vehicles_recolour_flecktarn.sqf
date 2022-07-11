@@ -2,26 +2,12 @@ params["_vehicle","_vehicleType"];
 
 switch(_vehicleType) do
 {
-	case "UK3CB_B_G_UH1H_GUNSHIP_FIA":
+	case "UK3CB_B_Bell412_Utility_HIDF":
 	{
 		[
 			_vehicle,
-			["OLIVE",1], 
-			["showCamonetHull",0,"showBags",0,"showBags2",0,"showTools",0,"showSLATHull",0]
-		] call BIS_fnc_initVehicle;
-	};
-	
-	default {};
-};
-
-switch(_vehicleType) do
-{
-	case "UK3CB_B_G_UH1H_M240_FIA":
-	{
-		[
-			_vehicle,
-			["OLIVE",1], 
-			["showCamonetHull",0,"showBags",0,"showBags2",0,"showTools",0,"showSLATHull",0]
+			["BLK",1], 
+			["AddWinch",1,"AddCargohook",0,"AddCargoHook_cover",0,"AddFlareLauncher",1,"AddNoseradar",1,"DoorL2_Hide",0,"DoorR2_Hide",0,"RotorCover_Hide",0]
 		] call BIS_fnc_initVehicle;
 	};
 	

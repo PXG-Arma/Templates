@@ -42,7 +42,7 @@ _resupplyAvailable = [
 	],
 	["Hand Grenades",
 		[
-			["HandGrenade",30]
+			["HandGrenade",20]
 		]
 	],
 	["Smoke Grenades",

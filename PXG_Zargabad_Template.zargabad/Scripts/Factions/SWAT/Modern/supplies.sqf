@@ -7,24 +7,19 @@ _resupplyAvailable = [
 	],
 	["Marksman Resupply",
 		[
-			["rhsusf_5Rnd_762x51_m993_Mag",30],
-			["rhsusf_5Rnd_762x51_m62_Mag",30]
+			["rhsusf_5Rnd_762x51_m993_Mag",20],
+			["rhsusf_5Rnd_762x51_m62_Mag",20]
 		]
 	],
 	["Shotgun Resupply",
 		[
-			["UK3CB_BAF_12G_Pellets",30],
-			["UK3CB_BAF_12G_Slugs",30]
+			["UK3CB_BAF_12G_Pellets",20],
+			["UK3CB_BAF_12G_Slugs",20]
 		]
 	],
-	["LAT Resupply",
+	["Stun Grenades",
 		[
-			["rhs_weap_m72a7",8]
-		]
-	],
-	["Offensive Grenades",
-		[
-			["HandGrenade",20],
+			["ACE_CableTie",20],
 			["ACE_M84",20],
 			["rhs_mag_m7a3_cs",20]
 		]
@@ -39,9 +34,9 @@ _resupplyAvailable = [
 	],
 	["40mm Grenades",
 		[
-			["1Rnd_HE_Grenade_shell",15],
+			["1Rnd_HE_Grenade_shell",10],
 			["rhs_mag_m576",15],
-			["rhs_mag_m4009",10]
+			["rhs_mag_m4009",15]
 		]
 	],
 	["40mm Smoke Rounds",
@@ -58,6 +53,13 @@ _resupplyAvailable = [
 			["UGL_FlareCIR_F",20]
 		]
 	],	
+	["Breaching Charges",
+		[
+			["tsp_popperCharge_mag",16],
+			["tsp_stickCharge_mag",8],
+			["tsp_frameCharge_mag",8]
+		]
+	],
 	["Explosives",
 		[
 			["DemoCharge_Remote_Mag",10],
@@ -99,11 +101,12 @@ _resupplyAvailable = [
 		[
 			["rhs_mag_30Rnd_556x45_M855A1_Stanag",20],
 			["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",20],
-			["UK3CB_BAF_12G_Pellets",10],
+			["UK3CB_BAF_12G_Pellets",8],
+			["UK3CB_BAF_12G_Slugs",8],
 			["rhsusf_5Rnd_762x51_m993_Mag",10],
-			["rhs_weap_m72a7",2],
-			["HandGrenade",10],
+			["ACE_M84",10],
 			["SmokeShell",10],
+			["ACE_CableTie",20],
 			["ACE_bloodIV", 5],
 			["ACE_elasticBandage", 15],
 			["ACE_quickclot", 15]

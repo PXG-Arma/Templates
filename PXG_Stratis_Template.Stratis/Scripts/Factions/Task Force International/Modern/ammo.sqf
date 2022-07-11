@@ -10,6 +10,10 @@ switch (_loadout) do {
 		for "_i" from 1 to 6 do { player addItemToVest "hlc_60Rnd_545x39_t_rpk"};
 		for "_i" from 1 to 6 do { player addItemToBackpack "hlc_60Rnd_545x39_t_rpk"};
 	};
+	case "sqd_brc": {
+		for "_i" from 1 to 8 do { player addItemToVest "hlc_10rnd_12g_buck_S12"};
+		for "_i" from 1 to 8 do { player addItemToBackpack "hlc_10rnd_12g_slug_S12"};
+	};
 	case "sqd_dmr";
 	case "rcn_dmr": {
 		for "_i" from 1 to 8 do { player addItemToVest "rhs_10Rnd_762x54mmR_7N14"};
@@ -27,9 +31,13 @@ switch (_loadout) do {
 };
 
 // add secondary ammo
-//switch (_loadout) do {
-//	default {};
-//};
+switch (_loadout) do {
+	default {};
+		case "rcn_dmr";
+		case "sqd_brc": {
+		for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_9x19_7n31_17"};
+	};
+};
 
 // add assistant ammo 
 switch (_loadout) do {
@@ -61,6 +69,11 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_rdg2_white"};
 		for "_i" from 1 to 2 do { player addItemToVest "rhssaf_mag_brd_m83_green"};
 		for "_i" from 1 to 2 do { player addItemToVest "rhssaf_mag_brd_m83_red"};
+		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_rgd5"};
+	};
+	case "sqd_brc": {
+		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_rdg2_white"};
+		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_zarya2"};
 		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_rgd5"};
 	};
 };

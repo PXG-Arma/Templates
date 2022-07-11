@@ -26,11 +26,13 @@ switch (_loadout) do {
 
 // add secondary weapon
 switch (_loadout) do {
-	default { player addWeapon "hlc_pistol_P226US"};
+	default {player addWeapon "hlc_pistol_P226R";
+			 player addHandgunItem "hlc_optic_vtac";
+			 player addHandgunItem "hlc_acc_tlr1";
+	};
 };
 
 // add launcher
-switch (_loadout) do {
-	default {};
-	case "sqd_lat": {player addWeapon "rhs_weap_m72a7"};
-};
+//switch (_loadout) do {
+//	default {};
+//};

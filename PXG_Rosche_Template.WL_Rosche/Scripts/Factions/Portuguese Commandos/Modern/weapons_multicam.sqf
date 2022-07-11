@@ -20,6 +20,10 @@ switch (_loadout) do {
 	case "sup_mmg_g": {	player addWeapon "hlc_lmg_mk48mod1";
 						player addPrimaryWeaponItem "rhsusf_acc_ELCAN";
 	};
+	case "sqd_brc": {player addWeapon "UK3CB_BAF_L128A1";
+					 player addPrimaryWeaponItem "rhsusf_acc_eotech_xps3";
+					 player addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
+	};
 	case "ar_c";
 	case "pil": {player addWeapon "rhs_weap_SCARH_FDE_STD"};
 };
@@ -31,6 +35,8 @@ switch (_loadout) do {
 	case "sqd_ld";
 	case "sqd_gre";
 	case "rcn_ld": {player addWeapon "rhs_weap_M320"};
+    case "rcn_dmr";
+	case "sqd_brc": {player addWeapon "rhsusf_weap_glock17g4"};
 };
 // add launcher
 switch (_loadout) do {

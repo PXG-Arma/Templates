@@ -51,7 +51,8 @@ _resupplyAvailable = [
 	],
 	["Hand Grenades",
 		[
-			["rhs_mag_rgo",20]
+			["rhs_grenade_khattabka_vog25_mag",20],
+			["rhs_mag_zarya2",10]
 		]
 	],
 	["Smoke Grenades",
@@ -60,6 +61,13 @@ _resupplyAvailable = [
 			["SmokeShellRed",10],
 			["SmokeShellGreen",10],
 			["SmokeShellBlue",10]
+		]
+	],
+		["Breaching Charges",
+		[
+			["tsp_popperCharge_mag",16],
+			["tsp_stickCharge_mag",8],
+			["tsp_frameCharge_mag",8]
 		]
 	],
 	["Explosives",
@@ -105,7 +113,7 @@ _resupplyAvailable = [
 			["rhs_20rnd_9x39mm_SP6",40],
 			["rhs_weap_rpg26",2],
 			["rhs_weap_rshg2",4],
-			["rhs_mag_rgo",10],
+			["rhs_grenade_khattabka_vog25_mag",10],
 			["SmokeShell",10],
 			["ACE_bloodIV", 5],
 			["ACE_elasticBandage", 15],

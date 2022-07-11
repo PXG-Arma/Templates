@@ -23,6 +23,10 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_30Rnd_556x45_M855A1_EPM_Tracer_Red"};
 		for "_i" from 1 to 2 do { player addItemToVest "ACE_UAVBattery"};
 	};
+	case "sqd_brc": {
+		for "_i" from 1 to 6 do { player addItemToVest "rhsusf_8Rnd_00Buck"};
+		for "_i" from 1 to 6 do { player addItemToBackpack "rhsusf_8Rnd_Slug"};
+	};
 	case "ar_c";
 	case "pil": {
 		for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_30Rnd_556x45_M855A1_EPM"};
@@ -38,9 +42,9 @@ switch (_loadout) do {
 // add secondary ammo
 switch (_loadout) do {
 	default {};
+	case "sqd_brc";
 	case "sqd_hgre": {
 		for "_i" from 1 to 4 do { player addItemToVest "rhsusf_mag_40Rnd_46x30_AP"};
-		for "_i" from 1 to 2 do { player addItemToUniform "rhsusf_mag_40Rnd_46x30_AP"};
 	};
 };
 
@@ -72,6 +76,11 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToVest "SmokeShell"};
 		for "_i" from 1 to 2 do { player addItemToVest "SmokeShellGreen"};
 		for "_i" from 1 to 2 do { player addItemToVest "SmokeShellRed"};
+		for "_i" from 1 to 2 do { player addItemToVest "HandGrenade"};
+	};
+	case "sqd_brc": {
+		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_an_m8hc"};
+		for "_i" from 1 to 2 do { player addItemToVest "ACE_M84"};
 		for "_i" from 1 to 2 do { player addItemToVest "HandGrenade"};
 	};
 };

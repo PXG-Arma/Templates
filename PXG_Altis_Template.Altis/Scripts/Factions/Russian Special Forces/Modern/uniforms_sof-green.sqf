@@ -11,7 +11,7 @@ switch (_loadout) do {
 	case "pil": { player addHeadgear "rhs_zsh7a_mike_green_alt"};
 	case "rcn_dmr";
 	case "rcn_drone";
-	case "rcn_ld": { player addHeadgear "rhs_6m2_1"};
+	case "rcn_ld": { player addHeadgear "rhs_beanie_green"};
 };
 
 // add vest

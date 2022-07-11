@@ -45,7 +45,7 @@ _resupplyAvailable = [
 	],
 	["Hand Grenades",
 		[
-			["rhssaf_mag_br_m84",30]
+			["rhssaf_mag_br_m84",20]
 		]
 	],
 	["Smoke Grenades",

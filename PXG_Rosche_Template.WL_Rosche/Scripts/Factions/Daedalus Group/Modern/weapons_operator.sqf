@@ -16,6 +16,7 @@ switch (_loadout) do {
 					player addPrimaryWeaponItem "optic_MRCO";
 					player addPrimaryWeaponItem "hlc_muzzle_Gunfighter_comp"
 	};
+	case "sqd_brc": {player addWeapon "rhs_weap_M590_8RD"};
 	case "rcn_dmr": {player addWeapon "hlc_rifle_PSG1A1_RIS";
 					 player addPrimaryWeaponItem "rhsusf_acc_leupoldmk4"
 	};
@@ -27,6 +28,10 @@ switch (_loadout) do {
 };
 
 // add secondary weapon
+switch (_loadout) do {
+	default {};
+	case "sqd_brc": {player addWeapon "BWA3_P12"};
+};
 
 // add launcher
 switch (_loadout) do {

@@ -10,6 +10,12 @@ _resupplyAvailable = [
 			["hlc_60Rnd_545x39_t_rpk",40]
 		]
 	],
+	["Shotgun Resupply",
+		[
+			["hlc_10rnd_12g_buck_S12",20],
+			["hlc_10rnd_12g_slug_S12",20]
+		]
+	],
 	["MMG Resupply",
 		[
 			["rhs_100Rnd_762x54mmR_green",20]
@@ -47,7 +53,8 @@ _resupplyAvailable = [
 	],
 	["Hand Grenades",
 		[
-			["rhssaf_mag_br_m84",20]
+			["rhssaf_mag_br_m84",20],
+			["rhs_mag_zarya2",10]
 		]
 	],
 	["Smoke Grenades",
@@ -77,6 +84,13 @@ _resupplyAvailable = [
 			["rhs_VG40OP_white",15],
 			["rhs_VG40OP_red",10],
 			["rhs_VG40OP_green",10]
+		]
+	],
+	["Breaching Charges",
+		[
+			["tsp_popperCharge_mag",16],
+			["tsp_stickCharge_mag",8],
+			["tsp_frameCharge_mag",8]
 		]
 	],
 	["Explosives",
@@ -122,6 +136,8 @@ _resupplyAvailable = [
 			["rhs_30Rnd_762x39mm_polymer",20],
 			["rhs_30Rnd_762x39mm_polymer_tracer",20],
 			["hlc_60Rnd_545x39_t_rpk",20],
+			["hlc_10rnd_12g_buck_S12",8],
+			["hlc_10rnd_12g_slug_S12",8],
 			["rhs_weap_rpg75",2],
 			["rhssaf_mag_br_m84",10],
 			["rhs_mag_rdg2_white",10],

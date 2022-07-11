@@ -20,6 +20,7 @@ switch (_loadout) do {
 					player addPrimaryWeaponItem "rhsusf_acc_sf3p556";
 					player addPrimaryWeaponItem "rhsusf_acc_eotech_xps3";
 	};
+	case "sqd_brc": {player addWeapon "rhs_weap_M590_8RD"};
 	case "rcn_dmr": {player addWeapon "rhs_weap_sr25_ec";
 					 player addPrimaryWeaponItem "rhsusf_acc_nxs_3515x50_md";
 					 player addPrimaryWeaponItem "rhsusf_acc_harris_bipod";
@@ -34,8 +35,9 @@ switch (_loadout) do {
 
 // add secondary weapon
 switch (_loadout) do {
+	default {};
+	case "sqd_brc";
 	case "sqd_hgre": {player addWeapon "rhsusf_weap_MP7A2_folded_desert"};
-	default { };
 };
 
 // add launcher

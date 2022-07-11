@@ -11,8 +11,8 @@ switch (_loadout) do {
 		for "_i" from 1 to 8 do { player addItemToBackpack "UK3CB_BAF_12G_Slugs"};
 	};
 	case "sqd_dmr": {
-		for "_i" from 1 to 8 do { player addItemToVest "rhsusf_5Rnd_762x51_m993_Mag"};
-		for "_i" from 1 to 8 do { player addItemToBackpack "rhsusf_5Rnd_762x51_m62_Mag"};
+		for "_i" from 1 to 6 do { player addItemToVest "rhsusf_5Rnd_762x51_m993_Mag"};
+		for "_i" from 1 to 6 do { player addItemToVest "rhsusf_5Rnd_762x51_m62_Mag"};
 	};
 	case "rcn_drone": {
 		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_30Rnd_556x45_M855A1_Stanag"};
@@ -48,13 +48,12 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToBackpack "SmokeShell"};
 		for "_i" from 1 to 2 do { player addItemToVest "ACE_M84"};
 		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_m7a3_cs"};
-		for "_i" from 1 to 2 do { player addItemToVest "HandGrenade"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "tsp_popperCharge_mag"};
 	};
 	case "sqd_brc": {
 		for "_i" from 1 to 2 do { player addItemToVest "ACE_CTS9"};
 		for "_i" from 1 to 2 do { player addItemToVest "ACE_M84"};
 		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_m7a3_cs"};
-		for "_i" from 1 to 2 do { player addItemToVest "HandGrenade"};
 	};
 };
 
