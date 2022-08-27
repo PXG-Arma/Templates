@@ -55,6 +55,7 @@ _resupplyAvailable = [
 			["rhs_mag_f1",20],
 			["rhs_mag_rdg2_white",10]
 		]
+	],
 	["40mm Grenades",
 		[
 			["rhs_VOG25",30]
