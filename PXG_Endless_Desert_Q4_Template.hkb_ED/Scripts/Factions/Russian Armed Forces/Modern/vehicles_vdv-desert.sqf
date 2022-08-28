@@ -29,18 +29,6 @@ _availableVehicles =
     ["SPG",
     ["rhs_D30_vdv"]],
 	
-	["Rotary Transport",
-	["RHS_Mi8mt_vdv",
-	"RHS_Mi8mt_Cargo_vdv"]],
-	
-	["Rotary Attack",
-	["RHS_Mi8MTV3_heavy_vdv",
-	"RHS_Mi24Vt_vvsc",
-	"RHS_Ka52_vvsc"]],
-  
-    ["Fixed Wing Attack",
-    ["rhs_mig29s_vvsc"]],
-	
 	["Misc.",
 	["UK3CB_ADA_O_Quadbike",
 	"UK3CB_O_G_YAVA"]]

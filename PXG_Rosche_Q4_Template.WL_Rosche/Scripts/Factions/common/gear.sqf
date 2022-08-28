@@ -18,6 +18,8 @@ switch (_loadout) do {
 		player addItemToBackpack "ACE_Fortify";
 		player addItemToBackpack "ACE_EntrenchingTool";
 	};
+	case "ar_c";
+	case "pil";
 	case "sup_hmg_l";
 	case "sup_hmg_g";
 	case "sup_gmg_l";

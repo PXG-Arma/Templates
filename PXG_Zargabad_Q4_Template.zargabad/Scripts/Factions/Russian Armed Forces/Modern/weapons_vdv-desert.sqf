@@ -8,8 +8,7 @@ switch (_loadout) do {
 			  player addPrimaryWeaponItem "rhs_acc_dtk3";
 			  player addPrimaryWeaponItem "rhs_acc_grip_ffg2";
 	};
-	case "ar_c";
-	case "pil":{player addWeapon "rhs_weap_aks74u";
+	case "ar_c":{player addWeapon "rhs_weap_aks74u";
 				player addPrimaryWeaponItem "rhs_acc_pgs64_74u";
 	};
 	case "plt";

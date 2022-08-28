@@ -102,46 +102,6 @@ switch(_vehicleType) do
 			true
 		] call BIS_fnc_initVehicle;
 	};
-	case "RHS_Mi8mt_vdv":
-	{
-		_vehicle setVariable ["BIS_enableRandomization", false];
-		sleep 0.03;
-		[
-			_vehicle,
-			["Camo5",1], 
-			true
-		] call BIS_fnc_initVehicle;
-	};
-	case "RHS_Mi8mt_Cargo_vdv":
-	{
-		_vehicle setVariable ["BIS_enableRandomization", false];
-		sleep 0.03;
-		[
-			_vehicle,
-			["Camo5",1], 
-			true
-		] call BIS_fnc_initVehicle;
-	};
-	case "RHS_Mi8MTV3_heavy_vdv":
-	{
-		_vehicle setVariable ["BIS_enableRandomization", false];
-		sleep 0.03;
-		[
-			_vehicle,
-			["Camo5",1], 
-			true
-		] call BIS_fnc_initVehicle;
-	};
-	case "RHS_Mi24Vt_vvsc":
-	{
-		_vehicle setVariable ["BIS_enableRandomization", false];
-		sleep 0.03;
-		[
-			_vehicle,
-			["Camo3",1], 
-			true
-		] call BIS_fnc_initVehicle;
-	};
 	case "UK3CB_ADA_O_Quadbike":
 	{
 		_vehicle setVariable ["BIS_enableRandomization", false];

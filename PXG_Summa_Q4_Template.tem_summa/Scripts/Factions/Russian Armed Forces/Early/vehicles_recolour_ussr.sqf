@@ -31,6 +31,15 @@ switch(_vehicleType) do
 			["hideLeftDoor",1,"hideRightDoor",1,"hideRearDoor",0,"hideFenders",1,"hideHeadSupportFront",0,"hideSpareWheel",1]
 		] call BIS_fnc_initVehicle;
 	};
+
+	case "UK3CB_CW_SOV_O_EARLY_MIG21_CAS":
+	{
+		[
+			_vehicle,
+			["SOV_2",1], 
+			true
+		] call BIS_fnc_initVehicle;
+	};
 	
 	case "UK3CB_O_G_YAVA":
 	{

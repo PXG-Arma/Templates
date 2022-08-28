@@ -19,15 +19,15 @@ _availableVehicles =
   ["UK3CB_CW_US_B_EARLY_M60a3"]],
 
   ["Rotary Transport",
-  ["UK3CB_CW_US_B_EARLY_UH1H",
-  "UK3CB_CW_US_B_EARLY_UH1H_M240",
-  "UK3CB_CW_US_B_EARLY_UH1H_GUNSHIP"]],
+  ["UK3CB_CW_US_B_EARLY_UH1H_M240"]],
 
   ["Rotary Attack",
-  ["UK3CB_CW_US_B_EARLY_AH1Z_GS"]],
+  ["UK3CB_CW_US_B_EARLY_UH1H_GUNSHIP",
+  "UK3CB_CW_US_B_EARLY_AH1Z_GS"]],
 
   ["Fixed Wing Transport",
-  ["UK3CB_CW_US_B_EARLY_C130J"]],
+  ["UK3CB_CW_US_B_EARLY_C47",
+  "UK3CB_CW_US_B_EARLY_C130J"]],
 
   ["Boat",
 	["B_Boat_Transport_01_F",

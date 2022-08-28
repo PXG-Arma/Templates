@@ -27,19 +27,7 @@ _availableVehicles =
 	"rhs_bmp2_vmf"]],
   
     ["SPG",
-    ["rhs_2s1_vmf",
-    "rhs_D30_vmf"]],
-	
-	["Rotary Transport",
-	["RHS_Mi8mt_vvs",
-	"RHS_Mi8mt_Cargo_vvs"]],
-	
-	["Rotary Attack",
-	["RHS_Mi8MTV3_vvs",
-	"RHS_Mi24V_vvs"]],
-  
-    ["Fixed Wing Attack",
-    ["rhs_mig29s_vvsc"]],
+    ["rhs_2s1_vmf"]],
 
   	["Boat",
 	["B_Boat_Transport_01_F",
@@ -51,7 +39,8 @@ _availableVehicles =
 	"RHS_AGS30_TriPod_VMF",
 	"rhs_KORD_high_VMF",
 	"rhs_KORD_VMF",
-	"rhs_SPG9M_VMF"]],
+	"rhs_SPG9M_VMF",
+	"rhs_D30_vmf"]],
 	
 	["Misc.",
 	["B_G_Quadbike_01_F",

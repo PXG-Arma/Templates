@@ -42,10 +42,12 @@ _availableVehicles =
 	"UK3CB_CW_SOV_O_EARLY_Mi_24V"]],
 
 	["Fixed Wing Transport",
-    ["UK3CB_CW_SOV_O_EARLY_Antonov_AN2"]],
+    ["UK3CB_CW_SOV_O_EARLY_Antonov_AN2",
+	"UK3CB_CW_SOV_O_EARLY_LI2"]],
   
     ["Fixed Wing Attack",
-    ["UK3CB_CW_SOV_O_EARLY_Antonov_AN2_Armed_Rockets"]],
+    ["UK3CB_CW_SOV_O_EARLY_Antonov_AN2_Armed_Rockets",
+	"UK3CB_CW_SOV_O_EARLY_MIG21_CAS"]],
 	
 	["Turrets",
 	["UK3CB_CW_SOV_O_Early_DSHKM",
