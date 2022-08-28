@@ -19,7 +19,7 @@ switch (_loadout) do {
 	};
 	case "rcn_dmr": {player addWeapon "BWA3_G28";
 					 player addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
-					 player addPrimaryWeaponItem "bwa3_optic_zo4x30i_rsas";
+					 player addPrimaryWeaponItem "bwa3_optic_pmii_shortdotcc_pip";
 					 player addPrimaryWeaponItem "rhsusf_acc_harris_bipod"
 	};
 	case "sup_mmg_g": {	player addWeapon "BWA3_MG5";
