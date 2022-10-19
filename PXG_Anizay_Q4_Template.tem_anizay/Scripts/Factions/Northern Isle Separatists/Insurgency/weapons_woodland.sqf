@@ -11,12 +11,16 @@ switch (_loadout) do {
 	case "rcn_amr": {player addWeapon "rhs_weap_m82a1";
 					 player addPrimaryWeaponItem "rhsusf_acc_m8541";
 	};
+	case "ar_ld";
+	case "ar_c": {};
 };
 
 // add secondary weapon
-//switch (_loadout) do {
-//	default {};
-//};
+switch (_loadout) do {
+	default {};
+	case "ar_ld";
+	case "ar_c": {player addWeapon "rhs_weap_tt33"};
+};
 
 // add launcher
 switch (_loadout) do {

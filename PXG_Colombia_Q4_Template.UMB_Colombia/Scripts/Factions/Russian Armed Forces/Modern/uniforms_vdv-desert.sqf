@@ -7,7 +7,6 @@ switch (_loadout) do {
 	case "rcn_spe";
 	case "rcn_drone";
 	case "rcn_dmr": { player forceAddUniform "gorkaemrd"};
-	case "ar_c";
 };
 	
 // add helmet
@@ -17,7 +16,8 @@ switch (_loadout) do {
 	case "rcn_spe";
 	case "rcn_drone";
 	case "rcn_dmr": { player addHeadgear "rhs_beret_vdv2"};
-	case "ar_c": {player addHeadgear "rhsusf_cvc_alt_helmet"};
+    case "ar_ld";
+	case "ar_c": {player addHeadgear "rhs_tsh4"};
 };
 
 // add vest
@@ -38,5 +38,6 @@ switch (_loadout) do {
 	case "sup_mat_l": {player addBackpack "VSM_AOR1_carryall"};
 	case "sup_mor_l": {player addBackpack "B_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "B_Mortar_01_weapon_F"};
+	case "ar_ld";
 	case "ar_c": {};
 };

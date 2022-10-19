@@ -55,9 +55,13 @@ switch (_loadout) do {
 };
 
 // add secondary ammo
-//switch (_loadout) do {
-//	default {};
-//};
+switch (_loadout) do {
+	default {};
+		case "ar_ld";
+		case "ar_c": {
+		for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_762x25_8"};
+	};
+};
 
 // add assistant ammo 
 switch (_loadout) do {

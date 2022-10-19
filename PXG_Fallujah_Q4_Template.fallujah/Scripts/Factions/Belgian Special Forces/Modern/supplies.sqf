@@ -126,7 +126,7 @@ _resupplyAvailable = [
 		[
 			["rhs_mag_20Rnd_SCAR_762x51_m61_ap",20],
 			["rhs_mag_20Rnd_SCAR_762x51_m62_tracer",20],
-			["rhsusf_100Rnd_762x51_m80a1epr",10],
+			["rhsusf_200Rnd_556x45_box",10],
 			["50Rnd_570x28_SMG_03",20],
 			["rhs_weap_m72a7",2],
 			["HandGrenade",10],

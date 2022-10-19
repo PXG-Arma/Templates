@@ -1,19 +1,16 @@
 _availableVehicles = 
 [
 	["Utility",
-	["rhs_uaz_open_vdv",
-	"rhs_uaz_vdv",
-	"RHS_Ural_VDV_01",
+	["RHS_Ural_VDV_01",
 	"RHS_Ural_Ammo_VDV_01",
 	"RHS_Ural_Fuel_VDV_01",
-	"RHS_Ural_Open_Flat_VDV_01"]], 
+	"RHS_Ural_Open_Flat_VDV_01",
+	"rhs_uaz_open_vdv",
+	"rhs_uaz_vdv"]], 
 
 	["Armed Car/MRAP",
 	["rhs_tigr_3camo_vdv",
 	"rhs_tigr_sts_3camo_vdv"]],
-	
-	["Anti Air",
-	["rhs_zsu234_aa"]],
 
 	["APC",
 	["rhs_btr80_vdv"]],
@@ -25,9 +22,9 @@ _availableVehicles =
   
     ["MBT",
     ["rhs_sprut_vdv"]],
-  
-    ["SPG",
-    ["rhs_D30_vdv"]],
+	
+	["SPAA",
+	["rhs_zsu234_aa"]],
 	
 	["Misc.",
 	["UK3CB_ADA_O_Quadbike",

@@ -2,11 +2,10 @@ params["_side","_faction","_variant", "_loadout"];
 
  // add uniform
 switch (_loadout) do {
-	default {player forceAddUniform "Multicam_Arid_Blue_casual_Camo"};
-	case "plt";
-	case "logi";
-	case "tacp";
-	case "pil": {player forceAddUniform "Multicam_Arid_Black_casual_Camo"};
+	default {
+		randomUniformArray = ["Multicam_Arid_Blue_casual_Camo","Multicam_Arid_Black_casual_Camo"];
+		player forceAddUniform selectRandom randomUniformArray;
+	};
 };
 	
 // add helmet

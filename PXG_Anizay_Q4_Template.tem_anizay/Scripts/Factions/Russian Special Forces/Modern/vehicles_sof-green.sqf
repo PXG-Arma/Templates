@@ -2,19 +2,20 @@ _availableVehicles =
 [
 	["Utility",
 	["rhs_kamaz5350_msv",
-	"rhs_tigr_msv",
-	"rhs_tigr_m_msv",
+	"rhs_kamaz5350_ammo_msv",
+	"RHS_Ural_Fuel_MSV_01",
 	"UK3CB_O_G_LandRover_Closed"]], 
 	
 	["Armed Car/MRAP",
-	["rhs_tigr_sts_msv",
+	["rhs_tigr_msv",
+	"rhs_tigr_sts_msv",
 	"UK3CB_O_G_LandRover_SPG9"]],
 
 	["Rotary Transport",
-	["RHS_Mi8AMT_vvs"]],
+	["O_Heli_Light_02_unarmed_F"]],
 
 	["Rotary Attack",
-	["RHS_Mi8AMTSh_vvs"]],
+	["O_Heli_Light_02_dynamicLoadout_F"]],
 
 	["Boat",
 	["B_Boat_Transport_01_F",

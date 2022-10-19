@@ -2,6 +2,35 @@ params["_vehicle","_vehicleType"];
 
 switch(_vehicleType) do
 {
+
+	case "rhsusf_m1151_usarmy_d":
+	{
+		[
+			_vehicle,
+			["rhs_desert",1], 
+			["door_LF",0,"door_LB",0,"door_RF",0,"door_RB",0,"door_trunk",0,"DUKE_Hide",1,"iff_hide",1,"dwf_kit_Hide",1,"snorkel_lower",1,"BFT_Hide",1,"Antennas_Hide",1,"hide_spare",0]
+		] call BIS_fnc_initVehicle;
+	};
+
+	case "rhsusf_m1151_m240_v2_usarmy_d";
+	case "rhsusf_m1151_m2_v2_usarmy_d":
+	{
+		[
+			_vehicle,
+			["rhs_desert",1], 
+			["DUKE_Hide",1,"bumper2_hide",1,"hide_ogpkover",0,"hide_ogpknet",1,"hide_ogpkbust",1,"hide_rhino",1,"door_LF",0,"door_LB",0,"door_RF",0,"door_RB",0,"door_trunk",0,"iff_hide",1,"dwf_kit_Hide",1,"snorkel_lower",1,"BFT_Hide",1,"Antennas_Hide",0,"hide_spare",0]
+		] call BIS_fnc_initVehicle;
+	};
+
+	case "rhsusf_M1237_M2_usarmy_d":
+	{
+		[
+			_vehicle,
+			["rhs_desert",1], 
+			["hide_rhino",1,"hide_ogpkover",0,"hide_ogpknet",1,"hide_ogpkbust",1,"DUKE_Hide",0]
+		] call BIS_fnc_initVehicle;
+	};
+
 	case "rhsusf_stryker_m1126_m2_d":
 	{
 		[

@@ -24,6 +24,7 @@ switch (_loadout) do {
 	};
 	case "sqd_med";
 	case "sqd_brc";
+	case "ar_ld";
 	case "ar_c";
 	case "pil": { player addWeapon "SMG_03C_TR_black";
 			  player addPrimaryWeaponItem "rhsusf_acc_eotech_xps3";

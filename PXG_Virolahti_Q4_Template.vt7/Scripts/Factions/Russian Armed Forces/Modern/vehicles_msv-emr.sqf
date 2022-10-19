@@ -1,22 +1,18 @@
 _availableVehicles = 
 [
 	["Utility",
-	["rhs_uaz_open_MSV_01",
-	"RHS_UAZ_MSV_01",
-	"rhs_kamaz5350_msv", 
+	["rhs_kamaz5350_msv", 
 	"rhs_kamaz5350_flatbed_msv",
 	"RHS_Ural_Ammo_MSV_01",
-	"RHS_Ural_Fuel_MSV_01"]], 
+	"RHS_Ural_Fuel_MSV_01",
+	"rhs_uaz_open_MSV_01",
+	"RHS_UAZ_MSV_01"]], 
 	
 	["Armed Car/MRAP",
 	["rhs_tigr_m_msv",
 	"rhs_tigr_sts_msv", 
 	"rhsgref_BRDM2_msv", 
 	"rhsgref_BRDM2_ATGM_msv"]],
-	
-	["Anti Air",
-	["rhs_zsu234_aa", 
-	"UK3CB_O_2S6M_Tunguska_VPV"]],
 	
 	["APC",
     ["rhs_btr80_msv"]],
@@ -28,7 +24,11 @@ _availableVehicles =
     ["MBT",
     ["rhs_t80um",
 	"rhs_t90a_tv"]],
-  
+
+	["SPAA",
+	["rhs_zsu234_aa", 
+	"UK3CB_O_2S6M_Tunguska_VPV"]],
+
     ["SPG",
     ["rhs_2s3_tv"]],
 	

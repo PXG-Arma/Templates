@@ -35,6 +35,7 @@ switch (_loadout) do {
 		for "_i" from 1 to 4 do { player addItemToVest "50Rnd_570x28_SMG_03"};
 		for "_i" from 1 to 4 do { player addItemToBackpack "50Rnd_570x28_SMG_03"};
 	};
+	case "ar_ld";
 	case "ar_c";
 	case "pil": {
 		for "_i" from 1 to 4 do { player addItemToVest "50Rnd_570x28_SMG_03"};

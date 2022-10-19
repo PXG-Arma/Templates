@@ -1,3 +1,3 @@
-_avialableVariants = ["Grey Modern"];
+_avialableVariants = ["Tan Modern"];
 
 _avialableVariants

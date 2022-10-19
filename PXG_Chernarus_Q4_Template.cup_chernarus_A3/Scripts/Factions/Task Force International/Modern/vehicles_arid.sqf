@@ -1,18 +1,19 @@
 _availableVehicles = 
 [
 	["Utility",
-	["rhs_uaz_open_MSV_01",
-	"RHS_UAZ_MSV_01",
-	"rhs_kamaz5350_msv",
+	["rhs_kamaz5350_msv",
 	"rhs_kamaz5350_ammo_msv", 
 	"RHS_Ural_Fuel_MSV_01",
-	"I_C_Offroad_02_unarmed_F"]], 
+	"rhs_uaz_open_MSV_01",
+	"RHS_UAZ_MSV_01"]], 
 	
 	["Armed Car/MRAP",
-	["I_C_Offroad_02_LMG_F", 
-	"I_C_Offroad_02_AT_F", 
-	"rhs_tigr_msv",
-	"rhs_tigr_sts_msv"]],
+	["UK3CB_ARD_O_GAZ_Vodnik",
+	"UK3CB_ARD_O_GAZ_Vodnik_PKT",
+	"UK3CB_ARD_O_GAZ_Vodnik_KVPT"]],
+
+    ["IFV",
+  	["UK3CB_ARD_O_GAZ_Vodnik_Cannon"]],
 	
 	["Rotary Transport",
 	["RHS_Mi8T_vdv",

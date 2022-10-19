@@ -4,6 +4,7 @@ params["_side","_faction","_variant", "_loadout"];
 switch (_loadout) do {
 	default { player forceAddUniform "rhs_uniform_cu_ocp"};
 	case "pil": { player forceAddUniform "U_B_HeliPilotCoveralls"};
+	case "ar_ld";
 	case "ar_c": { player forceAddUniform "rhs_uniform_g3_mc"};
 };
 	
@@ -22,6 +23,7 @@ switch (_loadout) do {
 	case "rcn_dmr";
 	case "rcn_drone";
 	case "rcn_ld": {player addHeadgear "rhsusf_ach_helmet_camo_ocp"};
+    case "ar_ld";
 	case "ar_c": {player addHeadgear "rhsusf_cvc_ess"};
 	case "pil": {player addHeadgear "rhsusf_hgu56p_visor_green"};
 };
@@ -56,6 +58,8 @@ switch (_loadout) do {
 	case "sup_aa_l": {player addBackpack "VSM_OCP_carryall"};
 	case "sup_mor_l": {player addBackpack "B_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "B_Mortar_01_weapon_F"};
+	case "ar_ld";
+    case "ar_ld";
 	case "ar_c";
 	case "pil": {};
 };

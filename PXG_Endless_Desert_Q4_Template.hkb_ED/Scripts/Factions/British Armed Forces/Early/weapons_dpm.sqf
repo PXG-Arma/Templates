@@ -15,12 +15,14 @@ switch (_loadout) do {
 	case "sqd_ar": {player addWeapon "UK3CB_Bren";
 	};
 	case "rcn_dmr": {player addWeapon "UK3CB_BAF_L115A3";
-					 player addPrimaryWeaponItem "rksl_optic_pmii_525";
+					 player addPrimaryWeaponItem "rhsusf_acc_m8541";
+					 player addPrimaryWeaponItem "uk3cb_underbarrel_acc_bipod";
 	};
 	case "sup_mmg_g": {	player addWeapon "UK3CB_BAF_L7A2"};
-	case "pil";
 	case "rcn_ld";
-	case "ar_c": {player addWeapon "UK3CB_Sten";
+	case "ar_ld";
+	case "ar_c";
+	case "pil": {player addWeapon "UK3CB_Sten";
 	};
 };
 

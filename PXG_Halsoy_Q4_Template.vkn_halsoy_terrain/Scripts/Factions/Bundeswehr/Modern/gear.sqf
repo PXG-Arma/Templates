@@ -13,7 +13,6 @@ switch (_loadout) do {
 // add 117 radio
 switch (_loadout) do {
     default {};
-    case "pil";
-    case "ar_ld": {player addItemToBackpack "ACRE_PRC117F"};
+    case "pil": {player addItemToBackpack "ACRE_PRC117F"};
 };
 

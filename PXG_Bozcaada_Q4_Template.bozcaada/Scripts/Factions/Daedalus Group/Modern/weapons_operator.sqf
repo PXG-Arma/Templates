@@ -33,6 +33,7 @@ switch (_loadout) do {
 					player addPrimaryWeaponItem "rhsusf_acc_compm4";
 					player addPrimaryWeaponItem "rhsusf_acc_aac_762sdn6_silencer";
 	};
+	case "ar_ld";
 	case "ar_c";
 	case "pil": {player addWeapon "UK3CB_FNFAL_OSW"};
 };

@@ -1,3 +1,3 @@
-_avialableVariants = ["Wetsuit Modern"];
+_avialableVariants = ["Wetsuit Late"];
 
 _avialableVariants

@@ -5,6 +5,7 @@ _availableFactions = [
 	"Bundeswehr",
 	"Croatian SFG", 
 	"Hellenic Armed Forces",
+	"IDF Unit 888 'Refaim'",
 	"SWAT",
 	"US Army",
 	"US Marine Corps"

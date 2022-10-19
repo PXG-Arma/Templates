@@ -51,7 +51,7 @@ class deploymentDialog
 
 			x = 0.30 * safezoneW + safezoneX;
 			y = 0.31 * safezoneH + safezoneY;
-			w = 0.12 * safezoneW;
+			w = 0.13 * safezoneW;
 			h = 0.40 * safezoneH;
 
 			onLBSelChanged = "call compile preprocessfile 'Scripts\Deployment\Functions\PXG_Focus_Map.sqf'";

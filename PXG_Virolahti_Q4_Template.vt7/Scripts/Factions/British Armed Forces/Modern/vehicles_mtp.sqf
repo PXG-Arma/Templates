@@ -1,23 +1,17 @@
 _availableVehicles = 
 [
 	["Utility",
-	["UK3CB_BAF_MAN_HX58_Transport_Sand_DDPM_RM",
-	"UK3CB_BAF_MAN_HX58_Cargo_Sand_B_DDPM_RM",
+	["UK3CB_BAF_MAN_HX58_Cargo_Sand_B_DDPM_RM",
 	"UK3CB_BAF_MAN_HX58_Fuel_Sand_DDPM_RM",
 	"UK3CB_BAF_MAN_HX58_Repair_Sand_DDPM",
+	"UK3CB_BAF_MAN_HX58_Transport_Sand_DDPM_RM",
 	"UK3CB_BAF_LandRover_Hard_FFR_Sand_A_MTP"]],
 	
 	["Armed Car/MRAP",
-	["UK3CB_BAF_LandRover_WMIK_GMG_FFR_Sand_A_MTP",
-	"UK3CB_BAF_LandRover_WMIK_HMG_FFR_Sand_A_MTP",
+	["UK3CB_BAF_LandRover_WMIK_HMG_FFR_Sand_A_MTP",
 	"UK3CB_BAF_LandRover_WMIK_Milan_FFR_Sand_A_MTP",
 	"UK3CB_BAF_Jackal2_L2A1_D_MTP",
-	"UK3CB_BAF_Jackal2_GMG_D_MTP",
-	"UK3CB_BAF_Coyote_Passenger_L134A1_D_MTP",
-	"UK3CB_BAF_Coyote_Passenger_L111A1_D_MTP",
-	"UK3CB_BAF_Husky_Logistics_HMG_Sand_MTP",
-	"UK3CB_BAF_Husky_Passenger_HMG_Sand_MTP",
-	"UK3CB_BAF_Husky_Passenger_GMG_Sand_MTP"]],
+	"UK3CB_BAF_Coyote_Passenger_L111A1_D_MTP"]],
 
 	["APC",
 	["UK3CB_BAF_FV432_Mk3_RWS_Sand_MTP"]],

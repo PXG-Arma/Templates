@@ -16,6 +16,7 @@ switch (_loadout) do {
 	case "sup_mmg_g": {
 		for "_i" from 1 to 4 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_green"};
 	};
+	case "ar_ld";
 	case "ar_c";
 	case "pil": {
 		for "_i" from 1 to 2 do { player addItemToVest "rhs_30Rnd_545x39_7N6_AK"};

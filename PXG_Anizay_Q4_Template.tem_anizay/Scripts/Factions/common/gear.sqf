@@ -9,8 +9,7 @@ player linkItem "ItemWatch";
 player addItemToUniform "ACE_Flashlight_XL50"; 
 player addItemToVest "ACE_MapTools";
 player addItemToVest "ACE_EarPlugs";
-player addItemToVest "ACE_CableTie";
-player addItemToVest "ACE_CableTie";
+for "_i" from 1 to 4 do {player addItemToVest "ACE_CableTie"};
 
 // add Entrenching Tool & Fortify Hammer
 switch (_loadout) do {
@@ -84,6 +83,13 @@ switch (_loadout) do {
 	case "rcn_amr": {player addItemToUniform "ACE_RangeCard"};
 };
 
+// add Mortar Table
+switch (_loadout) do {
+	default {};
+	case "sup_mor_l";
+	case "sup_mor_g": {player addItemToUniform "ACE_RangeTable_82mm"};
+};
+
 // early loadouts
 if (_variantEra == "Early") then { player addWeapon "binocular"};
 
@@ -145,8 +151,8 @@ if (_variantEra == "Late") then {
 	};
 };
 
-// modern loadouts
-if (_variantEra == "Modern") then {
+// modern/future loadouts
+if (_variantEra == "Modern" || _variantEra == "Future") then {
 	
 	// add GPS
 	player linkItem "ItemGPS";

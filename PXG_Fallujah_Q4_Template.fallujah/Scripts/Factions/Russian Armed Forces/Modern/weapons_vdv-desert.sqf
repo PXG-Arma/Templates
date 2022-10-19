@@ -29,6 +29,10 @@ switch (_loadout) do {
 	case "sup_mmg_g": {player addWeapon "rhs_weap_pkp";
 					   player addPrimaryWeaponItem "rhs_acc_1p29_pkp";
 	};
+	case "ar_ld";
+	case "ar_c": {player addWeapon "rhs_weap_aks74u";
+					   player addPrimaryWeaponItem "rhs_acc_pgs64_74u";
+	};
 };
 
 // add secondary weapon

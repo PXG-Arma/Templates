@@ -18,5 +18,16 @@ switch(_vehicleType) do
 			true
 		] call BIS_fnc_initVehicle;
 	};
+
+	case "O_Heli_Light_02_dynamicLoadout_F";
+	case "O_Heli_Light_02_unarmed_F": 
+	{
+		[
+			_vehicle,
+			["Black",1], 
+			true
+		] call BIS_fnc_initVehicle;
+	};
 	default {};
 };
+

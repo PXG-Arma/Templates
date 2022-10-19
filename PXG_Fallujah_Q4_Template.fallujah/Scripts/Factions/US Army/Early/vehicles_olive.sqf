@@ -1,15 +1,15 @@
 _availableVehicles = 
 [
   ["Utility",
-  ["UK3CB_CW_US_B_EARLY_M939_Reammo",
-  "UK3CB_CW_US_B_EARLY_M939",
-  "UK3CB_CW_US_B_EARLY_M939_Open",
+  ["UK3CB_CW_US_B_EARLY_M939_Guntruck",
+  "UK3CB_CW_US_B_EARLY_M939_Fuel",
+  "UK3CB_CW_US_B_EARLY_M939_Reammo",
+  "UK3CB_CW_US_B_EARLY_M939_Recovery",
   "UK3CB_CW_US_B_EARLY_M151_Jeep_Closed",
   "UK3CB_CW_US_B_EARLY_M151_Jeep_Open"]],
 
   ["Armed Car/MRAP",
-  ["UK3CB_CW_US_B_EARLY_M939_Guntruck",
-  "UK3CB_CW_US_B_EARLY_M151_Jeep_TOW",
+  ["UK3CB_CW_US_B_EARLY_M151_Jeep_TOW",
   "UK3CB_CW_US_B_EARLY_M151_Jeep_HMG"]],
 
   ["APC",

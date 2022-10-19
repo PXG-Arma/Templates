@@ -13,7 +13,10 @@ _availableVehicles =
   	["Fixed Wing Attack",
   	["RHS_Su25SM_vvs",
 	"rhs_mig29sm_vvs",
- 	"RHS_T50_vvs_generic"]]
+ 	"RHS_T50_vvs_generic"]],
+
+	["Misc.",
+  	["rhs_pchela1t_vvs"]]
 
 ];
 _availableVehicles

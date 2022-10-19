@@ -24,12 +24,14 @@ switch(_vehicleType) do
 		] call BIS_fnc_initVehicle;
 	};
 	
-	case "B_LSV_01_AT_F":
+	case "O_LSV_02_unarmed_F";
+	case "O_LSV_02_armed_F";
+	case "O_LSV_02_AT_F":
 	{
 		[
 			_vehicle,
 			["Black",1], 
-			["HideDoor1",0,"HideDoor2",0,"HideDoor3",0,"HideDoor4",0]
+			true
 		] call BIS_fnc_initVehicle;
 	};
 	

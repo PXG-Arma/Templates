@@ -1,8 +1,8 @@
 _availableVehicles = 
 [
 	["Utility",
-	["UK3CB_TKM_O_Ural_Covered",
-	"UK3CB_TKM_O_Ural_Ammo",
+	["UK3CB_TKM_O_Ural_Ammo",
+	"UK3CB_TKM_O_Ural_Covered",
 	"UK3CB_TKM_O_Ural_Fuel",
 	"UK3CB_TKM_O_Hilux_Open",
 	"UK3CB_TKM_O_LR_Closed"]],
@@ -12,12 +12,7 @@ _availableVehicles =
 	"UK3CB_TKM_O_BRDM2",
 	"UK3CB_TKM_O_Hilux_Dshkm",
 	"UK3CB_TKM_O_Hilux_Rocket",
-	"UK3CB_TKM_O_LR_AGS30",
 	"UK3CB_TKM_O_LR_SPG9"]],
-
-	["Anti Air",
-	["UK3CB_TKM_O_Ural_Zu23", 
-	"UK3CB_TKM_O_MTLB_ZU23"]],
 	
 	["APC",
 	["UK3CB_TKM_O_BTR40_MG",
@@ -26,6 +21,10 @@ _availableVehicles =
 	
 	["MBT",
 	["UK3CB_TKM_O_T55"]],
+
+	["SPAA",
+	["UK3CB_TKM_O_Ural_Zu23", 
+	"UK3CB_TKM_O_MTLB_ZU23"]],
 	
 	["Turrets",
     ["UK3CB_TKM_O_DSHKM",

@@ -33,5 +33,9 @@ switch(_vehicleType) do
 			["hidePolice",0,"HideRescueSigns",1,"HidePoliceSigns",0]
 		] call BIS_fnc_initVehicle;
 	};
+	case "RHS_MELB_MH6M":
+	{
+		[_vehicle, 4] call ace_cargo_fnc_setSpace;
+	};
 	default {};
 };

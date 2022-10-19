@@ -7,7 +7,6 @@ switch (_loadout) do {
 	case "rcn_spe";
     case "rcn_drone";
 	case "rcn_dmr": { player forceAddUniform "rhs_uniform_6sh122_gloves_v1"};
-	case "ar_c";
 };
 	
 // add helmet
@@ -17,6 +16,7 @@ switch (_loadout) do {
 	case "rcn_spe";
 	case "rcn_drone";
 	case "rcn_dmr": { player addHeadgear "rhs_beanie_green"};
+    case "ar_ld";
 	case "ar_c": {player addHeadgear "rhs_6b48"};
 };
 
@@ -48,5 +48,6 @@ switch (_loadout) do {
 	case "sup_mat_l": {player addBackpack "rhs_tortila_olive"};
 	case "sup_mor_l": {player addBackpack "B_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "B_Mortar_01_weapon_F"};
+	case "ar_ld";
 	case "ar_c": {};
 };

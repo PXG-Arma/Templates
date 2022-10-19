@@ -1,8 +1,8 @@
 _resupplyAvailable = [
 	["Rifle Resupply",
 		[
-			["rhs_mag_30Rnd_556x45_M855A1_EPM",40],
-			["rhs_mag_30Rnd_556x45_M855A1_EPM_Tracer_Red",40]
+			["rhs_mag_30Rnd_556x45_M855A1_PMAG",40],
+			["rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red",40]
 		]
 	],
 	["AR Resupply",
@@ -126,8 +126,8 @@ _resupplyAvailable = [
 	],
 	["Squad Resupply",
 		[
-			["rhs_mag_30Rnd_556x45_M855A1_EPM",20],
-			["rhs_mag_30Rnd_556x45_M855A1_EPM_Tracer_Red",20],
+			["rhs_mag_30Rnd_556x45_M855A1_PMAG",20],
+			["rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red",20],
 			["rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote",10],
 			["rhsusf_8Rnd_00Buck",4],
 			["rhsusf_8Rnd_Slug",4],

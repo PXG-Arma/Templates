@@ -21,6 +21,7 @@ switch (_loadout) do {
 	case "rcn_drone";
 	case "rcn_spe";
 	case "rcn_ld": {player addHeadgear "rhsusf_mich_helmet_marpatwd_alt_headset"};
+    case "ar_ld";
 	case "ar_c": {player addHeadgear "rhsusf_cvc_green_ess"};
 	case "pil": {player addHeadgear "rhsusf_hgu56p_visor_green"};
 };
@@ -44,6 +45,7 @@ switch (_loadout) do {
 	case "sqd_med": { player addVest "rhsusf_spc_corpsman"};
 	case "sup_mmg_g": { player addVest "rhsusf_spc_mg"};
 	case "rcn_dmr": { player addVest "rhsusf_spc_marksman"};
+	case "ar_ld";
 	case "ar_c": { player addVest "rhsusf_spc_crewman"};
 	case "pil": { player addVest "rhsusf_spc"};
 };
@@ -58,6 +60,8 @@ switch (_loadout) do {
 	case "sup_aa_l": {player addBackpack "VSM_OGA_carryall"};
 	case "sup_mor_l": {player addBackpack "B_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "B_Mortar_01_weapon_F"};
+	case "ar_ld";
+    case "ar_ld";
 	case "ar_c";
 	case "pil": {};
 };

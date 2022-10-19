@@ -2,18 +2,16 @@ _availableVehicles =
 [
   ["Utility",
   ["UK3CB_B_MTVR_Reammo_USMC_WDL",
-  "UK3CB_B_MTVR_Refuel_USMC_WDL",
   "UK3CB_B_MTVR_Closed_USMC_WDL",
+  "UK3CB_B_MTVR_Refuel_USMC_WDL",
   "UK3CB_B_MTVR_Recovery_USMC_WDL",
   "rhsusf_m998_w_s_2dr_fulltop",
   "rhsusf_m998_w_s_2dr_halftop"]],
   
   ["Armed Car/MRAP",
   ["rhsusf_m1151_m2crows_usmc_wd",
-  "rhsusf_m1151_mk19crows_usmc_wd",
   "rhsusf_m1045_w_s",
-  "rhsusf_CGRCAT1A2_M2_usmc_wd",
-  "rhsusf_CGRCAT1A2_Mk19_usmc_wd"]],
+  "rhsusf_CGRCAT1A2_M2_usmc_wd"]],
   
   ["APC",
   ["UK3CB_B_AAV_US_WDL"]],
@@ -39,7 +37,6 @@ _availableVehicles =
   ["Boat",
 	["B_Boat_Transport_01_F",
   "rhsgref_hidf_rhib",
-	"UK3CB_MDF_B_RHIB_Gunboat",
 	"rhsusf_mkvsoc"]],
   
   ["Turrets",

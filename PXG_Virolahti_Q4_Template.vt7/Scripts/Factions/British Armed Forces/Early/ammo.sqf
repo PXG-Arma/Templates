@@ -19,8 +19,9 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_100Rnd_762x51_m80a1epr"};
 		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_100Rnd_762x51_m62_tracer"};
 	};
-	case "ar_c";
 	case "rcn_ld";
+	case "ar_ld";
+	case "ar_c";
 	case "pil": {
 		for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_Sten_34Rnd_Magazine"};
 		for "_i" from 1 to 4 do { player addItemToVest "UK3CB_Sten_34Rnd_Magazine_GT"};

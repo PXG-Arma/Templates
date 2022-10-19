@@ -26,6 +26,7 @@ switch (_loadout) do {
 		randomOfficerHelmetArray = ["UK3CB_TKA_I_H_Patrolcap_OLI","UK3CB_TKA_B_H_Patrolcap_WDL","UK3CB_LSM_B_H_M88_Field_Cap_OLI"];
 		player addHeadgear selectRandom randomOfficerHelmetArray;
 	};
+    case "ar_ld";
 	case "ar_c": {player addHeadgear "rhs_tsh4"};
 };
 
@@ -60,4 +61,6 @@ switch (_loadout) do {
 	case "sup_mmg_g": {player addBackpack "UK3CB_B_Largepack"};
 	case "sup_mor_l": {player addBackpack "B_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "B_Mortar_01_weapon_F"};
+	case "ar_ld";
+	case "ar_c": {};
 };

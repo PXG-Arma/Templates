@@ -21,6 +21,7 @@ switch (_loadout) do {
 	case "rcn_amr";
 	case "rcn_spe";
 	case "rcn_ld": {player addHeadgear "rhs_Booniehat_ucp"};
+    case "ar_ld";
 	case "ar_c": {player addHeadgear "rhsusf_cvc_ess"};
 	case "pil": {player addHeadgear "rhsusf_hgu56p_visor_green"};
 };
@@ -54,6 +55,8 @@ switch (_loadout) do {
 	case "sup_aa_l": {player addBackpack "rhs_tortila_grey"};
 	case "sup_mor_l": {player addBackpack "B_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "B_Mortar_01_weapon_F"};
+	case "ar_ld";
+    case "ar_ld";
 	case "ar_c";
 	case "pil": {};
 };

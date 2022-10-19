@@ -4,11 +4,13 @@ _availableVehicles =
 	["C_Van_01_transport_F",
 	"C_Van_01_box_F",
 	"C_Van_01_fuel_F",
-	"B_LSV_01_unarmed_black_F"]],
+	"O_LSV_02_unarmed_F"]],
 	
 	["Armed Car/MRAP",
-	["B_LSV_01_AT_F",
-	"B_LSV_01_armed_black_F"]],
+	["O_LSV_02_armed_F",
+	"O_LSV_02_AT_F",
+	"UK3CB_AAF_B_SUV_Armoured",
+	"UK3CB_AAF_B_SUV_Armed"]],
 	
 	["Rotary Transport",
 	["UK3CB_AAF_B_Bell412_Utility"]],
