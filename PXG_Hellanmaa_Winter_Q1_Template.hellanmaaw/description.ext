@@ -37,7 +37,7 @@ joinUnassigned = 1;
 showUAVFeed = 1;			 // Zeus-related.
 
 cba_settings_whitelist[] = {"admin"};									
-cba_settings_hasSettingsFile = 0;
+cba_settings_hasSettingsFile = 1;
 
 
 //------------------------- Disable channels 0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System
