@@ -7,7 +7,7 @@ _resupplyAvailable = [
 	],
 	["AR Resupply",
 		[
-			["rhsusf_200Rnd_556x45_M855_mixed_soft_pouch",20]
+			["rhsusf_200rnd_556x45_mixed_box",20]
 		]
 	],
 	["MMG Resupply",
@@ -110,6 +110,21 @@ _resupplyAvailable = [
 			["ACE_tourniquet", 20],
 			["ACE_bodyBag", 20],
 			["ACE_surgicalKit", 2]
+		]
+	],
+	["Squad Resupply",
+		[
+			["rhs_mag_30Rnd_556x45_M855_Stanag", 24],
+			["rhsusf_200rnd_556x45_mixed_box", 4],
+			["rhs_weap_M136", 1],
+			["1Rnd_HE_Grenade_Shell", 12],
+			["rhsusf_mag_6Rnd_M441_HE", 2],
+			["HandGrenade", 6],
+			["rhs_mag_an_m8hc", 6],
+			["ACE_elasticBandage", 12],
+			["ACE_packingBandage", 12],
+			["ACE_quikclot", 12],
+			["ACE_bloodIV_500", 6]
 		]
 	],
 	["Parachutes",

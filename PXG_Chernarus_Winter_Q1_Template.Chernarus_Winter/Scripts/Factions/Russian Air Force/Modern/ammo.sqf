@@ -16,9 +16,9 @@ switch (_loadout) do {
 // add grenades
 switch (_loadout) do {
 	default {
-		for "_i" from 1 to 2 do { player addItemToVest "SmokeShell"};
-		for "_i" from 1 to 1 do { player addItemToVest "SmokeShellGreen"};
-		for "_i" from 1 to 1 do { player addItemToVest "SmokeShellRed"};
+		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_rdg2_white"};
+		for "_i" from 1 to 1 do { player addItemToVest "rhssaf_mag_brd_m83_green"};
+		for "_i" from 1 to 1 do { player addItemToVest "rhssaf_mag_brd_m83_red"};
 	};
 };
 

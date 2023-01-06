@@ -42,6 +42,7 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_an_m8hc"};
 		for "_i" from 1 to 2 do { player addItemToVest "HandGrenade"};
 	};
+	case "logi";
 	case "pil": {
 		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_an_m8hc"};
 	};

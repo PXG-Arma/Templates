@@ -1,3 +1,3 @@
-_avialableVariants = ["MSV-EMR Modern","VMF-Flora Modern"];
+_avialableVariants = ["MSV Modern","VMF Modern"];
 
 _avialableVariants

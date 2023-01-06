@@ -13,12 +13,9 @@ switch (_loadout) do {
 	};
 	// Automatic Rifleman
 		case "sqd_ar": {
-		for "_i" from 1 to 4 do { player addItemToBackpack "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
-	};
-	// MMG Gunner
-		case "sup_mmg_g": {
-		for "_i" from 1 to 2 do { player addItemToVest "rhsusf_100Rnd_762x51"};
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_100Rnd_762x51_m62_tracer"};
+		for "_i" from 1 to 1 do { player addItemToVest "rhs_100Rnd_762x54mmR"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_100Rnd_762x54mmR"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_green"};
 	};
 	// Recon/Squad Marksman
 	case "sqd_dmr": {
@@ -56,13 +53,7 @@ switch (_loadout) do {
 	default {};
 	// Asst. Rifleman
 		case "sqd_aar": {
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
-	};
-	// MMG Leader
-	case "sup_mmg_l": {
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_100Rnd_762x51"};
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_100Rnd_762x51_m62_tracer"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_100Rnd_762x54mmR"};
 	};
 	// AA Leader
 	case "sup_aa_l": {

@@ -24,7 +24,7 @@ switch (_loadout) do {
 					 player addPrimaryWeaponItem "rhs_acc_tgpv2";
 	};
 	case "sup_mmg_g": {	player addWeapon "rhs_weap_pkp";
-						player addPrimaryWeaponItem "rhs_acc_1p29_pkp";
+						player addPrimaryWeaponItem "rhs_acc_1p78";
 	};
 	case "rcn_ld":{ player addWeapon "rhs_weap_ak103_gp25_npz";
 					player addPrimaryWeaponItem "optic_Hamr";

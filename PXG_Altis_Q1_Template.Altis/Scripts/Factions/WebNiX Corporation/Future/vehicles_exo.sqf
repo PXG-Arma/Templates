@@ -18,6 +18,5 @@ _availableVehicles =
 	
 	["Misc.",
 	["B_Quadbike_01_F"]]
-
 ];
 _availableVehicles

@@ -4,12 +4,6 @@ _resupplyAvailable = [
 			["rhs_20rnd_9x39mm_SP6",80]
 		]
 	],
-	["LAT Resupply",
-		[
-			["rhs_weap_rpg75",8],
-			["rhs_weap_rshg2",4]
-		]
-	],
 	["DMR Resupply",
 		[
 			["rhs_5Rnd_338lapua_t5000",30]
@@ -20,6 +14,12 @@ _resupplyAvailable = [
 			["rhs_100Rnd_762x54mmR_7BZ3",10],
 			["rhs_100Rnd_762x54mmR_green",10],
 			["rhs_100Rnd_762x54mmR",10]
+		]
+	],
+	["LAT Resupply",
+		[
+			["rhs_weap_rpg75",8],
+			["rhs_weap_rshg2",4]
 		]
 	],
 	["MAT Resupply (HEAT)",
@@ -47,7 +47,7 @@ _resupplyAvailable = [
 	],
 	["Smoke Grenades",
 		[
-			["SmokeShell",10],
+			["rhs_mag_an_m8hc",10],
 			["SmokeShellRed",10],
 			["SmokeShellGreen",10]
 		]
@@ -92,6 +92,19 @@ _resupplyAvailable = [
 			["ACE_tourniquet", 20],
 			["ACE_bodyBag", 20],
 			["ACE_surgicalKit", 2]
+		]
+	],
+	["Squad Resupply",
+		[
+			["rhs_20rnd_9x39mm_SP6", 32],
+			["rhs_weap_rpg75", 1],
+			["rhs_weap_rshg2", 2],
+			["rhs_grenade_khattabka_vog25_mag", 6],
+			["rhs_mag_an_m8hc", 6],
+			["ACE_elasticBandage", 12],
+			["ACE_packingBandage", 12],
+			["ACE_quikclot", 12],
+			["ACE_bloodIV_500", 6]
 		]
 	],
 	["Parachutes",

@@ -32,7 +32,7 @@ _resupplyAvailable = [
 	],
 	["Smoke Grenades",
 		[
-			["SmokeShell",20],
+			["rhs_mag_an_m8hc",20],
 			["SmokeShellRed",5],
 			["SmokeShellGreen",5],
 			["SmokeShellBlue",5]
@@ -90,6 +90,21 @@ _resupplyAvailable = [
 			["ACE_tourniquet", 20],
 			["ACE_bodyBag", 20],
 			["ACE_surgicalKit", 2]
+		]
+	],
+	["Squad Resupply",
+		[
+			["50Rnd_570x28_SMG_03", 24],
+			["130Rnd_338_Mag", 4],
+			["BWA3_PzF3_Tandem_Loaded", 1],
+			["1Rnd_HE_Grenade_Shell", 12],
+			["HandGrenade", 6],
+			["rhs_mag_an_m8hc", 6],
+			["Battery_Full", 6],
+			["ACE_elasticBandage", 12],
+			["ACE_packingBandage", 12],
+			["ACE_quikclot", 12],
+			["ACE_bloodIV_500", 6]
 		]
 	]
 ];

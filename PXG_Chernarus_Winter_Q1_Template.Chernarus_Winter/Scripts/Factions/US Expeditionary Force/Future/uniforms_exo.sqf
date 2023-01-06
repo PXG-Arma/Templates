@@ -46,6 +46,8 @@ switch (_loadout) do {
 // remove Exo consumables
 	player removeItemFromBackpack "Battery_Full";
 	player removeItemFromBackpack "Battery_Full";
+	player removeItemFromBackpack "Battery_Full";
+	player removeItemFromBackpack "Battery_Full";
 	player removeItemFromBackpack "Health_Syringe";
 	player removeItemFromBackpack "Health_Syringe";
 	player removeItemFromBackpack "Health_Syringe";

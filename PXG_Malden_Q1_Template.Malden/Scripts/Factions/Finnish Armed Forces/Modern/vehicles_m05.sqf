@@ -40,8 +40,7 @@ _availableVehicles =
 	"UK3CB_BAF_RHIB_HMG_MTP"]],
 	
 	["Turrets",
-	["RHS_M2StaticMG_MiniTripod_D",
-  	"RHS_M2StaticMG_D",
+	["RHS_NSV_TriPod_MSV",
   	"RHS_TOW_TriPod_D",
 	"rnt_gmw_static"]],
 	

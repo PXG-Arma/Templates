@@ -13,8 +13,8 @@ switch (_loadout) do {
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhsusf_mag_6Rnd_M714_white"}
 	};
 	case "sqd_ar": {
-		for "_i" from 1 to 2 do { player addItemToVest "rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote"};
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote"};
+		for "_i" from 1 to 2 do { player addItemToVest "rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote"};
+		for "_i" from 1 to 6 do { player addItemToBackpack "rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote"};
 	};
 	case "rcn_dmr": {
 		for "_i" from 1 to 4 do { player addItemToVest "rhsusf_20Rnd_762x51_SR25_m993_Mag"};
@@ -46,8 +46,8 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default {};
 	case "sqd_aar": {
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote"};
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote"};
+		for "_i" from 1 to 4 do { player addItemToBackpack "rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote"};
+		for "_i" from 1 to 4 do { player addItemToBackpack "rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote"};
 	};
 	case "sup_mmg_l": {
 		for "_i" from 1 to 2 do { player addItemToBackpack "BWA3_120Rnd_762x51_soft"};
@@ -73,7 +73,7 @@ switch (_loadout) do {
 // add grenades
 switch (_loadout) do {
 	default {
-		for "_i" from 1 to 2 do { player addItemToVest "SmokeShell"};
+		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_an_m8hc"};
 		for "_i" from 1 to 1 do { player addItemToVest "SmokeShellGreen"};
 		for "_i" from 1 to 1 do { player addItemToVest "SmokeShellRed"};
 		for "_i" from 1 to 2 do { player addItemToVest "HandGrenade"};

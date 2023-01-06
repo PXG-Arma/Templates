@@ -5,21 +5,16 @@ _resupplyAvailable = [
 			["30Rnd_762x39_Magazine",80]
 		]
 	],
+	["AR Resupply",
+		[
+			["rhs_100Rnd_762x54mmR",10],
+			["rhs_100Rnd_762x54mmR_green",10]
+		]
+	],
 	["Shotgun Resupply",
 		[
 			["rhsusf_8Rnd_00Buck",20],
 			["rhsusf_8Rnd_Slug",20]
-		]
-	],
-	["AR Resupply",
-		[
-			["rhsusf_200Rnd_556x45_M855_mixed_soft_pouch",20]
-		]
-	],
-	["MMG Resupply",
-		[
-			["rhsusf_100Rnd_762x51_m62_tracer",10],
-			["rhsusf_100Rnd_762x51_m80a1epr",10]
 		]
 	],
 	["DMR Resupply",
@@ -116,6 +111,22 @@ _resupplyAvailable = [
 			["ACE_tourniquet", 20],
 			["ACE_bodyBag", 20],
 			["ACE_surgicalKit", 2]
+		]
+	],
+	["Squad Resupply",
+		[
+			["30Rnd_762x39_Magazine", 24],
+			["rhs_100Rnd_762x54mmR", 4],
+			["rhsusf_8Rnd_00Buck",4],
+			["rhsusf_8Rnd_Slug",4],
+			["rhs_weap_m72a7", 1],
+			["1Rnd_HE_Grenade_Shell", 12],
+			["HandGrenade", 6],
+			["rhs_mag_an_m8hc", 6],
+			["ACE_elasticBandage", 12],
+			["ACE_packingBandage", 12],
+			["ACE_quikclot", 12],
+			["ACE_bloodIV_500", 6]
 		]
 	],
 	["GMW Turret Resupply",

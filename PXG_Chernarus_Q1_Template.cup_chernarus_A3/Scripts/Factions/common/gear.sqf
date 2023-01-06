@@ -78,22 +78,6 @@ switch (_loadout) do {
 	};
 };
 
-// add Head Lamp
-switch (_loadout) do {
-    default {player addItemToBackpack "WBK_HeadLampItem"};
-	case "ar_ld";
-	case "ar_c";
-	case "pil";
-	case "sup_hmg_l";
-	case "sup_hmg_g";
-	case "sup_tow_l";
-	case "sup_tow_g";
-	case "sup_gmg_l";
-	case "sup_gmg_g";
-	case "sup_mor_l";
-	case "sup_mor_g": {player addItemToVest "WBK_HeadLampItem"};
-};
-
 // add Range Card
 switch (_loadout) do {
 	default {};
@@ -229,24 +213,7 @@ if (_variantEra == "Future") then {
 
 	// add binocular
 	switch (_loadout) do {
-		default { player addWeapon "binocular"};
-		case "sqd_ld";
-		case "sqd_aar";
-		case "sqd_dmr";
-		case "rcn_ld";
-		case "rcn_sni";
-		case "rcn_dmr";
-		case "rcn_amr";
-		case "sup_mmg_l";
-		case "sup_mmg_g";	
-		case "sup_mat_l";
-		case "sup_mat_g";
-		case "sup_hat_l";
-		case "sup_hat_g";
-		case "sup_aa_l";
-		case "sup_aa_g";
-		case "sup_mor_l";
-		case "sup_mor_g":{ player addWeapon "ACE_Vector"};
+		default { player addWeapon "ACE_Vector"};
 		case "plt";
 		case "tacp": {
 			player addWeapon "Laserdesignator";

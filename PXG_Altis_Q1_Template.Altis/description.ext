@@ -7,9 +7,9 @@
 
 // On Load
 author = "Your Name Here";								// Visible when loading mission
-onLoadName = "PXG-Operation: Mission Name";						// Visible when loading mission
+onLoadName = "PXG-Operation: Mission Name";				// Visible when loading mission
 OnLoadMission = "Map I Player Faction I Time of day I Staging I Type of mission (Airborne, Armoured, Infantry, Amphibious, Combined arms) I Enemy Faction";
-loadScreen = "";	                // Visible when loading missioA
+loadScreen = "";	                // Visible when loading mission
 overviewPicture = "";               // Visible when selecting mission	
 
 onLoadIntro = "MESSAGE THAT APPEARS ON LEFT WHEN JOINING SERVER";										// Displays a message while the intro is loading.
@@ -20,15 +20,15 @@ class Header
 	{
 		gameType = COOP;								// Unknown, COOP, DM, TDM, CTF, SC, CTI, RPG, Sandbox, Seize, Defend.
 		minPlayers = 1;									// Min # of players the MISSION supports
-		maxPlayers = 33;								// Max # of players the MISSION supports, not server slots. Make sure # is greater than server slots.
+		maxPlayers = 30;								// Max # of players the MISSION supports, not server slots. Make sure # is greater than server slots.
 	}; 
 
 // Admin
-//enableDebugConsole = 1;									// 0 = disabled. 1 = admins, 2 = everybody. 0 is recommended in MP.
-enableDebugConsole[] = {"76561198014976203"};
+//enableDebugConsole = 1;								// 0 = disabled. 1 = admins, 2 = everybody. 0 is recommended in MP.
+//enableDebugConsole[] = {};
 allowFunctionsLog = 0; 									// Log functions to .rpt. disabled with 0
 
-//------------------------- Misc
+// Misc
  
 disabledAI = 1;
 aiKills = 0; 	
@@ -37,10 +37,10 @@ joinUnassigned = 1;
 showUAVFeed = 1;			 // Zeus-related.
 
 cba_settings_whitelist[] = {"admin"};									
-cba_settings_hasSettingsFile = 1;
+cba_settings_hasSettingsFile = 0;
 
 
-//------------------------- Disable channels 0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System
+// Disable channels 0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System
 
 disableChannels[] = {
     {

@@ -8,7 +8,7 @@ switch (_loadout) do {
 	};
 	case "sqd_brc": {
 		for "_i" from 1 to 6 do { player addItemToVest "6Rnd_00_Buckshot_Magazine"};
-		for "_i" from 1 to 6 do { player addItemToVest "6Rnd_Slug_Magazine"};
+		for "_i" from 1 to 6 do { player addItemToBackpack "6Rnd_Slug_Magazine"};
 	};
 	case "sqd_ar": {
 		for "_i" from 1 to 2 do { player addItemToVest "rhsusf_100Rnd_762x51"};

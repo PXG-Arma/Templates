@@ -8,7 +8,8 @@ _availableVehicles =
 	["B_UGV_01_rcws_F"]],
 	
 	["Rotary Transport",
-	["B_Heli_Transport_01_F"]],
+	["O_Heli_Transport_04_bench_F",
+	"O_Heli_Transport_04_box_F"]],
 
 	["Drones",
 	["B_UAV_01_F",
@@ -17,7 +18,9 @@ _availableVehicles =
 	"B_Hornet_EPSM_Dron_F"]],
 	
 	["Misc.",
-	["B_Quadbike_01_F"]]
-
+	["B_Quadbike_01_F"]],
+	
+	["Osiris - WARNING",
+	["Osiris"]]
 ];
 _availableVehicles

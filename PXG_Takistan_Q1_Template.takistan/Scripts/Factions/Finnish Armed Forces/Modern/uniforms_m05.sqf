@@ -38,9 +38,10 @@ switch (_loadout) do {
 	case "logi";
 	case "sqd_eng": {player addBackpack "rhs_rk_sht_30_olive_engineer_empty"};
 	case "sqd_med";
-	case "sup_mmg_l";
 	case "sup_mat_l";
 	case "rcn_spe": {player addBackpack "rhs_tortila_olive"};
+	case "sup_hmg_l": {player addBackpack "RHS_NSV_Tripod_Bag"};
+	case "sup_hmg_g": {player addBackpack "RHS_NSV_Gun_Bag"};
 	case "sup_tow_l": {player addBackpack "rhs_TOW_Tripod_Bag"};
 	case "sup_tow_g": {player addBackpack "rhs_Tow_Gun_Bag"};
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};

@@ -46,7 +46,7 @@ switch (_loadout) do {
 // add launcher
 switch (_loadout) do {
 	default {};
-	case "sqd_lat": {player addWeapon "rhs_weap_M136"};
+	case "sqd_lat": {player addWeapon "BWA3_RGW90_Loaded"};
 	case "sup_mat_g": {	player addWeapon "BWA3_CarlGustav";
 						player addSecondaryWeaponItem "bwa3_optic_carlgustav"};
 };

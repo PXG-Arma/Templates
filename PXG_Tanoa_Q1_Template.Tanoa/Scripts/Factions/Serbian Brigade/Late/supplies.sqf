@@ -98,9 +98,22 @@ _resupplyAvailable = [
 	["Misc. Medical Supplies",
 		[
 			["ACE_tourniquet", 20],
-			["ACE_splint", 20],
-			["ACE_bodyBag", 12],
-			["ACE_surgicalKit",2]
+			["ACE_bodyBag", 20],
+			["ACE_surgicalKit", 2]
+		]
+	],
+	["Squad Resupply",
+		[
+			["rhsgref_30Rnd_556x45_m21", 24],
+			["rhs_100Rnd_762x54mmR", 4],
+			["rhs_weap_M80", 1],
+			["rhs_VOG25", 12],
+			["rhssaf_mag_br_m84", 6],
+			["rhssaf_mag_brd_m83_white", 6],
+			["ACE_elasticBandage", 12],
+			["ACE_packingBandage", 12],
+			["ACE_quikclot", 12],
+			["ACE_bloodIV_500", 6]
 		]
 	],
 	["Parachutes",

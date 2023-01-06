@@ -37,13 +37,13 @@ switch (_loadout) do {
 // add secondary ammo
 switch (_loadout) do {
 	default {};
+	case "plt";
+	case "logi";
 	case "ar_ld";
 	case "ar_c";
-	case "pil";
-	case "logi": {
+	case "pil": {
 		for "_i" from 1 to 2 do { player addItemToUniform "rhs_mag_9x18_8_57N181S"};
 	};
-	
 };
 
 // add assistant ammo 

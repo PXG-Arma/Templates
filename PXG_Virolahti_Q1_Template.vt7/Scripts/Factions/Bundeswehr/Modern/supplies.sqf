@@ -106,6 +106,20 @@ _resupplyAvailable = [
 			["ACE_surgicalKit", 2]
 		]
 	],
+	["Squad Resupply",
+		[
+			["BWA3_30Rnd_556x45_G36", 24],
+			["BWA3_200Rnd_556x45", 4],
+			["BWA3_PzF3_Tandem_Loaded", 1],
+			["1Rnd_HE_Grenade_Shell", 12],
+			["BWA3_DM51A1", 6],
+			["BWA3_DM25", 6],
+			["ACE_elasticBandage", 12],
+			["ACE_packingBandage", 12],
+			["ACE_quikclot", 12],
+			["ACE_bloodIV_500", 6]
+		]
+	],
 	["MG3 Turret Resupply",
 		[
 			["rnt_mg3_kasten_fake",20]

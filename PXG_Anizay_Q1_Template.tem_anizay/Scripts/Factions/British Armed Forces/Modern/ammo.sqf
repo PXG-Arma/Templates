@@ -7,8 +7,8 @@ switch (_loadout) do {
 		for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red"};
 	};
 	case "sqd_ar": {
-		for "_i" from 1 to 2 do { player addItemToVest "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
+		for "_i" from 1 to 2 do { player addItemToVest "rhsusf_200rnd_556x45_M855_mixed_box"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200rnd_556x45_M855_mixed_box"};
 	};
 	case "rcn_dmr": {
 		for "_i" from 1 to 4 do { player addItemToVest "UK3CB_BAF_762_L42A1_20Rnd"};
@@ -35,7 +35,7 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default {};
 	case "sqd_aar": {
-		for "_i" from 1 to 4 do { player addItemToBackpack "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"};
+		for "_i" from 1 to 4 do { player addItemToBackpack "rhsusf_200rnd_556x45_M855_mixed_box"};
 	};
 	case "sup_mmg_l": {
 		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_100Rnd_762x51_m61_ap"};

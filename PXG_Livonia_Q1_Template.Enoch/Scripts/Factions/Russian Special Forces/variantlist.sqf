@@ -1,3 +1,3 @@
-_avialableVariants = ["SOF-Green Modern"];
+_avialableVariants = ["SOF Modern"];
 
 _avialableVariants

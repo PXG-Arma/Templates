@@ -16,9 +16,9 @@ switch (_loadout) do {
 		for "_i" from 1 to 6 do { player addItemToBackpack "rhs_10Rnd_762x54mmR_7N14"};
 	};
 	case "sup_mmg_g": {
-		for "_i" from 1 to 2 do { player addItemToVest "rhs_100Rnd_762x54mmR"};
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_7BZ3"};
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_green"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_100Rnd_762x54mmR"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_7BZ3"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_green"};
 	};
 	case "ar_ld";
 	case "ar_c";
@@ -46,7 +46,8 @@ switch (_loadout) do {
 	};
 	case "sup_mmg_l": {
 		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_100Rnd_762x54mmR"};
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_green"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_7BZ3"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_green"};
 	};
 	case "sup_hat_l": {
 		for "_i" from 1 to 1 do { player addItemToBackpack "Vorona_HEAT"};

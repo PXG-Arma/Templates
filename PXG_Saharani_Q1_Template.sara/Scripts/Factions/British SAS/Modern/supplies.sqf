@@ -7,8 +7,13 @@ _resupplyAvailable = [
 	],
 	["AR Resupply",
 		[
-			["rhsusf_100Rnd_556x45_soft_pouch_coyote",10],
-			["rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote",10]
+			["rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote",20]
+		]
+	],
+	["Shotgun Resupply",
+		[
+			["UK3CB_BAF_12G_Pellets",20],
+			["UK3CB_BAF_12G_Slugs",20]
 		]
 	],
 	["MMG Resupply",
@@ -41,7 +46,7 @@ _resupplyAvailable = [
 	],
 	["Smoke Grenades",
 		[
-			["SmokeShell",10],
+			["rhs_mag_an_m8hc",10],
 			["SmokeShellRed",10],
 			["SmokeShellGreen",10],
 			["SmokeShellBlue",10]
@@ -113,6 +118,23 @@ _resupplyAvailable = [
 			["ACE_tourniquet", 20],
 			["ACE_bodyBag", 20],
 			["ACE_surgicalKit", 2]
+		]
+	],
+	["Squad Resupply",
+		[
+			["rhs_mag_30Rnd_556x45_M855A1_PMAG", 24],
+			["rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote", 4],
+			["UK3CB_BAF_12G_Pellets", 4],
+			["UK3CB_BAF_12G_Slugs", 4],
+			["launch_NLAW_F", 1],
+			["1Rnd_HE_Grenade_Shell", 12],
+			["rhsusf_mag_6Rnd_M441_HE", 2],
+			["HandGrenade", 6],
+			["rhs_mag_an_m8hc", 6],
+			["ACE_elasticBandage", 12],
+			["ACE_packingBandage", 12],
+			["ACE_quikclot", 12],
+			["ACE_bloodIV_500", 6]
 		]
 	],
 	["Vehicle Resupply 7.62mm",
