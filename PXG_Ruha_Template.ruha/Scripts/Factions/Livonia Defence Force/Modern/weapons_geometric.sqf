@@ -4,7 +4,7 @@ params["_side","_faction","_variant", "_loadout"];
 switch (_loadout) do {
 	default { player addWeapon "UK3CB_ACR_Carbine";
 			  player addPrimaryWeaponItem "rhsusf_acc_compm4";
-			  player addPrimaryWeaponItem "rhsusf_acc_anpeq15_bk";
+			  player addPrimaryWeaponItem "rhsusf_acc_anpeq15a";
 	};
 	case "plt";
 	case "sqd_ld";
@@ -23,7 +23,7 @@ switch (_loadout) do {
 	case "rcn_spe";
 	case "rcn_drone":{ player addWeapon "UK3CB_ACR_Carbine";
 			  		 player addPrimaryWeaponItem "rhsusf_acc_compm4";
-			  		 player addPrimaryWeaponItem "rhsusf_acc_anpeq15_bk";
+			  		 player addPrimaryWeaponItem "rhsusf_acc_anpeq15a";
 					 player addPrimaryWeaponItem "rhsusf_acc_nt4_black";
 	};
 	case "rcn_amr": {player addWeapon "rhs_weap_m82a1";

@@ -135,7 +135,7 @@ class dialog_supply_spawn
 		class dim_supply_spawn_button: PxgGuiRscButton
 		{
 			idc = 451600;
-			action = "execVM 'Scripts\Resupply\Functions\PXG_Crate_Spawn.sqf'";
+			action = "execVM 'Scripts\Resupply\Functions\PXG_Crate_Spawn_Check.sqf'";
 
 			text = "Spawn Box"; //--- ToDo: Localize;
 			

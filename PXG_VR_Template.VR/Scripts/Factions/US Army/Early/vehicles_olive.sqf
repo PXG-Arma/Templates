@@ -35,7 +35,8 @@ _availableVehicles =
 
 	['Rotary Transport', 
 		[
-			['UK3CB_CW_US_B_EARLY_UH1H_M240', 6]
+			['UK3CB_CW_US_B_EARLY_UH1H_M240', 6],
+			['UK3CB_CW_US_B_EARLY_CH47', 8]
 		]
 	],
 

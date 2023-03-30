@@ -13,5 +13,15 @@ switch(_vehicleType) do
 		] call BIS_fnc_initVehicle;
 	};
 
+	case "I_Heli_light_03_dynamicLoadout_F":
+	{
+		[
+			_vehicle,
+			["Green",1], 
+			true
+		] call BIS_fnc_initVehicle;
+	};
+
+
 	default {};
 };

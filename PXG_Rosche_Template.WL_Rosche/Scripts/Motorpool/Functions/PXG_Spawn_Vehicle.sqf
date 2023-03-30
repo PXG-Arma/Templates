@@ -27,8 +27,15 @@ if (count _nearVehicles > 0) then {
 		//Check if vehicle is empty
 		private _playerCrew = ({ isPlayer _x } count (crew _x));
 	
-		if (_playerCrew == 0) then {
-			deleteVehicle _x;
+		private _vehicleCargo = 0;
+		if (isNil {_x getVariable "ace_cargo_loaded"}) then {
+		_vehicleCargo = 0;
+		} else {
+		_vehicleCargo = count (_x getVariable "ace_cargo_loaded");
+		};
+
+		if (_playerCrew == 0 && _vehicleCargo < 2) then {
+		deleteVehicle _x;
 		};	
 	}
 	forEach _nearVehicles;

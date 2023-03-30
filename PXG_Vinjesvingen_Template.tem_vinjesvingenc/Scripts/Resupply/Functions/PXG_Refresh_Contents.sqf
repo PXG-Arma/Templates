@@ -27,6 +27,7 @@ _suppliesArray = call compile preprocessfile _suppliesScriptPath;
 switch (lbData [451502, _indexSupplies]) do
 {
     case "FOB";
+	case "FARP";
 	case "Wheel";
 	case "Track": {_suppliesContents = [[],[]]};
 	default {

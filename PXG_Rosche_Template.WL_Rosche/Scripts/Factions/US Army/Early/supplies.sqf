@@ -11,7 +11,7 @@ _resupplyAvailable = [
 			["6Rnd_Slug_Magazine",10]
 		]
 	],
-	["MMG Resupply",
+	["AR Resupply",
 		[
 			["rhsusf_100Rnd_762x51_m62_tracer",10],
 			["rhsusf_100Rnd_762x51",10]

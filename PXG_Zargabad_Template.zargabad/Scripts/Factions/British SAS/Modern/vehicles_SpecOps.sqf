@@ -19,14 +19,13 @@ _availableVehicles =
 
 	['Rotary Transport', 
 		[
-			['RHS_MELB_MH6M', 4], 
-			['RHS_UH60M', 6]
+			['I_Heli_light_03_unarmed_F', 6]
 		]
 	],
 
 	['Rotary Attack', 
 		[
-			['RHS_MELB_AH6M', 0]
+			['I_Heli_light_03_dynamicLoadout_F', 6]
 		]
 	],
 

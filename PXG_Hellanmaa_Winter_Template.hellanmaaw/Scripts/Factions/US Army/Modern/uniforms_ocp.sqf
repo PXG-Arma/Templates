@@ -4,8 +4,6 @@ params["_side","_faction","_variant", "_loadout"];
 switch (_loadout) do {
 	default { player forceAddUniform "rhs_uniform_cu_ocp"};
 	case "pil": { player forceAddUniform "U_B_HeliPilotCoveralls"};
-	case "ar_ld";
-	case "ar_c": { player forceAddUniform "rhs_uniform_g3_mc"};
 };
 	
 // add helmet
@@ -43,11 +41,6 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "rhsusf_assault_eagleaiii_ocp"};
-	case "sqd_med";
-	case "sup_mmg_l";
-	case "sup_hat_l";
-	case "sup_hat_g";
-	case "sup_aa_l": {player addBackpack "VSM_OCP_carryall"};
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};
     case "ar_ld";
