@@ -8,13 +8,16 @@ _fobCircleName = _fobCircleName + str count _deployment;
 
 // Get location of crate
 _location = getPosATL _crate;
+_rotation = getDir _crate;
 
 // Delete crate 
 deleteVehicle _crate;
 
 // Spawn an FOB in place of the FOB
 _spawn = createVehicle["Land_ConnectorTent_01_NATO_cross_F", _location, [], 0, "CAN_COLLIDE"];
+_spawn setDir _rotation;
 _spawn allowDamage false;
+_spawn setVariable ["PXG_isFOB", true, true];
 
 // Retrieve the list of avialable deployment positions, add newly created FOB to the list and save the list into a global variable 
 _deployment = missionNamespace getVariable "Pxg_Deployment_Positions";

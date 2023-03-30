@@ -29,7 +29,7 @@ _availableVehicles =
 		]
 	],
 
-	['IVF', 
+	['IFV', 
 		[
 			['UK3CB_TKA_I_MTLB_Cannon', 4],
 			['UK3CB_TKA_I_MTLB_BMP', 4],
@@ -84,12 +84,6 @@ _availableVehicles =
 			['UK3CB_TKA_I_KORD_high', -1], 
 			['UK3CB_TKA_I_KORD', -1], 
 			['UK3CB_TKA_I_SPG9', -1]
-		]
-	],
-
-	['Misc.', 
-		[
-			['UK3CB_TKA_I_MAZ_543_SCUD', 0]
 		]
 	]
 ];

@@ -27,6 +27,7 @@ _availableVehicles =
 
 	['Rotary Transport', 
 		[
+			['RHS_MELB_MH6M', 4], 
 			['RHS_UH60M', 6]
 		]
 	],

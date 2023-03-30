@@ -50,6 +50,7 @@ _availableVehicles =
 
 	['Rotary Transport', 
 		[
+			['RHS_MELB_MH6M', 4], 
 			['RHS_UH60M_d', 6], 
 			['RHS_CH_47F_10', 8]
 		]
@@ -57,6 +58,7 @@ _availableVehicles =
 
 	['Rotary Attack', 
 		[
+			['RHS_MELB_AH6M', 0], 
 			['RHS_UH60M_ESSS_d', 6], 
 			['RHS_AH64D', 0]
 		]

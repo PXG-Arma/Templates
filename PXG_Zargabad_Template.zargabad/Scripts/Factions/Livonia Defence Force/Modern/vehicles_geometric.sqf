@@ -22,7 +22,7 @@ _availableVehicles =
 		]
 	],
 
-	['IVF', 
+	['IFV', 
 		[
 			['UK3CB_LDF_B_Marshall', 4],
 			['UK3CB_LDF_B_BMP2K', 4]
@@ -52,7 +52,7 @@ _availableVehicles =
 	['Rotary Attack', 
 		[
 			['UK3CB_LDF_B_Mi8AMTSh', 8],
-			['UK3CB_LDF_B_Mi_24V', 4]
+			['rhsgref_b_mi24g_CAS', 4]
 		]
 	],
 

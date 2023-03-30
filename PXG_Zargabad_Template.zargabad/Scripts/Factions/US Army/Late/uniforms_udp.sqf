@@ -8,15 +8,7 @@ switch (_loadout) do {
 	
 // add helmet
 switch (_loadout) do {
-	default { player addHeadgear "rhsusf_ach_helmet_ESS_ucp"};
-	case "sup_mmg_l";
-	case "sup_mat_l";
-	case "sup_aa_l";
-	case "sup_mor_l";
-	case "sqd_ld";
-	case "plt";
-	case "logi";
-	case "tacp": { player addHeadgear "rhsusf_ach_helmet_headset_ucp"};
+	default { player addHeadgear "rhsusf_ach_helmet_ucp"};
 	case "rcn_dmr";
 	case "rcn_amr";
 	case "rcn_spe";
@@ -49,10 +41,6 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "rhsusf_assault_eagleaiii_ucp"};
-	case "sqd_med";
-	case "sup_mmg_l";
-	case "sup_mat_l";
-	case "sup_aa_l": {player addBackpack "rhs_tortila_grey"};
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};
 	case "ar_ld";

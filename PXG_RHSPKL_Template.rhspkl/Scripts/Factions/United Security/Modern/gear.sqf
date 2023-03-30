@@ -47,4 +47,7 @@ switch (_loadout) do {
 		player addPrimaryWeaponItem selectRandom randomDMRMuzzleArray;
 		player addPrimaryWeaponItem "rhsusf_acc_harris_bipod";
 	};
+	case "sup_mmg_g": {
+		player addPrimaryWeaponItem "rhsusf_acc_acog_mdo";
+	};
 };

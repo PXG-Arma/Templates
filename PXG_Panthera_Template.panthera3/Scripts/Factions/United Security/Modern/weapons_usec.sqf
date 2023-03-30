@@ -20,9 +20,7 @@ switch (_loadout) do {
 		player addWeapon selectRandom randomDMRArray;
 	};
 	case "sqd_hgre": {player addWeapon "rhs_weap_m32"};
-	case "sup_mmg_g": {player addWeapon "rhs_weap_m240B";
-					   player addPrimaryWeaponItem "rhsusf_acc_acog_mdo";
-	};
+	case "sup_mmg_g": {player addWeapon "rhs_weap_m240B"};
 	case "pil": {};
 };
 
