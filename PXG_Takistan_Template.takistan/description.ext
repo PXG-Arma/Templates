@@ -93,16 +93,16 @@ class ACEX_Fortify_Presets {
         displayName = "Phoenix Group";
         objects[] = {
             {"Land_BagBunker_Small_F", 20},
-			{"Land_BagFence_Long_F", 5},
-			{"Land_BagFence_Short_F", 5},
-			{"Land_BagFence_Round_F", 5},
-			{"Land_CzechHedgehog_01_new_F", 10},
-			{"Land_Razorwire_F", 10},
-			{"Land_Plank_01_4m_F", 5},
-			{"Land_Plank_01_8m_F", 5},
-			{"Land_Scaffolding_New_F", 20}
+            {"Land_BagBunker_Tower_F", 20},
+            {"Land_fortified_nest_big_EP1", 20},
+            {"Land_fort_rampart_EP1", 10},
+            {"CamoNet_INDP_open_F", 5},
+            {"Land_BagFence_Long_F", 5},
+            {"Land_BagFence_Short_F", 5},
+            {"Land_BagFence_Round_F", 5},
+            {"Land_CzechHedgehog_01_new_F", 10},
+            {"Land_Razorwire_F", 10},
+            {"Land_Scaffolding_New_F", 20}
         };
     };
 };
-
-
