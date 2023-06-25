@@ -15,37 +15,36 @@ _availableVehicles =
 
 	['Armed Car/MRAP', 
 		[
+			['rhs_tigr_3camo_vmf', 4], 
 			['rhs_tigr_m_3camo_vmf', 4], 
-			['rhs_tigr_sts_3camo_vmf', 4], 
 			['rhsgref_BRDM2_vmf', 4], 
 			['rhsgref_BRDM2_ATGM_vmf', 4]
 		]
 	],
 
 	['APC', 
-		[
-			['rhs_btr80a_vmf', 6], 
+		[ 
 			['rhs_btr80_vmf', 6]
 		]
 	],
 
 	['IFV', 
-		[
-			['rhs_bmp1_vmf', 4], 
-			['rhs_bmp2_vmf', 4]
+		[ 
+			['rhs_bmp2k_vmf', 4],
+			['rhs_brm1k_vmf', 4]
 		]
 	],
 
 	['SPAA', 
 		[
-			['RHS_Ural_Zu23_VMF_01', 4], 
-			['rhs_zsu234_aa', 4]
+			['RHS_Ural_Zu23_VMF_01', 4] 
 		]
 	],
 
 	['SPG', 
 		[
 			['rhs_2s1_vmf', 4]
+			
 		]
 	],
 

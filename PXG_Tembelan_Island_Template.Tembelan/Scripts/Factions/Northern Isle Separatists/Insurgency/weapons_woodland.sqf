@@ -1,6 +1,6 @@
 params["_side","_faction","_variant", "_loadout"]; 
 
-randomWeaponArray = ["rhs_weap_l1a1","rhs_weap_m14","rhs_weap_savz58p","rhs_weap_aks74","rhs_weap_m1garand_sa43","uk3cb_enfield_no4_walnut","UK3CB_Sten","rhs_weap_m3a1"]; 
+randomWeaponArray = ["rhs_weap_m14", "uk3cb_stgw57_5104", "rhs_weap_aks74", "rhs_weap_m1garand_sa43"]; 
 
 // add primary weapon
 switch (_loadout) do {
@@ -26,7 +26,10 @@ switch (_loadout) do {
 // add launcher
 switch (_loadout) do {
 	default {};
-	case "sqd_lat": {player addWeapon "rhs_weap_rpg7"};
+	case "sqd_lat": {
+		unitBackpack player addItemCargoGlobal["rhs_weap_rpg75",1];
+		player addWeapon "rhs_weap_rpg75";
+	};
 	case "sup_mat_g": {	player addWeapon "rhs_weap_rpg7";
 						player addSecondaryWeaponItem "rhs_acc_pgo7v3"};
 };

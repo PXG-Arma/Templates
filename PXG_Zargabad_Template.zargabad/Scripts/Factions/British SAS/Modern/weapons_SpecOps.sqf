@@ -61,7 +61,9 @@ switch (_loadout) do {
 //case "sup_aa_g": {	player addWeapon "rhs_weap_fim92"};	
 switch (_loadout) do {
 	default {};	
-	case "sqd_lat": {player addWeapon "launch_NLAW_F"};
+	case "sqd_lat": {
+		player addWeapon "launch_NLAW_F";
+		};
 	case "sup_hat_g": {player addWeapon "rhs_weap_fgm148";
 					   player addSecondaryWeaponItem "rhs_fgm148_magazine_AT"};
 	case "sup_aa_g": {player addWeapon "rhs_weap_fim92"};

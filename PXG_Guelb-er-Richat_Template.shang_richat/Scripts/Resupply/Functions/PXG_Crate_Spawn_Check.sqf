@@ -169,6 +169,8 @@ if (count _nearVehicles > 0) then {
 	{ 
 		private _crate = createVehicle["B_supplyCrate_F", getPosATL _spawnPosition, [], 0, "CAN_COLLIDE"];
 		_crate setDir getDir _spawnPosition;
+		_crate allowDamage false;
+		_crate setDamage 0;
 		
 		//Remove default contents from crate
 		clearItemCargoGlobal _crate;
@@ -186,6 +188,8 @@ if (count _nearVehicles > 0) then {
 	{ 
 		private _crate = createVehicle["B_supplyCrate_F", getPosATL _spawnPosition, [], 0, "CAN_COLLIDE"];
 		_crate setDir getDir _spawnPosition;
+		_crate allowDamage false;
+		_crate setDamage 0;
 		
 		//Remove default contents from crate
 		clearItemCargoGlobal _crate;
@@ -218,6 +222,8 @@ if (count _nearVehicles > 0) then {
 	{
 		private _crate = createVehicle["Box_NATO_WpsLaunch_F", getPosATL _spawnPosition, [], 0, "CAN_COLLIDE"];
 		_crate setDir getDir _spawnPosition;
+		_crate allowDamage false;
+		_crate setDamage 0;
 		
 		//Remove default contents from crate
 		clearItemCargoGlobal _crate;
@@ -236,6 +242,8 @@ if (count _nearVehicles > 0) then {
 	{
 		private _crate = createVehicle["Box_NATO_Grenades_F", getPosATL _spawnPosition, [], 0, "CAN_COLLIDE"];
 		_crate setDir getDir _spawnPosition;
+		_crate allowDamage false;
+		_crate setDamage 0;
 		
 		//Remove default contents from crate
 		clearItemCargoGlobal _crate;
@@ -255,6 +263,8 @@ if (count _nearVehicles > 0) then {
 	{
 		private _crate = createVehicle["Box_NATO_Support_F", getPosATL _spawnPosition, [], 0, "CAN_COLLIDE"];
 		_crate setDir getDir _spawnPosition;
+		_crate allowDamage false;
+		_crate setDamage 0;
 		
 		//Remove default contents from crate
 		clearItemCargoGlobal _crate;
@@ -274,6 +284,8 @@ if (count _nearVehicles > 0) then {
 	{
 		private _crate = createVehicle["Land_PlasticCase_01_medium_gray_F", getPosATL _spawnPosition, [], 0, "CAN_COLLIDE"];
 		_crate setDir getDir _spawnPosition;
+		_crate allowDamage false;
+		_crate setDamage 0;
 		
 		//Remove default contents from crate
 		clearItemCargoGlobal _crate;
@@ -291,6 +303,8 @@ if (count _nearVehicles > 0) then {
 	{
 		private _crate = createVehicle["Box_NATO_AmmoOrd_F", getPosATL _spawnPosition, [], 0, "CAN_COLLIDE"];
 		_crate setDir getDir _spawnPosition;
+		_crate allowDamage false;
+		_crate setDamage 0;
 		
 		//Remove default contents from crate
 		clearItemCargoGlobal _crate;
@@ -307,6 +321,8 @@ if (count _nearVehicles > 0) then {
 	{
 		private _crate = createVehicle["Box_NATO_WpsSpecial_F", getPosATL _spawnPosition, [], 0, "CAN_COLLIDE"];
 		_crate setDir getDir _spawnPosition;
+		_crate allowDamage false;
+		_crate setDamage 0;
 		
 		//Remove default contents from crate
 		clearItemCargoGlobal _crate;
@@ -323,6 +339,8 @@ if (count _nearVehicles > 0) then {
 	{
 		private _crate = createVehicle["Box_NATO_Equip_F", getPosATL _spawnPosition, [], 0, "CAN_COLLIDE"];
 		_crate setDir getDir _spawnPosition;
+		_crate allowDamage false;
+		_crate setDamage 0;
 		
 		//Remove default contents from crate
 		clearItemCargoGlobal _crate;
@@ -338,6 +356,8 @@ if (count _nearVehicles > 0) then {
 	default {
 		private _crate = createVehicle["Box_NATO_Ammo_F", getPosATL _spawnPosition, [], 0, "CAN_COLLIDE"];
 		_crate setDir getDir _spawnPosition;
+		_crate allowDamage false;
+		_crate setDamage 0;
 		
 		//Remove default contents from crate
 		clearItemCargoGlobal _crate;

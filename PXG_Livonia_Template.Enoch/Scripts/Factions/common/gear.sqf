@@ -97,7 +97,10 @@ switch (_loadout) do {
 // add Patrachutes to pilots
 switch (_loadout) do {
 	default {};
-	case "pil": {player addBackpack "B_Parachute"};
+	case "pil": {
+	removeBackpackGlobal player;
+	player addBackpack "B_Parachute";
+	};
 };
 
 

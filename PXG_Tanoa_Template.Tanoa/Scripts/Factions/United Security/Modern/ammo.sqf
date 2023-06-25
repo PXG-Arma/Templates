@@ -85,9 +85,6 @@ switch (_loadout) do {
 // add other ammo 
 switch (_loadout) do {
 	default {};
-	case "sqd_lat": {
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_weap_m72a7"};
-	};
 	case "sup_mat_g": {
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_smaw_HEAA"};
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_smaw_HEDP"};
