@@ -98,7 +98,6 @@ class ACEX_Fortify_Presets {
 			{"Land_BagFence_Round_F", 5},
 			{"Land_CzechHedgehog_01_new_F", 10},
 			{"Land_Razorwire_F", 10},
-			{"Land_Plank_01_4m_F", 5},
 			{"Land_Plank_01_8m_F", 5},
 			{"Land_Scaffolding_New_F", 20}
         };
