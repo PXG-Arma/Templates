@@ -5,33 +5,17 @@ switch (_loadout) do {
 	default {
 		switch (primaryWeapon player) do {
 		
-			case "rhs_weap_savz58p": {
-					for "_i" from 1 to 4 do { player addItemToVest "rhs_30Rnd_762x39mm_Savz58"};
-					for "_i" from 1 to 4 do { player addItemToBackpack "rhs_30Rnd_762x39mm_Savz58"};
+			case "uk3cb_stgw57_5104": {
+					for "_i" from 1 to 4 do { player addItemToVest "UK3CB_STGW57_AMT_20Rnd_762x51"};
+					for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_STGW57_AMT_20Rnd_762x51"};
 			};
 			case "rhs_weap_m14": {
 					for "_i" from 1 to 4 do { player addItemToVest "rhsusf_20Rnd_762x51_m80_Mag"};
 					for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_20Rnd_762x51_m80_Mag"};
 			};
-			case "rhs_weap_m3a1": {
-					for "_i" from 1 to 4 do { player addItemToVest "rhsgref_30rnd_1143x23_M1911B_SMG"};
-					for "_i" from 1 to 2 do { player addItemToBackpack "rhsgref_30rnd_1143x23_M1911B_SMG"};
-			};
-			case "rhs_weap_l1a1": {
-				for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_20Rnd_762x51_m80_fnfal"};
-				for "_i" from 1 to 2 do { player addItemToBackpack "rhs_mag_20Rnd_762x51_m80_fnfal"};
-			};
 			case "rhs_weap_m1garand_sa43": {
 				for "_i" from 1 to 8 do { player addItemToVest "rhsgref_8Rnd_762x63_M2B_M1rifle"};
 				for "_i" from 1 to 8 do { player addItemToBackpack "rhsgref_8Rnd_762x63_M2B_M1rifle"};
-			};
-			case "uk3cb_enfield_no4_walnut": {
-				for "_i" from 1 to 6 do { player addItemToVest "uk3cb_no4_enfield_303_10Rnd_magazine"};
-				for "_i" from 1 to 6 do { player addItemToVest "uk3cb_no4_enfield_303_10Rnd_magazine"};
-			};
-			case "UK3CB_Sten": {
-				for "_i" from 1 to 6 do { player addItemToVest "UK3CB_Sten_34Rnd_Magazine"};
-				for "_i" from 1 to 2 do { player addItemToBackpack "UK3CB_Sten_34Rnd_Magazine"};
 			};
 			case "rhs_weap_aks74": {
 				for "_i" from 1 to 4 do { player addItemToVest "rhs_30Rnd_545x39_7N6_AK"};
@@ -79,10 +63,6 @@ switch (_loadout) do {
 // add other ammo 
 switch (_loadout) do {
 	default {};
-	case "sqd_lat": {
-		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_rpg7_PG7V_mag"};
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_rpg7_OG7V_mag"};
-	};
 	case "sup_mat_g": {
 		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_rpg7_PG7VM_mag"};
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_rpg7_PG7VR_mag"};

@@ -3,7 +3,6 @@ params["_side","_faction","_variant", "_loadout"];
 // add primary weapon
 switch (_loadout) do {
 	default { player addWeapon "rhs_weap_l1a1";
-			  player addPrimaryWeaponItem "rhsgref_acc_l1a1_l2a2"
 	};
 	case "sqd_ar": {player addWeapon "rhs_weap_pkm";
 	};
@@ -21,7 +20,10 @@ switch (_loadout) do {
 // add launcher
 switch (_loadout) do {
 	default {};
-	case "sqd_lat": {player addWeapon "rhs_weap_rpg18"};
+	case "sqd_lat": {
+		unitBackpack player addItemCargoGlobal["rhs_weap_rpg18",1];
+		player addWeapon "rhs_weap_rpg18";
+	};
 	case "sup_mat_g": {	player addWeapon "rhs_weap_rpg7";
 						player addSecondaryWeaponItem "rhs_acc_pgo7v3"};
 	case "sup_aa_g": {	player addWeapon "rhs_weap_igla"};	

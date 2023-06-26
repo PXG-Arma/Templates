@@ -1,19 +1,9 @@
 _resupplyAvailable = [
-	["Primary Resupply A",
+	["Primary Resupply",
 		[
-			["rhs_30Rnd_762x39mm",40],
-			["rhsgref_5Rnd_762x54_m38",20],
-			["2Rnd_00_Buckshot_Magazine",20],
-			["rhsgref_1Rnd_00Buck",20],
-			["rhsgref_1Rnd_Slug",20]
-		]
-	],
-	["Primary Resupply B",
-		[
-			["rhs_mag_20Rnd_762x51_m80_fnfal",20],
-			["rhs_mag_30Rnd_556x45_M855_Stanag",20],
-			["uk3cb_10rnd_magazine_sks",20],
-			["uk3cb_PPSH_71rnd_magazine",20]
+			["rhs_30Rnd_762x39mm",30],
+			["rhs_30Rnd_762x39mm_Savz58",30],
+			["uk3cb_10rnd_magazine_sks",30]
 		]
 	],
 	["AR Resupply",
@@ -36,8 +26,7 @@ _resupplyAvailable = [
 	],
 	["LAT Resupply",
 		[
-			["rhs_rpg7_PG7V_mag",8],
-			["rhs_weap_rshg2",4]
+			["rhs_weap_rpg18",8]
 		]
 	],
 	["MAT Resupply (HEAT)",

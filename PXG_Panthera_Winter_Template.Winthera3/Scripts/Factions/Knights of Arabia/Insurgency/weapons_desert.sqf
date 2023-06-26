@@ -1,6 +1,6 @@
 params["_side","_faction","_variant", "_loadout"]; 
 
-randomWeaponArray = ["rhs_weap_akm","rhs_weap_m4_carryhandle","rhs_weap_l1a1_wood","rhs_weap_m38","rhs_weap_Izh18","uk3cb_sks_01","uk3cb_ppsh41"]; 
+randomWeaponArray = ["rhs_weap_akm","rhs_weap_savz58p","uk3cb_sks_01"]; 
 
 // add primary weapon
 switch (_loadout) do {
@@ -21,7 +21,10 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default {};
 	case "sqd_gre": {player addWeapon "rhs_weap_rshg2"};
-	case "sqd_lat": {player addWeapon "rhs_weap_rpg7"};
+	case "sqd_lat": {
+		unitBackpack player addItemCargoGlobal["rhs_weap_rpg18",1];
+		player addWeapon "rhs_weap_rpg18";
+	};
 	case "sup_mat_g": {	player addWeapon "rhs_weap_rpg7";
 						player addSecondaryWeaponItem "rhs_acc_pgo7v3";
 						player addSecondaryWeaponItem "rhs_rpg7_PG7VL_mag"};

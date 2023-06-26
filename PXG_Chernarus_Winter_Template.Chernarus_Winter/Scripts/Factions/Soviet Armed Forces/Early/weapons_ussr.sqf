@@ -33,7 +33,10 @@ switch (_loadout) do {
 // add launcher
 switch (_loadout) do {
 	default {};
-	case "sqd_lat": {player addWeapon "rhs_weap_rpg18"};
+	case "sqd_lat": {
+		unitBackpack player addItemCargoGlobal["rhs_weap_rpg18",1];
+		player addWeapon "rhs_weap_rpg18";
+	};
 	case "sup_mat_g": {	player addWeapon "rhs_weap_rpg7";
 	};
 };

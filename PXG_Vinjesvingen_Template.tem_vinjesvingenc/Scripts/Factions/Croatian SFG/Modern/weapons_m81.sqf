@@ -40,7 +40,10 @@ switch (_loadout) do {
 // add launcher
 switch (_loadout) do {
 	default {};
-	case "sqd_lat": {player addWeapon "rhs_weap_M136"};
+	case "sqd_lat": {
+		unitBackpack player addItemCargoGlobal["rhs_weap_M136",1];
+		player addWeapon "rhs_weap_M136";
+	};
 	case "sup_hat_g": {	player addWeapon "launch_O_Vorona_green_F"};
 	case "sup_aa_g": {	player addWeapon "rhs_weap_fim92"};
 };
