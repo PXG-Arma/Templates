@@ -8,7 +8,6 @@ player linkItem "ItemCompass";
 player linkItem "ItemWatch";
 player addItemToVest "ACE_Flashlight_XL50"; 
 player addItemToVest "ACE_MapTools";
-player addItemToVest "ACE_EarPlugs";
 for "_i" from 1 to 4 do {player addItemToVest "ACE_CableTie"};
 
 // add Entrenching Tool & Fortify Hammer
