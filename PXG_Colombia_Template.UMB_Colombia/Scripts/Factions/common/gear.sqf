@@ -90,7 +90,7 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default {};
 	case "sup_mor_l";
-	case "sup_mor_g": {player addItemToUniform "ACE_RangeTable_82mm"};
+	case "sup_mor_g": {player addItemToUniform "ACE_artilleryTable"};
 };
 
 // add Patrachutes to pilots
