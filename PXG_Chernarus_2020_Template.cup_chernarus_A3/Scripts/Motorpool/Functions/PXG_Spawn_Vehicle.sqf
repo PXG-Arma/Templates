@@ -34,7 +34,8 @@ if (count _nearVehicles > 0) then {
 		_vehicleCargo = count (_x getVariable "ace_cargo_loaded");
 		};
 
-		if (_playerCrew == 0 && _vehicleCargo < 2) then {
+		//if (_playerCrew == 0 && _vehicleCargo < 2) then {
+		if (_playerCrew == 0) then {
 		deleteVehicle _x;
 		};	
 	}

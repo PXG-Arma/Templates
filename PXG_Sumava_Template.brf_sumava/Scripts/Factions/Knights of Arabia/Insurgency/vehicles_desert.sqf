@@ -14,32 +14,16 @@ _availableVehicles =
 
 	['Armed Car/MRAP', 
 		[
-			['UK3CB_TKM_O_BRDM2_UM', 4], 
-			['UK3CB_TKM_O_BRDM2', 4], 
-			['UK3CB_TKM_O_Hilux_Dshkm', 4], 
-			['UK3CB_TKM_O_Hilux_Rocket', 4], 
+			['UK3CB_TKM_O_BRDM2_UM', 4],
+			['UK3CB_TKM_O_Hilux_Dshkm', 4],
+			['UK3CB_TKM_O_BTR40_MG', 6],
 			['UK3CB_TKM_O_LR_SPG9', 4]
-		]
-	],
-
-	['APC', 
-		[
-			['UK3CB_TKM_O_BTR40_MG', 6], 
-			['UK3CB_TKM_O_MTLB_PKT', 6], 
-			['UK3CB_TKM_O_BTR60', 6]
-		]
-	],
-
-	['MBT', 
-		[
-			['UK3CB_TKM_O_T55', 4]
 		]
 	],
 
 	['SPAA', 
 		[
-			['UK3CB_TKM_O_Ural_Zu23', 4], 
-			['UK3CB_TKM_O_MTLB_ZU23', 4]
+			['UK3CB_TKM_O_Ural_Zu23', 4]
 		]
 	],
 

@@ -5,7 +5,6 @@ switch (_loadout) do {
 	default { player addWeapon "rhs_weap_ak74m";
 			  player addPrimaryWeaponItem "rhs_acc_pkas";
 	};
-	case "ar_c": {player addWeapon "rhs_weap_aks74u"};
 	case "plt";
 	case "sqd_ld";
 	case "sqd_gre": {player addWeapon "rhs_weap_ak74m_gp25";

@@ -1,3 +1,3 @@
-_avialableVariants = ["SpecOps Modern"];
+_avialableVariants = ["Urban Modern"];
 
 _avialableVariants

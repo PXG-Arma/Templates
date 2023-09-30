@@ -30,9 +30,9 @@ if (count _nearVehicles > 0) then {
 		case "FARP";
 		case "FOB": 
 		{ 		
-			if (((_vehicle getVariable "ace_cargo_space") - 8) >= 0) then {
+			if (((_vehicle getVariable "ace_cargo_space") - 7) >= 0) then {
 					
-				[_supplyData, "B_supplyCrate_F", 8, _vehicle, _spawnPosition] call compile preprocessFileLineNumbers "Scripts\Resupply\Functions\PXG_Crate_Spawn_VehicleLoad.sqf";
+				[_supplyData, "B_supplyCrate_F", 7, _vehicle, _spawnPosition] call compile preprocessFileLineNumbers "Scripts\Resupply\Functions\PXG_Crate_Spawn_VehicleLoad.sqf";
 				hint "Loaded crate into vehicle";
 			} else {
 				hint "Could not load crate into vehicle";
@@ -181,7 +181,7 @@ if (count _nearVehicles > 0) then {
 	
 		[[_crate],"Scripts\Resupply\Functions\PXG_Add_FOB_Option.sqf"] remoteExec ["execVM", 0, _crate];
 		_crate setVariable ["ace_cargo_customName", "FOB", true];
-		[_crate, 8] call ace_cargo_fnc_setSize;
+		[_crate, 7] call ace_cargo_fnc_setSize;
 		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];	
 	}; 
 	
@@ -201,7 +201,7 @@ if (count _nearVehicles > 0) then {
 	
 		[[_crate],"Scripts\Resupply\Functions\PXG_Add_FARP_Option.sqf"] remoteExec ["execVM", 0, _crate];
 		_crate setVariable ["ace_cargo_customName", "FOB", true];
-		[_crate, 8] call ace_cargo_fnc_setSize;
+		[_crate, 7] call ace_cargo_fnc_setSize;
 		[_crate, true, [0,1,1], 0, true] remoteExec ["ace_dragging_fnc_setCarryable"];	
 	}; 
 	

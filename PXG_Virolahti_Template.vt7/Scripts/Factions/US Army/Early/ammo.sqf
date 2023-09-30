@@ -4,7 +4,7 @@ params["_side","_faction","_variant", "_loadout"];
 switch (_loadout) do {
 	default {
 		for "_i" from 1 to 4 do { player addItemToVest "UK3CB_M16_20rnd_556x45"};
-		for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_M16_20rnd_556x45_RT"};
+		for "_i" from 1 to 6 do { player addItemToBackpack "UK3CB_M16_20rnd_556x45_RT"};
 	};
 	case "sqd_brc": {
 		for "_i" from 1 to 6 do { player addItemToVest "6Rnd_00_Buckshot_Magazine"};

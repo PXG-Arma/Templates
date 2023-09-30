@@ -1,4 +1,4 @@
-params["_resupplyMaster"];
+params["_resupplyMaster", ["_isCalledFromFob", false]];
 createDialog "dialog_supply_spawn"; 
 //Opens the supply spawn dialog and fills lists.
 
@@ -18,6 +18,7 @@ _sideMemory = player getVariable ["PXG_Resupply_Memory_Side", -1];
 _spawnMemory = player getVariable ["PXG_Resupply_Memory_Spawn", -1];
 
 player setVariable ["PXG_Resupply_Master", _resupplyMaster];
+player setVariable ["PXG_IsCalledFromFOB", _isCalledFromFob];
 
 if (_sideMemory != -1) then {lbSetCurSel [451504, _sideMemory];};
 if (_spawnMemory != -1) then {lbSetCurSel [451500, _spawnMemory];};

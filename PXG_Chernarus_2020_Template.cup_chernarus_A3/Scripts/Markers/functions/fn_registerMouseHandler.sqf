@@ -19,8 +19,8 @@ pxg_markers_mouseDownEHID = _display displayAddEventHandler["MouseButtonDown",
 
 		// Only act on clicks that aren't buttons.
 		if ( !_isButtonClick ) then {
-			// Shift+RMB clicks open and/or move the menu.
-			if ( _mouseButton == 1 && _shift && !_ctrl && !_alt ) then {
+			// Shift+LMB clicks open and/or move the menu.
+			if ( _mouseButton == 0 && _shift && !_ctrl && !_alt ) then {
 				// Convert map GUI coordinates to world coordinates and save.
 				pxg_markers_mapClickPosition = _display displayCtrl 51 ctrlMapScreenToWorld [_clickX, _clickY];
 

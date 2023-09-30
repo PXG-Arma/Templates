@@ -1,10 +1,14 @@
 _availableFactions = [
 	"British SAS",
-	"Croatian SFG",
-	"Livonia Defence Force",
-	"SWAT",
+	"Croatian Special Forces",
+	"French Foreign Legion",
+	"German Bundeswehr",
+	"German Special Forces",
+	"Norwegian Army",
 	"US Army",
-	"US Marine Corps"
+	"US Airborne",
+	"US Marine Corps",
+	"US Special Forces"
 ];
 
 _availableFactions

@@ -11,17 +11,13 @@ switch (_loadout) do {
 	
 // add helmet
 switch (_loadout) do {
-	default { 
-		randomHelmetArray = ["UK3CB_TKA_O_H_6b7_1m_bala2_Surpat", "UK3CB_TKA_O_H_6b7_1m_ess_bala1_TAN", "UK3CB_TKA_O_H_6b7_1m_bala1_TAN"];
-		player addHeadgear selectRandom randomHelmetArray;
-	};
+	default { player addHeadgear "UK3CB_TKA_O_H_6b27m_ESS_Surpat"};
 	case "plt";
 	case "logi";
 	case "tacp": {player addHeadgear "UK3CB_TKA_B_H_Beret"};
 	case "rcn_ld";
 	case "rcn_spe";
 	case "rcn_dmr": {player addHeadgear "UK3CB_TKA_I_H_Shemag_Des"};
-	case "pil": {player addHeadgear "UK3CB_TKA_O_H_zsh7a_mike_Des_alt"};
 };
 
 // add vest
@@ -34,13 +30,12 @@ switch (_loadout) do {
 	case "rcn_spe";
 	case "rcn_dmr";
 	case "ar_ld";
-	case "ar_c";
-	case "pil": { player addVest "UK3CB_TKA_B_V_GA_LITE_DES_MARPAT"};
+	case "ar_c": { player addVest "UK3CB_TKA_B_V_GA_LITE_DES_MARPAT"};
 };
 
 // add backpack 
 switch (_loadout) do {
-	default { player addBackpack "UK3CB_TKA_O_B_RIF_Tan"};
+	default { player addBackpack "UK3CB_TKA_B_B_RIF"};
 	case "logi";
 	case "sqd_eng";
 	case "rcn_spe": {player addBackpack "UK3CB_TKA_O_B_ENG_Tan"};
@@ -49,6 +44,5 @@ switch (_loadout) do {
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};
     case "ar_ld";
-	case "ar_c";
-	case "pil": {};
+	case "ar_c": {};
 };

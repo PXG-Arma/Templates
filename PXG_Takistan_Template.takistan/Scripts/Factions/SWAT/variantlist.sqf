@@ -1,3 +1,3 @@
-_avialableVariants = ["Police Modern"];
+_avialableVariants = ["Black Modern"];
 
 _avialableVariants

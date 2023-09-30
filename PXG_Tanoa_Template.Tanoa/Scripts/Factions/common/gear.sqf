@@ -38,7 +38,7 @@ switch (_loadout) do {
 	case "logi": {player addItemToBackpack "ToolKit"};
 	case "sqd_eng": {
 		for "_i" from 1 to 2 do { player addItemToBackpack "tsp_stickCharge_mag"};
-		for "_i" from 1 to 3 do { player addItemToBackpack "DemoCharge_Remote_Mag"};
+		for "_i" from 1 to 4 do { player addItemToBackpack "DemoCharge_Remote_Mag"};
 		player addWeapon "ACE_VMM3";
 		player addItemToBackpack "ACE_M26_Clacker";
 		player addItemToBackpack "ACE_wirecutter";
@@ -133,8 +133,8 @@ if (_variantEra == "Late") then {
 	};
 
 	// add NVG
-	player linkItem "ACE_NVG_Gen4_Black";
-	player addItemToUniform "ACE_IR_Strobe_Item"; 
+	//player linkItem "ACE_NVG_Wide_Black";
+	//player addItemToUniform "ACE_IR_Strobe_Item"; 
 
 	// add binocular
 	switch (_loadout) do {
@@ -173,7 +173,7 @@ if (_variantEra == "Modern") then {
 	player addItemToUniform "ACE_microDAGR";
 
 	// add NVG
-	player linkItem "ACE_NVG_Gen4_Black";
+	player linkItem "ACE_NVG_Wide_Black";
 	player addItemToUniform "ACE_IR_Strobe_Item"; 
 
 	// add binocular

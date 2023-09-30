@@ -10,8 +10,7 @@ switch (_loadout) do {
 					 player addPrimaryWeaponItem "uk3cb_optic_accupoint_g3";
 	};
 	case "ar_ld";
-	case "ar_c";
-	case "pil": {	player addWeapon "rhs_weap_pp2000";
+	case "ar_c": {	player addWeapon "rhs_weap_pp2000";
 	};
 };
 

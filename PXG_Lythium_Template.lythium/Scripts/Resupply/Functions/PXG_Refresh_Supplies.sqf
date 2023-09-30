@@ -34,12 +34,15 @@ lbSetData [451502, _wheelSupply, "Wheel"];
 _trackSupply = lbAdd [451502, "Spare Track"];
 lbsetData [451502, _trackSupply, "Track"];
 
-_fobCrate = lbAdd [451502, "FOB Crate"];
-lbSetData [451502, _fobCrate, "FOB"];
+_calledFromFOB = player getVariable ["PXG_IsCalledFromFOB", false];
+if(!_calledFromFOB) then
+{
+	_fobCrate = lbAdd [451502, "FOB Crate"];
+	lbSetData [451502, _fobCrate, "FOB"];
 
-_farpCrate = lbadd [451502, "FARP Crate"];
-lbSetData [451502, _farpCrate, "FARP"];
-
+	_farpCrate = lbadd [451502, "FARP Crate"];
+	lbSetData [451502, _farpCrate, "FARP"];
+};
 
 _suppliesMemory = player getVariable ["PXG_Resupply_Memory_Supply", -1];
 if (_suppliesMemory != -1) then {lbSetCurSel [451502, _suppliesMemory];};
