@@ -85,7 +85,7 @@ if ( hasInterface ) then {
 	};
 
 	// Disable the default shift-click behaviour.
-	// onMapSingleClick {_shift};
+	onMapSingleClick {_shift};
 
 	// Register the map (and by proxy mouse) handlers.
 	call pxg_markers_fnc_addMapHandler;

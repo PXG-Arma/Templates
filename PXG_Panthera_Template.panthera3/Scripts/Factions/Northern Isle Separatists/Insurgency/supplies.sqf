@@ -9,12 +9,13 @@ _resupplyAvailable = [
 	],
 	["MMG Resupply",
 		[
-			["rhsgref_296Rnd_792x57_SmK_belt",10]
+			["UK3CB_M60_100rnd_762x51",10]
 		]
 	],
-	["AMR Resupply",
+	["DMR Resupply",
 		[
-			["rhsusf_mag_10Rnd_STD_50BMG_M33",20]
+			["UK3CB_M14_20rnd_762x51",20],
+			["UK3CB_M14_20rnd_762x51_RT",20]
 		]
 	],
 	["LAT Resupply",

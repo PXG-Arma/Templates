@@ -3,38 +3,23 @@ _availableVehicles =
 [
 
 	['Utility', 
-		[
-			['C_Van_01_transport_F', 8], 
+		[ 
 			['C_Van_01_box_F', 8], 
 			['C_Van_01_fuel_F', 0], 
-			['C_Offroad_01_covered_F', 4]
-			
+			['UK3CB_ION_B_Urban_Offroad', 4]
 		]
 	],
 
 	['Armed Car/MRAP', 
 		[
 			['UK3CB_AAF_B_SUV_Armoured', 4],
-			['UK3CB_AAF_B_SUV_Armed', 4]
+			['LOP_PMC_Offroad_M2', 4]
 		]
 	],
 
 	['Rotary Transport', 
 		[
 			['UK3CB_AAF_B_Bell412_Utility', 6]
-		]
-	],
-
-	['Rotary Attack', 
-		[
-			['UK3CB_AAF_B_Bell412_Armed', 6], 
-			['UK3CB_AAF_B_Bell412_Armed_AT', 6]
-		]
-	],
-
-	['Fixed Wing Attack', 
-		[
-			['RHSGREF_A29B_HIDF', -1]
 		]
 	],
 

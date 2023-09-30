@@ -71,7 +71,9 @@ _resupplyAvailable = [
 			["ACE_Clacker",2],
 			["ACE_M26_Clacker",2],
 			["DemoCharge_Remote_Mag",10],
-			["SatchelCharge_Remote_Mag",10]
+			["SatchelCharge_Remote_Mag",10],
+			["ATMine_Range_Mag",15],
+			["SLAMDirectionalMine_Wire_Mag",15]
 		]
 	],
 	["Blood IVs",

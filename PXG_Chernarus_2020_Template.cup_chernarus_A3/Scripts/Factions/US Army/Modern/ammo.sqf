@@ -13,7 +13,8 @@ switch (_loadout) do {
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhsusf_mag_6Rnd_M714_white"}
 	};
 	case "sqd_ar": {
-		for "_i" from 1 to 4 do { player addItemToBackpack "rhsusf_200rnd_556x45_mixed_box"};
+		for "_i" from 1 to 2 do { player addItemToVest "rhsusf_200Rnd_556x45_M855_soft_pouch_coyote"};
+		for "_i" from 1 to 3 do { player addItemToBackpack "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch_coyote"};
 	};
 	case "sqd_dmr";
 	case "rcn_dmr": {
@@ -51,19 +52,28 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_100Rnd_762x51_m80a1epr"};
 		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_100Rnd_762x51_m62_tracer"};
 	};
+	case "sup_mat_l": {
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_mag_maaws_HEDP"};
+	};
+	case "sup_hat_l": {
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_fgm148_magazine_AT"};
+	};
 	case "sup_aa_l": {
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_fim92_mag"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_fim92_mag"};
 	};
 };
 
 // add other ammo 
 switch (_loadout) do {
 	default {};
-	case "sup_hat_l": {
+	case "sup_mat_g": {
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_mag_maaws_HEAT"};
+	};
+	case "sup_hat_g": {
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_fgm148_magazine_AT"};
 	};
 	case "sup_aa_g": {
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_fim92_mag"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_fim92_mag"};
 	};
 };
 

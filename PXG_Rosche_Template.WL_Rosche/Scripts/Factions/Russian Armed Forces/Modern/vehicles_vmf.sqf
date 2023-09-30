@@ -16,7 +16,8 @@ _availableVehicles =
 	['Armed Car/MRAP', 
 		[
 			['rhs_tigr_3camo_vmf', 4], 
-			['rhs_tigr_m_3camo_vmf', 4], 
+			['rhs_tigr_m_3camo_vmf', 4],
+			['UK3CB_ARD_O_GAZ_Vodnik_PKT', 4],
 			['rhsgref_BRDM2_vmf', 4], 
 			['rhsgref_BRDM2_ATGM_vmf', 4]
 		]
@@ -24,14 +25,14 @@ _availableVehicles =
 
 	['APC', 
 		[ 
-			['rhs_btr80_vmf', 6]
+			['rhs_btr80_vmf', 4]
 		]
 	],
 
 	['IFV', 
 		[ 
-			['rhs_bmp2k_vmf', 4],
-			['rhs_brm1k_vmf', 4]
+			['UK3CB_ARD_O_GAZ_Vodnik_Cannon', 4],
+			['rhs_btr80a_vmf', 4]
 		]
 	],
 

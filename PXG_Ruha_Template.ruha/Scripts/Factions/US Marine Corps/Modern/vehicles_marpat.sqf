@@ -39,20 +39,6 @@ _availableVehicles =
 		]
 	],
 
-	['Rotary Attack', 
-		[
-			['RHS_UH1Y_FFAR', 6], 
-			['RHS_AH1Z_wd', 0]
-		]
-	],
-
-	['Fixed Wing Transport', 
-		[
-			['RHS_C130J', 24], 
-			['RHS_C130J_Cargo', 24]
-		]
-	],
-
 	['Fixed Wing Attack', 
 		[
 			['RHS_A10', -1]
@@ -62,8 +48,7 @@ _availableVehicles =
 	['Boat', 
 		[
 			['B_Boat_Transport_01_F', 2], 
-			['rhsgref_hidf_rhib', 8], 
-			['rhsusf_mkvsoc', 24]
+			['rhsgref_hidf_rhib', 8]
 		]
 	],
 

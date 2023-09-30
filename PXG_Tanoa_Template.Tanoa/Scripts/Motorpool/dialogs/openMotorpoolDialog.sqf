@@ -1,4 +1,4 @@
-params ["_vehicleMaster"];
+params ["_vehicleMaster", ["_isCalledFromFARP", false]];
 createDialog "dialog_motorpool"; 
 //Opens the vehicle spawn dialog and fills lists.
 
@@ -18,6 +18,7 @@ _sideMemory = player getVariable ["PXG_Motorpool_Memory_Side", -1];
 _spawnMemory = player getVariable ["PXG_Motorpool_Memory_Spawn", -1];
 
 player setVariable ["PXG_Vehicle_Master", _vehicleMaster];
+player setVariable ["PXG_IsCalledFromFARP", _isCalledFromFARP];
 
 if (_sideMemory != -1) then {lbSetCurSel [461504, _sideMemory];};
 if (_spawnMemory != -1) then {lbSetCurSel [461500, _spawnMemory];};

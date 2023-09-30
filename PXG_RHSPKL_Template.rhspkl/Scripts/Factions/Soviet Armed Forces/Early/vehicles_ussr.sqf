@@ -39,8 +39,7 @@ _availableVehicles =
 
 	['MBT', 
 		[
-			['UK3CB_CW_SOV_O_EARLY_T55', 4], 
-			['UK3CB_CW_SOV_O_EARLY_T72A', 4]
+			['UK3CB_CW_SOV_O_EARLY_T55', 4]
 		]
 	],
 
@@ -48,34 +47,6 @@ _availableVehicles =
 		[
 			['UK3CB_CW_SOV_O_EARLY_Gaz66_ZU23', 4], 
 			['UK3CB_CW_SOV_O_EARLY_MTLB_ZU23', 4]
-		]
-	],
-
-	['Rotary Transport', 
-		[
-			['UK3CB_CW_SOV_O_EARLY_Mi8', 8]
-		]
-	],
-
-	['Rotary Attack', 
-		[
-			['UK3CB_CW_SOV_O_EARLY_Mi8AMTSh', 8], 
-			['UK3CB_CW_SOV_O_EARLY_Mi_24V', 4]
-		]
-	],
-
-	['Fixed Wing Transport', 
-		[
-			['UK3CB_CW_SOV_O_EARLY_Antonov_AN2', 8], 
-			['UK3CB_CW_SOV_O_EARLY_LI2', 12]
-		]
-	],
-
-	['Fixed Wing Attack', 
-		[
-			['UK3CB_CW_SOV_O_EARLY_Antonov_AN2_Armed_Rockets', 8], 
-			['UK3CB_CW_SOV_O_EARLY_LI2_ARMED', 12], 
-			['UK3CB_CW_SOV_O_EARLY_MIG21_CAS', -1]
 		]
 	],
 

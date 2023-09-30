@@ -15,36 +15,23 @@ _availableVehicles =
 
 	['Armed Car/MRAP', 
 		[
-			['UK3CB_I_G_BRDM2_UM', 4], 
-			['UK3CB_I_G_BRDM2', 4], 
-			['UK3CB_I_G_Hilux_Rocket', 4], 
-			['UK3CB_I_G_LandRover_M2', 4]
-		]
-	],
-
-	['APC', 
-		[
-			['UK3CB_I_G_BTR40_MG', 6]
-		]
-	],
-
-	['MBT', 
-		[
-			['UK3CB_I_G_T34', 4]
+			['UK3CB_I_G_LandRover_M2', 4],
+			['UK3CB_I_G_BRDM2_UM', 4],
+			['UK3CB_I_G_BTR40_MG', 4],
+			['LOP_UVF_Landrover_SPG9', 4]
 		]
 	],
 
 	['SPAA', 
 		[
 			['UK3CB_I_G_Hilux_Igla_Chair', 4], 
-			['UK3CB_I_G_Hilux_Vulcan_Front', 4], 
 			['UK3CB_I_G_V3S_Zu23', 4]
 		]
 	],
 
 	['Boat', 
 		[
-			['B_Boat_Transport_01_F', 2], 
+			['B_Boat_Transport_01_F', 4], 
 			['UK3CB_I_G_Fishing_Boat', 8], 
 			['UK3CB_I_G_Fishing_Boat_VIV_FFV', 4], 
 			['UK3CB_I_G_Fishing_Boat_SPG9', 4], 

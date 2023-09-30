@@ -13,27 +13,15 @@ _availableVehicles =
 
 	['Armed Car/MRAP', 
 		[
-			['rhs_tigr_sts_msv', 4], 
-			['UK3CB_ARD_O_GAZ_Vodnik_PKT', 4], 
-			['UK3CB_ARD_O_GAZ_Vodnik_KVPT', 4]
-		]
-	],
-
-	['IFV', 
-		[
-			['UK3CB_ARD_O_GAZ_Vodnik_Cannon', 4]
+			['rhs_tigr_vdv', 4], 
+			['rhs_tigr_m_vdv', 4],
+			['UK3CB_ARD_O_GAZ_Vodnik_PKT', 4]
 		]
 	],
 
 	['Rotary Transport', 
 		[
 			['O_Heli_Light_02_unarmed_F', 8]
-		]
-	],
-
-	['Rotary Armed', 
-		[
-			['O_Heli_Light_02_dynamicLoadout_F', 8]
 		]
 	],
 

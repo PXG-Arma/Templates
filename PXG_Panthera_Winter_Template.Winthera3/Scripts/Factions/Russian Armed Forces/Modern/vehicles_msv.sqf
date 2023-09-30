@@ -24,7 +24,6 @@ _availableVehicles =
 
 	['APC', 
 		[
-			['rhs_btr80a_msv', 6],
 			['rhs_btr80_msv', 6]
 		]
 	],

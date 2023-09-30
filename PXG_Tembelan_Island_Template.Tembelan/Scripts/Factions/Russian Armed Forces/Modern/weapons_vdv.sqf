@@ -6,7 +6,6 @@ switch (_loadout) do {
 			  player addPrimaryWeaponItem "rhs_acc_1p87";
 			  player addPrimaryWeaponItem "rhs_acc_dtk";
 	};
-	case "ar_c":{player addWeapon "rhs_weap_aks74u"};
 	case "plt";
 	case "sqd_ld";
 	case "sqd_gre";
