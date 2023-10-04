@@ -3,7 +3,7 @@ _availableVehicles =
 	['Utility',
 		[
 			['UK3CB_APD_B_Offroad_Unarmed_EKAM', 4],
-			['C_Van_01_transport_F', 8]
+			['C_Van_01_box_F', 8]
 		]
 	],
 	

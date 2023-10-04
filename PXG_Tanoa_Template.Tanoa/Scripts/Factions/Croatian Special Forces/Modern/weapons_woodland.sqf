@@ -45,8 +45,8 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default {};
 	case "sqd_lat": {
-		unitBackpack player addItemCargoGlobal["rhs_weap_M136",1];
-		player addWeapon "rhs_weap_M136";
+		unitBackpack player addItemCargoGlobal["BWA3_RGW90_Loaded",1];
+		player addWeapon "BWA3_RGW90_Loaded";
 	};
 	case "sup_hat_g": {	player addWeapon "launch_O_Vorona_green_F"};
 	case "sup_aa_g": {	player addWeapon "rhs_weap_fim92"};

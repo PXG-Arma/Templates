@@ -11,7 +11,7 @@ switch (_loadout) do {
 	};
 	case "sqd_dmr";
 	case "rcn_dmr": {
-		for "_i" from 1 to 12 do { player addItemToBackpack "30Rnd_65x39_caseless_green"};
+		for "_i" from 1 to 12 do { player addItemToBackpack "rhs_10Rnd_762x54mmR_7N1"};
 	};
 	case "sup_mmg_g": {
 		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_100Rnd_762x54mmR"};
@@ -35,8 +35,8 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default {};
 	case "sqd_aar": {
-		for "_i" from 1 to 4 do { player addItemToBackpack "rhs_60Rnd_545X39_7N22_AK"};
-		for "_i" from 1 to 4 do { player addItemToBackpack "rhs_60Rnd_545X39_AK_Green"};
+		for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_RPK_75rnd_762x39"};
+		for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_RPK_75rnd_762x39_GM"};
 	};
 	case "sup_mmg_l": {
 		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_100Rnd_762x54mmR"};
@@ -78,19 +78,19 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default {};
 	case "plt": {
-		for "_i" from 1 to 5 do {player addItemToBackpack "rhs_VOG25"}; 
-		for "_i" from 1 to 2 do {player addItemToBackpack "rhs_GRD40_White"};
-		for "_i" from 1 to 2 do {player addItemToBackpack "rhs_GRD40_Red"};
-		for "_i" from 1 to 2 do {player addItemToBackpack "rhs_GRD40_Green"};
-		for "_i" from 1 to 2 do {player addItemToBackpack "rhs_VG40OP_white"};
+		for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"}; 
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "UGL_FlareWhite_F"};
 	};
 	case "sqd_ld";
 	case "sqd_gre";
 	case "rcn_ld": {
-		for "_i" from 1 to 10 do {player addItemToBackpack "rhs_VOG25"};
-		for "_i" from 1 to 2 do {player addItemToBackpack "rhs_GRD40_White"};
-		for "_i" from 1 to 2 do {player addItemToBackpack "rhs_GRD40_Red"};
-		for "_i" from 1 to 2 do {player addItemToBackpack "rhs_GRD40_Green"};
-		for "_i" from 1 to 2 do {player addItemToBackpack "rhs_VG40OP_white"};
+		for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "UGL_FlareWhite_F"};
 	};
 };

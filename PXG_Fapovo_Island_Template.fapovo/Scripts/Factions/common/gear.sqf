@@ -139,7 +139,6 @@ if (_variantEra == "Late") then {
 	// add binocular
 	switch (_loadout) do {
 		default { player addWeapon "binocular"};
-		case "sqd_ld";
 		case "sqd_aar";
 		case "sqd_dmr";
 		case "rcn_ld";
@@ -156,6 +155,8 @@ if (_variantEra == "Late") then {
 		case "sup_hat_g";
 		case "sup_mor_l";
 		case "sup_mor_g":{ player addWeapon "ACE_Vector"};
+		case "rcn_ld";
+		case "sqd_ld";
 		case "plt";
 		case "tacp": {
 			player addWeapon "Laserdesignator";
@@ -179,10 +180,8 @@ if (_variantEra == "Modern") then {
 	// add binocular
 	switch (_loadout) do {
 		default { player addWeapon "binocular"};
-		case "sqd_ld";
 		case "sqd_aar";
 		case "sqd_dmr";
-		case "rcn_ld";
 		case "rcn_dmr";
 		case "rcn_sni";
 		case "rcn_amr";
@@ -196,6 +195,8 @@ if (_variantEra == "Modern") then {
 		case "sup_aa_g";
 		case "sup_mor_l";
 		case "sup_mor_g":{ player addWeapon "ACE_Vector"};
+		case "rcn_ld";
+		case "sqd_ld";
 		case "plt";
 		case "tacp": {
 			player addWeapon "Laserdesignator";

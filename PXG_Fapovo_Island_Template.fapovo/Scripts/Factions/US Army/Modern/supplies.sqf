@@ -28,9 +28,15 @@ _resupplyAvailable = [
 			["rhs_weap_M136",8]
 		]
 	],
+	["MAT Resuppply",
+		[
+			["rhs_mag_maaws_HEAT",4],
+			["rhs_mag_maaws_HEDP",4]
+		]
+	],
 	["HAT Resuppply",
 		[
-			["rhs_fgm148_magazine_AT",2]
+			["rhs_fgm148_magazine_AT",4]
 		]
 	],
 	["AA Resupply",

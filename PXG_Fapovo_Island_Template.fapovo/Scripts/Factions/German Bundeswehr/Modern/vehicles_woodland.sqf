@@ -21,7 +21,9 @@ _availableVehicles =
 
 	['APC', 
 		[
-			['Redd_Tank_Fuchs_1A4_Jg_Flecktarn', 4]
+			['Redd_Tank_Fuchs_1A4_Jg_Flecktarn', 4],
+			['Redd_Tank_Wiesel_1A4_MK20_Flecktarn', 4],
+			['Redd_Tank_Wiesel_1A2_TOW_Flecktarn', 4]
 		]
 	],
 
@@ -46,11 +48,10 @@ _availableVehicles =
 
 	['Turrets', 
 		[
-			['RHS_M2StaticMG_MiniTripod_D', -1], 
+			['Redd_Milan_Static', -1], 
+			['rnt_gmw_static', -1],
 			['RHS_M2StaticMG_D', -1], 
-			['RHS_TOW_TriPod_D', -1], 
-			['RHS_MK19_TriPod_D', -1], 
-			['RHS_M119_D', -1]
+			['RHS_M2StaticMG_MiniTripod_D', -1]
 		]
 	]
 ];

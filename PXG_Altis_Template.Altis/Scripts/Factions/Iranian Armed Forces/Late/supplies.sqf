@@ -19,8 +19,8 @@ _resupplyAvailable = [
 	],
 	["DMR Resupply",
 		[
-			["rhs_10Rnd_762x54mmR_7N11",15],
-			["rhs_10Rnd_762x54mmR_7N14",15]
+			["rhs_10Rnd_762x54mmR_7N1",15],
+			["rhs_10Rnd_762x54mmR_7N1",15]
 		]
 	],
 	["LAT Resupply",
@@ -60,21 +60,21 @@ _resupplyAvailable = [
 	],
 	["40mm Grenades",
 		[
-			["rhs_VOG25",30]
+			["1Rnd_HE_Grenade_Shell",30]
 		]
 	],
 	["40mm Smoke Rounds",
 		[
-		    ["rhs_GRD40_White",10],
-			["rhs_GRD40_Red",10],
-			["rhs_GRD40_Green",10]
+			["1Rnd_Smoke_Grenade_Shell",20],
+			["1Rnd_SmokeRed_Grenade_Shell",10],
+			["1Rnd_SmokeGreen_Grenade_Shell",10],
+			["1Rnd_SmokeBlue_Grenade_Shell",10]
 		]
 	],	
 	["40mm Flares",
 		[
-			["rhs_VG40OP_white",10],
-			["rhs_VG40OP_red",10],
-			["rhs_VG40OP_green",10]
+			["UGL_FlareWhite_F",30],
+			["UGL_FlareCIR_F",20]
 		]
 	],
 	["Explosives",
@@ -119,9 +119,9 @@ _resupplyAvailable = [
 			["30Rnd_65x39_caseless_green", 24],
 			["UK3CB_RPK_75rnd_762x39_GM", 8],
 			["rhs_weap_rpg26", 1],
-			["rhs_VOG25", 12],
+			["1Rnd_HE_Grenade_Shell", 12],
 			["rhs_mag_rgd5", 6],
-			["rhs_GRD40_White", 6],
+			["1Rnd_Smoke_Grenade_Shell", 6],
 			["ACE_elasticBandage", 12],
 			["ACE_packingBandage", 12],
 			["ACE_quikclot", 12],

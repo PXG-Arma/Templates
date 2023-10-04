@@ -24,7 +24,7 @@ switch (_loadout) do {
 // add secondary ammo
 switch (_loadout) do {
 	default {
-		for "_i" from 1 to 2 do { player addItemToUniform "rhssaf_mag_15Rnd_9x19_FMJ"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhssaf_mag_15Rnd_9x19_FMJ"};
 	};
 };
 

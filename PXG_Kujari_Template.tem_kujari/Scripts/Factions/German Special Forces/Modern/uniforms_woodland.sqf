@@ -15,29 +15,21 @@ switch (_loadout) do {
 	case "rcn_drone";
 	case "rcn_spe";
 	case "rcn_ld": {player addHeadgear "BWA3_Booniehat_Fleck"};
-	case "pil": {player addHeadgear "rhsusf_hgu56p_visor_green"};
+	case "pil": {player addHeadgear "BWA3_TopOwl"};
 };
 
 // add vest
 switch (_loadout) do {
 	default { player addVest "BWA3_Vest_JPC_Rifleman_Fleck"};
-	case "pil": {};
 };
 
 // add backpack 
 switch (_loadout) do {
-	default { player addBackpack "BWA3_AssaultPack_Fleck"};
-	case "sqd_med": {player addBackpack "BWA3_Kitbag_Fleck_Medic"};
-	case "sqd_ar";
-	case "sqd_lat";
-	case "sqd_aar";
-	case "sqd_hgre";
-	case "sup_mmg_g";
-	case "sup_mmg_l";
-	case "sup_mag_l";
+	default { player addBackpack "BWA3_Kitbag_Fleck"};
+	case "sqd_med";
+	case "rcn_spe": {player addBackpack "BWA3_Kitbag_Fleck_Medic"};
 	case "sup_mat_g";
-	case "sup_aa_g";
-	case "sup_aa_l": {player addBackpack "BWA3_Kitbag_Fleck"};
+	case "sup_mat_l": {player addBackpack "BWA3_Carryall_Fleck"};
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};
 	case "pil": {};

@@ -40,8 +40,9 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_100Rnd_762x51_m62_tracer"};
 	};
 	case "sup_mat_l": {
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_maaws_HEDP"};
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_maaws_HEAT"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_smaw_HEDP"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_smaw_HEAA"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_smaw_SR"};
 	};
 	case "sup_aa_l": {
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_fim92_mag"};
@@ -52,8 +53,9 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default {};
 	case "sup_mat_g": {
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_maaws_HEAT"};
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_maaws_HEDP"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_smaw_HEDP"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_smaw_HEAA"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_mag_smaw_SR"};
 	};
 	case "sup_aa_g": {
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_fim92_mag"};

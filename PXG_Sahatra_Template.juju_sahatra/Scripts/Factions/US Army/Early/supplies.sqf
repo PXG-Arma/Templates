@@ -30,7 +30,7 @@ _resupplyAvailable = [
 	],
 	["HAT Resuppply",
 		[
-			["ace_dragon_super",2]
+			["ace_dragon_super",4]
 		]
 	],
 	["Hand Grenades",

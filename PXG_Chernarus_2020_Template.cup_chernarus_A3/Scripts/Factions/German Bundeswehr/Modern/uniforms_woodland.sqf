@@ -39,8 +39,9 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "BWA3_Kitbag_Fleck"};
-	case "rcn_spe";
+	case "rcn_spe": {player addBackpack "BWA3_Kitbag_Fleck_Medic"};
 	case "sqd_med": {player addBackpack "BWA3_Kitbag_Fleck_Medic"};
+	case "sup_mat_g";
 	case "sup_mat_l": {player addBackpack "BWA3_Carryall_Fleck"};
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};

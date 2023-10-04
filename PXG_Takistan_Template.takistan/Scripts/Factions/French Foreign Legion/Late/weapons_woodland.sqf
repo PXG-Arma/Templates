@@ -33,6 +33,7 @@ switch (_loadout) do {
 		unitBackpack player addItemCargoGlobal["rhs_weap_m136",1];
 		player addWeapon "rhs_weap_m136";
 	};
-	case "sup_mat_g": {	player addWeapon "rhs_weap_smaw_green"};
+	case "sup_mat_g": {	player addWeapon "rhs_weap_smaw_green";
+						player addSecondaryWeaponItem "rhs_weap_optic_smaw"};
 	case "sup_aa_g": {	player addWeapon "rhs_weap_fim92"};					
 };

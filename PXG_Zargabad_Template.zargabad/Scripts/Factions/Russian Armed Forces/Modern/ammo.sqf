@@ -20,18 +20,19 @@ switch (_loadout) do {
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_7BZ3"};
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_green"};
 	};
+	case "ar_ld";
 	case "ar_c": {
-		for "_i" from 1 to 4 do { player addItemToVest "rhs_30Rnd_545x39_7N22_plum_AK"};
+		for "_i" from 1 to 3 do { player addItemToVest "rhs_30Rnd_545x39_7N22_plum_AK"};
 	};
+	case "pil": {};
 };
 
 // add secondary ammo
 switch (_loadout) do {
-	default {
-		for "_i" from 1 to 3 do { player addItemToUniform "rhs_mag_9x19_7n31_17"};
+	default {};
+	case "pil": {
+		for "_i" from 1 to 3 do { player addItemToVest "rhs_mag_9x19_7n31_17"};
 	};
-	case "sqd_eng";
-	case "rcn_spe": {};
 };
 
 

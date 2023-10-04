@@ -25,7 +25,7 @@ _resupplyAvailable = [
 	],
 	["LAT Resupply",
 		[
-			["rhs_weap_M136",8]
+			["BWA3_RGW90_Loaded",8]
 		]
 	],
 	["HAT Resupply",
@@ -113,7 +113,7 @@ _resupplyAvailable = [
 		[
 			["rhsgref_30Rnd_556x45_vhs2", 24],
 			["rhsusf_200Rnd_556x45_mixed_soft_pouch", 4],
-			["rhs_weap_M136", 1],
+			["BWA3_RGW90_Loaded", 1],
 			["1Rnd_HE_Grenade_Shell", 12],
 			["rhsusf_mag_6Rnd_M441_HE", 2],
 			["HandGrenade", 6],

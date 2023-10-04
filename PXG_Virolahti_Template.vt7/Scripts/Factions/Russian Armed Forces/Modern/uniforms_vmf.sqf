@@ -20,10 +20,7 @@ switch (_loadout) do {
 
 // add vest
 switch (_loadout) do {
-	default { player addVest "rhs_6b13_Flora_6sh92"};
-	case "sqd_ld";
-	case "sqd_gre";
-	case "rcn_ld": { player addVest "rhs_6b13_Flora_6sh92_vog"};
+	default { player addVest "rhs_6b13_Flora_6sh92_vog"};
 	case "pil": { player addVest "V_HarnessO_gry"};
 };
 

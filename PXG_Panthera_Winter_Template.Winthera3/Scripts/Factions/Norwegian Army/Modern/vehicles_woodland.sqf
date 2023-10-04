@@ -42,7 +42,7 @@ _availableVehicles =
 	['Turrets', 
 		[
 			['Redd_Milan_Static', -1], 
-			['rnt_gmw_static', -1], 
+			['rnt_gmw_static', -1],
 			['RHS_M2StaticMG_D', -1], 
 			['RHS_M2StaticMG_MiniTripod_D', -1]
 		]
