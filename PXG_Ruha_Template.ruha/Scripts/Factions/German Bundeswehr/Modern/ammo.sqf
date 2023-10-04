@@ -19,6 +19,14 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToVest "BWA3_120Rnd_762x51_soft"};
 		for "_i" from 1 to 4 do { player addItemToBackpack "BWA3_120Rnd_762x51_Tracer_soft"};
 	};
+	case "sup_mor_l": {
+		for "_i" from 1 to 4 do { player addItemToVest "BWA3_30Rnd_556x45_G36"};
+		for "_i" from 1 to 4 do { player addItemTovest "BWA3_30Rnd_556x45_G36_Tracer"};
+	};
+	case "sup_mor_g": {
+		for "_i" from 1 to 4 do { player addItemToVest "BWA3_30Rnd_556x45_G36"};
+		for "_i" from 1 to 4 do { player addItemTovest "BWA3_30Rnd_556x45_G36_Tracer"};
+	};
 	case "ar_ld";
 	case "ar_c": {
 		for "_i" from 1 to 4 do { player addItemToVest "BWA3_40Rnd_46x30_MP7"};
@@ -40,15 +48,15 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do { player addItemToBackpack "BWA3_200Rnd_556x45_Tracer"};
 	};
 	case "sup_mmg_l": {
-		for "_i" from 1 to 2 do { player addItemToVest "BWA3_120Rnd_762x51_soft"};
-		for "_i" from 1 to 4 do { player addItemToBackpack "BWA3_120Rnd_762x51_Tracer_soft"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "BWA3_120Rnd_762x51_soft"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "BWA3_120Rnd_762x51_Tracer_soft"};
 	};
 	case "sup_mat_l": {
 		for "_i" from 1 to 1 do { player addItemToBackpack "BWA3_CarlGustav_HEDP"};
 		for "_i" from 1 to 2 do { player addItemToBackpack "BWA3_CarlGustav_HEAT"};
 	};
 	case "sup_aa_l": {
-		for "_i" from 1 to 3 do { player addItemToBackpack "BWA3_Fliegerfaust_Mag"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "BWA3_Fliegerfaust_Mag"};
 	};
 };
 
@@ -57,10 +65,10 @@ switch (_loadout) do {
 	default {};
 	case "sup_mat_g": {
 		for "_i" from 1 to 1 do { player addItemToBackpack "BWA3_CarlGustav_HEDP"};
-		for "_i" from 1 to 2 do { player addItemToBackpack "BWA3_CarlGustav_HEAT"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "BWA3_CarlGustav_HEAT"};
 	};
 	case "sup_aa_g": {
-		for "_i" from 1 to 4 do { player addItemToBackpack "BWA3_Fliegerfaust_Mag"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "BWA3_Fliegerfaust_Mag"};
 	};
 };
 

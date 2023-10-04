@@ -30,7 +30,7 @@ _availableVehicles =
 	['Rotary Attack', 
 		[
 			['RHS_MELB_AH6M', 0], 
-			['RHS_UH60M_ESSS_d', 6], 
+			['RHS_UH60M_ESSS_d', 4], 
 			['RHS_AH64D', 0]
 		]
 	],

@@ -25,7 +25,7 @@ _resupplyAvailable = [
 	],
 	["LAT Resupply",
 		[
-			["BWA3_PzF3_Tandem_Loaded",8]
+			["BWA3_RGW90_Loaded",8]
 		]
 	],
 	["MAT Resupply",
@@ -127,7 +127,7 @@ _resupplyAvailable = [
 			["BWA3_30Rnd_556x45_G36_Tracer",20],
 			["BWA3_200Rnd_556x45",5],
 			["BWA3_200Rnd_556x45_Tracer",5],
-			["BWA3_PzF3_Tandem_Loaded",2],
+			["BWA3_RGW90_Loaded",2],
 			["BWA3_DM51A1",10],
 			["BWA3_DM25",10],
 			["1Rnd_HE_Grenade_Shell",10],

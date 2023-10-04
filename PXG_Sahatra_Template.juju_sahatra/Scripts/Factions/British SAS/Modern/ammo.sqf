@@ -11,10 +11,9 @@ switch (_loadout) do {
 		for "_i" from 1 to 3 do { player addItemToBackpack "rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote"};
 	};
 	case "sqd_hgre": {
-		for "_i" from 1 to 4 do { player addItemToVest "rhsusf_mag_6Rnd_M441_HE"};
+		for "_i" from 1 to 2 do { player addItemToVest "rhsusf_mag_6Rnd_M441_HE"};
 		for "_i" from 1 to 6 do { player addItemToBackpack "rhsusf_mag_6Rnd_M441_HE"};
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhsusf_mag_6Rnd_M713_red"};
-		for "_i" from 1 to 1 do { player addItemToBackpack "rhsusf_mag_6Rnd_M714_white"}
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_mag_6Rnd_M714_white"}
 	};
 	case "sup_mmg_g": {
 		for "_i" from 1 to 2 do { player addItemToVest "rhsusf_100Rnd_762x51_m80a1epr"};

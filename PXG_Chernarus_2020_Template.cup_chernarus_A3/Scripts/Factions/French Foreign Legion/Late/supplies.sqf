@@ -36,8 +36,10 @@ _resupplyAvailable = [
 	],
 	["MAT Resuppply",
 		[
-			["rhs_mag_maaws_HEAT",4],
-			["rhs_mag_maaws_HEDP",4]
+			["rhs_mag_smaw_HEAA",4],
+			["rhs_mag_smaw_HEDP",4],
+			["rhs_mag_smaw_SR",2]
+
 		]
 	],
 	["AA Resupply",

@@ -66,7 +66,8 @@ _resupplyAvailable = [
 			["1Rnd_Smoke_Grenade_Shell",20],
 			["1Rnd_SmokeRed_Grenade_Shell",10],
 			["1Rnd_SmokeGreen_Grenade_Shell",10],
-			["1Rnd_SmokeBlue_Grenade_Shell",10]
+			["1Rnd_SmokeBlue_Grenade_Shell",10],
+			["rhsusf_mag_6Rnd_M714_white",10]
 		]
 	],
 	["40mm Flares",
@@ -115,7 +116,7 @@ _resupplyAvailable = [
 	["Squad Resupply",
 		[
 			["rhs_mag_20Rnd_SCAR_762x51_m62_tracer_bk", 32],
-			["rhsusf_5Rnd_Slug",10]
+			["rhsusf_5Rnd_Slug",10],
 			["rhs_weap_M136", 1],
 			["1Rnd_HE_Grenade_Shell", 12],
 			["rhsusf_mag_6Rnd_M441_HE", 4],

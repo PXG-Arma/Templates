@@ -6,9 +6,8 @@ switch (_loadout) do {
 			  player addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
 			  player addPrimaryWeaponItem "bwa3_optic_eotech552"
 	};
-	case "";
+	case "rcn_ld";
 	case "plt";
-	case "sqd_gre";
 	case "sqd_ld": {player addWeapon "BWA3_G36A3_AG40";
 					player addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
 			        player addPrimaryWeaponItem "bwa3_optic_eotech552"
@@ -39,8 +38,8 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default {};
 	case "sqd_lat": {
-		unitBackpack player addItemCargoGlobal["BWA3_PzF3_Tandem_Loaded",1];
-		player addWeapon "BWA3_PzF3_Tandem_Loaded";
+		unitBackpack player addItemCargoGlobal["BWA3_RGW90_Loaded",1];
+		player addWeapon "BWA3_RGW90_Loaded";
 	};
 	case "sup_aa_g": {player addWeapon "BWA3_Fliegerfaust"};
 	case "sup_mat_g": {	player addWeapon "BWA3_CarlGustav";

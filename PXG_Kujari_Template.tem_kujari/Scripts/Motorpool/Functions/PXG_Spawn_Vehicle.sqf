@@ -65,9 +65,6 @@ if (count _nearVehicles > 0) then {
 	_camo = _variantArray select 0;
 	_faction = tvText [461501, [_indexFaction select 0]];
 
-	_recolourScriptPath = "Scripts\Factions\" + _faction + "\" + _variant + "\vehicles_recolour_" + _camo + ".sqf";
-    [_vehicle, _vehicleType] call compile preprocessfile _recolourScriptPath;
-
 	// Set ACE cargo 
 	_vehicleCargo = tvValue [461502, _indexVehicle];	// Get cargo value from tvValue
 	
@@ -84,6 +81,8 @@ if (count _nearVehicles > 0) then {
 		clearMagazineCargoGlobal _vehicle;
 	};
 	
+	_recolourScriptPath = "Scripts\Factions\" + _faction + "\" + _variant + "\vehicles_recolour_" + _camo + ".sqf";
+    [_vehicle, _vehicleType] call compile preprocessfile _recolourScriptPath;
 	
 	if (unitIsUAV _vehicle) then 
 	{

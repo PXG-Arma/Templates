@@ -29,13 +29,13 @@ switch (_loadout) do {
 	case "ar_c": {player addWeapon "rhs_weap_aks74u";
 					   player addPrimaryWeaponItem "rhs_acc_pgs64_74u";
 	};
+	case "pil": {};
 };
 
 // add secondary weapon
 switch (_loadout) do {
-	default { player addWeapon "rhs_weap_pya"};
-	case "sqd_eng";
-	case "rcn_spe": {};
+	default {};
+	case "pil": { player addWeapon "rhs_weap_pya"};
 };
 
 // add launcher

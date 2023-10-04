@@ -1,3 +1,3 @@
-_avialableVariants = ["Armoured Modern", "Armoured Early"];
+_avialableVariants = ["Mechanized Modern", "Mechanized Early"];
 
 _avialableVariants

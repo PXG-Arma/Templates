@@ -22,7 +22,7 @@ switch (_loadout) do {
 
 // add vest
 switch (_loadout) do {
-	default { player addVest "carrier_ce"};
+	default { player addVest "UK3CB_TKA_B_V_GA_LITE_WDL"};
 	case "pil": {};
 };
 
@@ -31,6 +31,8 @@ switch (_loadout) do {
 	default { player addBackpack "B_Kitbag_rgr"};
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};
+	case "sup_mat_g";
+	case "sup_mat_l": {player addBackpack "UK3CB_B_Carryall_WDL_03"};
 	case "ar_ld";
     case "ar_ld";
 	case "ar_c";

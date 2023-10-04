@@ -3,7 +3,14 @@ params["_side","_faction","_variant", "_loadout"];
 // add primary weapon
 switch (_loadout) do {
 	default { player addWeapon "BWA3_G38C";
-			  player addPrimaryWeaponItem "BWA3_optic_EOTech_Mag_Off";
+			  player addPrimaryWeaponItem "rhsusf_acc_g33_xps3";
+			  player addPrimaryWeaponItem "BWA3_muzzle_snds_Rotex_IIIC";
+			  player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
+	};
+	case "rcn_ld";
+	case "sqd_ld";
+	case "plt": {player addWeapon "BWA3_G38_AG40";
+			  player addPrimaryWeaponItem "rhsusf_acc_g33_xps3";
 			  player addPrimaryWeaponItem "BWA3_muzzle_snds_Rotex_IIIC";
 			  player addPrimaryWeaponItem "BWA3_acc_VarioRay_irlaser_black";
 	};
@@ -23,8 +30,6 @@ switch (_loadout) do {
 						player addPrimaryWeaponItem "bwa3_optic_zo4x30i_microt2";
 						player addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
 	};
-	case "ar_ld";
-	case "ar_c": {player addWeapon "rhs_weap_m4a1_carryhandle"};
 	case "pil": {};
 };
 
@@ -41,8 +46,8 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default {};
 	case "sqd_lat": {
-		unitBackpack player addItemCargoGlobal["BWA3_PzF3_Tandem_Loaded",1];
-		player addWeapon "BWA3_PzF3_Tandem_Loaded";
+		unitBackpack player addItemCargoGlobal["BWA3_RGW90",1];
+		player addWeapon "BWA3_RGW90";
 	};
 	case "sup_aa_g": {player addWeapon "BWA3_Fliegerfaust"};
 	case "sup_mat_g": {	player addWeapon "BWA3_CarlGustav";

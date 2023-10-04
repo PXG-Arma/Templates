@@ -23,12 +23,6 @@ _resupplyAvailable = [
 			["rhsusf_20Rnd_762x51_m993_Mag",15]
 		]
 	],
-	["AMR Resupply",
-		[
-			["rhsusf_mag_10Rnd_STD_50BMG_M33",10],
-			["rhsusf_mag_10Rnd_STD_50BMG_mk211",10]
-		]
-	],
 	["LAT Resupply",
 		[
 			["rhs_weap_m72a7",8]

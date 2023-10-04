@@ -15,7 +15,7 @@ switch (_loadout) do {
 	case "rcn_ld": {player addHeadgear "rhs_Booniehat_ucp"};
     case "ar_ld";
 	case "ar_c": {player addHeadgear "rhsusf_cvc_ess"};
-	case "pil": {player addHeadgear "rhsusf_hgu56p_visor_green"};
+	case "pil": {player addHeadgear "rhsusf_hgu56p"};
 };
 
 // add vest
