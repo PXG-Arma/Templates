@@ -7,9 +7,16 @@ _resupplyAvailable = [
 			["rhsusf_20Rnd_762x51_m80_Mag",20]
 		]
 	],
+	["AR Resupply",
+		[
+			["UK3CB_Bren_30Rnd_762x51_Magazine",20],
+			["UK3CB_Bren_30Rnd_762x51_Magazine_GT",20]
+		]
+	],
 	["MMG Resupply",
 		[
-			["UK3CB_M60_100rnd_762x51",10]
+			["UK3CB_M60_100rnd_762x51",10],
+			["UK3CB_M60_100rnd_762x51_GM",10]
 		]
 	],
 	["DMR Resupply",

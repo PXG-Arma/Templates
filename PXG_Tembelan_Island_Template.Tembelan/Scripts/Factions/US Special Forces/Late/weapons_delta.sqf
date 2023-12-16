@@ -21,7 +21,9 @@ switch (_loadout) do {
 
 // add secondary weapon
 switch (_loadout) do {
-	default { player addWeapon "rhsusf_weap_m1911a1"};
+	default {};
+	case "pil";
+	case "sqd_hgre": { player addWeapon "rhsusf_weap_m1911a1"};
 };
 
 // add launcher

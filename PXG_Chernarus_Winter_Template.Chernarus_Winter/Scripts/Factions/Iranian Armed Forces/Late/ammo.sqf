@@ -18,16 +18,19 @@ switch (_loadout) do {
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_7BZ3"};
 		for "_i" from 1 to 1 do { player addItemToBackpack "rhs_100Rnd_762x54mmR_green"};
 	};
+	case "sup_mor_l";
+	case "sup_mor_g": {
+		for "_i" from 1 to 5 do { player addItemToVest "30Rnd_65x39_caseless_green"};
+	};
 	case "pil": {};
 };
 
 // add secondary ammo
 switch (_loadout) do {
-	default {
+	default {};
+	case "pil": {
 		for "_i" from 1 to 3 do { player addItemToUniform "11Rnd_45ACP_Mag"};
 	};
-	case "sqd_eng";
-	case "rcn_spe": {};
 };
 
 
@@ -72,6 +75,8 @@ switch (_loadout) do {
 		for "_i" from 1 to 1 do { player addItemToVest "rhssaf_mag_brd_m83_red"};
 		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_rgd5"};
 	};
+	case "sup_mor_l";
+	case "sup_mor_g": {};
 };
 
 // add 40mm grenades

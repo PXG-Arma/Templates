@@ -1,8 +1,8 @@
 _resupplyAvailable = [
 	["Primary Resupply",
 		[
-			["rhs_mag_30Rnd_556x45_M855_Stanag",40],
-			["rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",40]
+			["UK3CB_FAMAS_25rnd_556x45",40],
+			["UK3CB_FAMAS_25rnd_556x45_GT",40]
 		]
 	],
 	["AR Resupply",
@@ -19,19 +19,13 @@ _resupplyAvailable = [
 	],
 	["DMR Resupply",
 		[
-			["UK3CB_G3_20rnd_762x51",15],
+			["UK3CB_G3_20rnd_762x51",30],
 			["UK3CB_G3_20rnd_762x51",15]
-		]
-	],
-	["AMR Resupply",
-		[
-			["rhsusf_mag_10Rnd_STD_50BMG_M33",10],
-			["rhsusf_mag_10Rnd_STD_50BMG_mk211",10]
 		]
 	],
 	["LAT Resupply",
 		[
-			["rhs_weap_m72a7",8]
+			["rhs_weap_M136",8]
 		]
 	],
 	["MAT Resuppply",
@@ -39,7 +33,6 @@ _resupplyAvailable = [
 			["rhs_mag_smaw_HEAA",4],
 			["rhs_mag_smaw_HEDP",4],
 			["rhs_mag_smaw_SR",2]
-
 		]
 	],
 	["AA Resupply",
@@ -78,14 +71,7 @@ _resupplyAvailable = [
 			["UGL_FlareWhite_F",30],
 			["UGL_FlareCIR_F",20]
 		]
-	],	
-	["40mm Heavy",
-		[
-			["rhsusf_mag_6Rnd_M441_HE",8],
-			["rhsusf_mag_6Rnd_M714_white",4],
-			["rhsusf_mag_6Rnd_M713_red",4]
-		]
-	],	
+	],
 	["Explosives",
 		[
 			["ACE_Clacker",2],
@@ -125,9 +111,9 @@ _resupplyAvailable = [
 	],
 	["Squad Resupply",
 		[
-			["rhs_mag_30Rnd_556x45_M855_Stanag", 24],
-			["rhsusf_200rnd_556x45_M855_mixed_box", 4],
-			["rhs_weap_m72a7", 1],
+			["UK3CB_FAMAS_25rnd_556x45", 24],
+			["rhsusf_200rnd_556x45_M855_mixed_box", 8],
+			["rhs_weap_M136", 2],
 			["1Rnd_HE_Grenade_Shell", 12],
 			["rhsusf_mag_6Rnd_M441_HE", 2],
 			["HandGrenade", 6],
@@ -136,6 +122,11 @@ _resupplyAvailable = [
 			["ACE_packingBandage", 12],
 			["ACE_quikclot", 12],
 			["ACE_bloodIV_500", 6]
+		]
+	],
+	["IR Strobes",
+		[
+			["ACE_IR_Strobe_Item", 20]
 		]
 	],
 	["Parachutes",

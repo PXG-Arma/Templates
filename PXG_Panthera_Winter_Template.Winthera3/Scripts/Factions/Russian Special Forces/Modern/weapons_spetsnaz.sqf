@@ -34,11 +34,10 @@ switch (_loadout) do {
 
 // add secondary weapon
 switch (_loadout) do {
-	default { player addWeapon "hgun_Rook40_F";
+	default {};
+	case "sqd_hgre":{ player addWeapon "hgun_Rook40_F";
 				player addHandgunItem "muzzle_snds_L";
 	};
-	case "sqd_eng";
-	case "rcn_spe": {};
 };
 
 // add launcher

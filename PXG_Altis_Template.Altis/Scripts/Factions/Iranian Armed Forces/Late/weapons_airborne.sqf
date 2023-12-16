@@ -19,9 +19,8 @@ switch (_loadout) do {
 
 // add secondary weapon
 switch (_loadout) do {
-	default { player addWeapon "hgun_Pistol_heavy_01_F"};
-	case "sqd_eng";
-	case "rcn_spe": {};
+	default {};
+	case "pil": {player addWeapon "hgun_Pistol_heavy_01_F"};
 };
 
 // add launcher

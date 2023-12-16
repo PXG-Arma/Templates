@@ -70,6 +70,12 @@ switch (_loadout) do {
 		for "_i" from 1 to 1 do { player addItemToVest "SmokeShellRed"};
 		for "_i" from 1 to 2 do { player addItemToVest "HandGrenade"};
 	};
+	case "sqd_ar": {
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_mag_an_m8hc"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "SmokeShellGreen"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "SmokeShellRed"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "HandGrenade"};
+	};
 };
 
 // add 40mm grenades

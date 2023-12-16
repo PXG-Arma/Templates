@@ -40,7 +40,10 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "rhsusf_assault_eagleaiii_ucp"};
-	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
+	case "sup_mor_l": {
+		clearBackpackCargoGlobal player;
+		player addBackpack "I_Mortar_01_support_F";
+	};
 	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};
 	case "ar_ld";
 	case "ar_c";

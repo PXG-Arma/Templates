@@ -40,9 +40,7 @@ switch (_loadout) do {
 
 // add secondary ammo 
 switch (_loadout) do {
-	default {
-		for "_i" from 1 to 3 do { player addItemToUniform "BWA3_12Rnd_45ACP_P12"};
-	};
+	default {};
 	case "pil": {
 		for "_i" from 1 to 5 do { player addItemToVest "BWA3_12Rnd_45ACP_P12"};
 	};

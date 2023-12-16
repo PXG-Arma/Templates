@@ -17,7 +17,7 @@ switch (_loadout) do {
 
 // add secondary weapon
 switch (_loadout) do {
-	default {player addWeapon "rhs_weap_tt33"};
+	default {};
 };
 
 // add launcher

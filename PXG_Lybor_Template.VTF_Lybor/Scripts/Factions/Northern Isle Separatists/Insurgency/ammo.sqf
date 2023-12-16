@@ -34,7 +34,8 @@ switch (_loadout) do {
 		for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_M14_20rnd_762x51_RT"};
 	};
 	case "sup_mmg_g": {
-		for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_M60_100rnd_762x51"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "UK3CB_M60_100rnd_762x51"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "UK3CB_M60_100rnd_762x51_GM"};
 	};
 	case "rcn_amr": {
 		for "_i" from 1 to 6 do { player addItemToBackpack "rhsusf_mag_10Rnd_STD_50BMG_M33"};
@@ -43,9 +44,7 @@ switch (_loadout) do {
 
 // add secondary ammo
 switch (_loadout) do {
-	default {
-		for "_i" from 1 to 3 do { player addItemToVest "rhs_mag_762x25_8"};
-	};
+	default {};
 };
 
 // add assistant ammo 
