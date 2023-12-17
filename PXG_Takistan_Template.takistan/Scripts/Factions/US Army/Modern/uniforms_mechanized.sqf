@@ -41,6 +41,8 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "rhsusf_assault_eagleaiii_ocp"};
+	case "sup_aa_g";
+	case "sup_aa_l": {player addBackpack "VSM_OCP_carryall"};
 	case "sup_mor_l": {player addBackpack "I_Mortar_01_support_F"};
 	case "sup_mor_g": {player addBackpack "I_Mortar_01_weapon_F"};
     case "ar_ld";

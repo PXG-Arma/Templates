@@ -41,15 +41,7 @@ switch (_loadout) do {
 
 // add secondary weapon
 switch (_loadout) do {
-	default { player addWeapon "rhsusf_weap_glock17g4";
-			  player addSecondaryWeaponItem "rhsusf_acc_omega9k";
-			  player addSecondaryWeaponItem "acc_flashlight_pistol";
-	};
-	case "sqd_hgre";
-	case "sqd_brc";
-	case "rcn_sni": { player addWeapon "rhsusf_weap_MP7A2_folded"};
-	case "sqd_eng";
-	case "rcn_spe": {};
+	default {};
 };
 // add launcher
 //case "sup_aa_g": {	player addWeapon "rhs_weap_fim92"};	

@@ -35,9 +35,7 @@ switch (_loadout) do {
 
 // add secondary ammo
 switch (_loadout) do {
-	default {
-		for "_i" from 1 to 4 do { player addItemToBackpack "BWA3_12Rnd_45ACP_P12"};
-	};
+	default {};
 };
 
 // add assistant ammo 

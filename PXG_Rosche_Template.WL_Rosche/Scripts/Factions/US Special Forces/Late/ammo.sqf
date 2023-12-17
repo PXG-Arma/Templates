@@ -34,12 +34,10 @@ switch (_loadout) do {
 
 // add secondary ammo
 switch (_loadout) do {
-	default {
-		for "_i" from 1 to 2 do { player addItemToUniform "rhsusf_mag_7x45acp_MHP"};
-	};
+	default {};
 	case "pil";
 	case "sqd_hgre": {
-		for "_i" from 1 to 5 do { player addItemToVest "rhsusf_mag_7x45acp_MHP"};
+		for "_i" from 1 to 5 do { player addItemToBackpack "rhsusf_mag_7x45acp_MHP"};
 	};
 };
 
@@ -85,6 +83,13 @@ switch (_loadout) do {
 		for "_i" from 1 to 1 do { player addItemToVest "SmokeShellGreen"};
 		for "_i" from 1 to 1 do { player addItemToVest "SmokeShellRed"};
 		for "_i" from 1 to 2 do { player addItemToVest "HandGrenade"};
+	};
+	case "rcn_dmr";
+	case "sqd_ar": {
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_mag_an_m8hc"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "SmokeShellGreen"};
+		for "_i" from 1 to 1 do { player addItemToBackpack "SmokeShellRed"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "HandGrenade"};
 	};
 };
 

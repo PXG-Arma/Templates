@@ -39,6 +39,7 @@ switch (_loadout) do {
 			  player addHandgunItem "muzzle_snds_acp";
 			  player addHandgunItem "bwa3_acc_llmpi_irlaser";
 	};
+	case "pil": { player addWeapon "BWA3_P12"};
 };
 
 
@@ -46,8 +47,8 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default {};
 	case "sqd_lat": {
-		unitBackpack player addItemCargoGlobal["BWA3_RGW90",1];
-		player addWeapon "BWA3_RGW90";
+		unitBackpack player addItemCargoGlobal["BWA3_RGW90_Loaded",1];
+		player addWeapon "BWA3_RGW90_Loaded";
 	};
 	case "sup_aa_g": {player addWeapon "BWA3_Fliegerfaust"};
 	case "sup_mat_g": {	player addWeapon "BWA3_CarlGustav";

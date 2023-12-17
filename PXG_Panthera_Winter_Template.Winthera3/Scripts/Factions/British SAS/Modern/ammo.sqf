@@ -36,15 +36,7 @@ switch (_loadout) do {
 
 // add secondary ammo
 switch (_loadout) do {
-	default {
-		for "_i" from 1 to 4 do { player addItemToVest "rhsusf_mag_17Rnd_9x19_FMJ"};
-	};
-	case "sqd_brc";
-	case "rcn_sni": {
-		for "_i" from 1 to 4 do { player addItemToVest "rhsusf_mag_40Rnd_46x30_AP"};
-	};
-	case "sqd_eng";
-	case "rcn_spe": {};
+	default {};
 };
 
 // add assistant ammo 

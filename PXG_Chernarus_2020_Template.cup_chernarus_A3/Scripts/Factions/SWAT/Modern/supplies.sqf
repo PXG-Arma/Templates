@@ -1,8 +1,8 @@
 _resupplyAvailable = [
 	["Primary Resupply",
 		[
-			["rhs_mag_30Rnd_556x45_M855A1_Stanag",40],
-			["rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",40]
+			["UK3CB_MP5_30Rnd_9x19_Magazine",40],
+			["UK3CB_MP5_30Rnd_9x19_Magazine_GT",40]
 		]
 	],
 	["DMR Resupply",
@@ -98,7 +98,7 @@ _resupplyAvailable = [
 	],
 	["Squad Resupply",
 		[
-			["rhs_mag_30Rnd_556x45_M855A1_Stanag", 24],
+			["UK3CB_MP5_30Rnd_9x19_Magazine", 24],
 			["rhsusf_5Rnd_762x51_m993_Mag",4],
 			["UK3CB_BAF_12G_Pellets", 4],
 			["UK3CB_BAF_12G_Slugs", 4],
@@ -109,6 +109,11 @@ _resupplyAvailable = [
 			["ACE_packingBandage", 12],
 			["ACE_quikclot", 12],
 			["ACE_bloodIV_500", 6]
+		]
+	],
+	["IR Strobes",
+		[
+			["ACE_IR_Strobe_Item", 20]
 		]
 	],
 	["Parachutes",

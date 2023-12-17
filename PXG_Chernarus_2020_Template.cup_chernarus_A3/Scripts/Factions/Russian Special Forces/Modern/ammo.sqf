@@ -33,14 +33,10 @@ switch (_loadout) do {
 
 // add secondary ammo
 switch (_loadout) do {
-	default {
-		for "_i" from 1 to 2 do { player addItemToUniform "16Rnd_9x21_Mag"};
-	};
+	default {};
 	case "sqd_hgre": {
 		for "_i" from 1 to 5 do { player addItemToVest "16Rnd_9x21_Mag"};
 	};
-	case "sqd_eng";
-	case "rcn_spe": {};
 };
 
 

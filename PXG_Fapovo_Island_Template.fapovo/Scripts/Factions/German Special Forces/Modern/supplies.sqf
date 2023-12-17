@@ -137,6 +137,11 @@ _resupplyAvailable = [
 			["ACE_quikclot", 15]
 		]
 	],
+	["IR Strobes",
+		[
+			["ACE_IR_Strobe_Item", 20]
+		]
+	],
 	["Parachutes",
 		[
 			["B_Parachute", 20]
