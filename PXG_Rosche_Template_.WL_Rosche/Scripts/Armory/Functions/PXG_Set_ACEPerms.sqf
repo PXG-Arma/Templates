@@ -15,10 +15,6 @@ switch (_loadout) do {
 		player setVariable ["ace_medical_medicclass",1,true];
 		player setVariable ["ACE_IsEngineer",0,true]
 		};
-	case "plt_med": { 
-		player setVariable ["ace_medical_medicclass",1,true];
-		player setVariable ["ACE_IsEngineer",0,true]
-		};	
 	case "exo_med": { 
 		player setVariable ["ace_medical_medicclass",1,true];
 		player setVariable ["ACE_IsEngineer",0,true]

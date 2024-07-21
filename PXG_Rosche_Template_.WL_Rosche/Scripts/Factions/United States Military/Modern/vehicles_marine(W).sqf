@@ -4,41 +4,41 @@ _availableVehicles =
 
 	['Utility', 
 		[
-			['UK3CB_B_MTVR_Open_USMC_DES', 12],
-			['UK3CB_B_MTVR_Reammo_USMC_DES', 4],  
-			['UK3CB_B_MTVR_Refuel_USMC_DES', 4], 
-			['UK3CB_B_MTVR_Recovery_USMC_DES', 4], 
-			['rhsusf_m998_d_s_2dr', 4], 
-			['rhsusf_m998_d_s_4dr', 4], 
-			['rhsusf_m998_d_s_4dr_fulltop', 4]
+			['UK3CB_B_MTVR_Open_USMC_WDL', 12],
+			['UK3CB_B_MTVR_Reammo_USMC_WDL', 4],  
+			['UK3CB_B_MTVR_Refuel_USMC_WDL', 4], 
+			['UK3CB_B_MTVR_Recovery_USMC_WDL', 4], 
+			['rhsusf_m998_w_s_2dr', 4], 
+			['rhsusf_m998_w_s_4dr', 4], 
+			['rhsusf_m998_w_s_4dr_fulltop', 4]
 		]
 	],
 
 	['Armed Car/MRAP', 
 		[
-			['rhsusf_m1043_d_s_m2', 4], 
-			['rhsusf_m1045_d_s', 4], 
-			['rhsusf_CGRCAT1A2_M2_usmc_d', 4], 
-			['rhsusf_M1232_MC_M2_usmc_d', 4]
+			['rhsusf_m1043_w_s_m2', 4], 
+			['rhsusf_m1045_w_s', 4], 
+			['rhsusf_CGRCAT1A2_M2_usmc_wd', 4], 
+			['rhsusf_M1232_MC_M2_usmc_wd', 4]
 		]
 	],
 
 	['APC', 
 		[
-			['UK3CB_B_AAV_US_DES', 6], 
-			['UK3CB_B_LAV25_HQ_US_DES', 8]
+			['UK3CB_B_AAV_US_WDL', 6], 
+			['UK3CB_B_LAV25_HQ_US_WDL', 8]
 		]
 	],
 
 	['IFV', 
 		[
-			['UK3CB_B_LAV25_US_DES', 6]
+			['UK3CB_B_LAV25_US_WDL', 6]
 		]
 	],
 
 	['MBT', 
 		[
-			['rhsusf_m1a1fep_d', 4]
+			['rhsusf_m1a1fep_wd', 4]
 		]
 	],
 
@@ -52,7 +52,7 @@ _availableVehicles =
 		[
 			['RHS_UH1Y_UNARMED', 6], 
 			['rhsusf_CH53E_USMC_GAU21', 8], 
-			['UK3CB_B_Osprey_IDWS_USMC_D', 8]
+			['UK3CB_B_Osprey_IDWS_USMC_WD', 8]
 		]
 	],
 
@@ -92,7 +92,7 @@ _availableVehicles =
 	['Misc.', 
 		[
 			['rhsusf_mrzr4_d', 4], 
-			['UK3CB_B_M1030_USMC_DES', 2]
+			['UK3CB_B_M1030_USMC_WDL', 2]
 		]
 	]
 ];

@@ -7,8 +7,8 @@
 #include "Scripts\config.cpp"
 
 // On Load
-author = "PXG";								// Visible when loading mission
-onLoadName = "PXG-Rosche";				// Visible when loading mission
+author = "Your Name Here";								// Visible when loading mission
+onLoadName = "PXG-Operation: Mission Name";				// Visible when loading mission
 OnLoadMission = "Map I Player Faction I Time of day I Staging I Type of mission (Airborne, Armoured, Infantry, Amphibious, Combined arms) I Enemy Faction";
 loadScreen = "";	              						// Visible when loading mission
 overviewPicture = "";             						// Visible when selecting mission	

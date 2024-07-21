@@ -35,7 +35,6 @@ switch (_loadout) do {
 	case "sqd_ar": { player addVest "rhsusf_spcs_ucp_saw"};
 	case "sqd_gre": { player addVest "rhsusf_spcs_ucp_grenadier"};
 	case "rcn_spe";
-	case "plt_med";
 	case "sqd_med": { player addVest "rhsusf_spcs_ucp_medic"};
 	case "sup_mmg_g": { player addVest "rhsusf_spcs_ucp_machinegunner"};
 };

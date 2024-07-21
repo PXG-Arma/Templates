@@ -1,7 +1,6 @@
 _availableFactions = [
 	
-	"Russian Armed Forces",
-	"People's Liberation Army"
+	"Russian Armed Forces"
 ];
 
 _availableFactions

@@ -1,15 +1,15 @@
 _avialableVariants = ["------- Airborne -------",
 					  "Airborne(D) Modern",
 					  "--------- Army ---------",
-					  "Army(WD) Early",
+					  "Army(W) Early",
 					  "Army(D) Late",
 					  "Army(D) Modern",
 					  "---- Marine Corps ----",
-					  "Marine(WD) Modern",
+					  "Marine(W) Modern",
 					  "Marine(D) Modern",
 					  "--- Special Forces ---",
-					  "Delta(Mix) Late",
+					  "Delta(M) Late",
 					  "GreenBerets(D) Modern",
-					  "Raiders(WD) Modern"];
+					  "Raiders(W) Modern"];
 
 _avialableVariants

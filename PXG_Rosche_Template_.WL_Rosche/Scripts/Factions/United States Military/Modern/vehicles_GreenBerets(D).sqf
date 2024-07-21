@@ -3,7 +3,6 @@ _availableVehicles =
   ["Utility",
   [["rhsusf_M1078A1P2_B_D_fmtv_usarmy",12],
   ["rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",8],
-  ["rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy",8],
   ["rhsusf_M1239_socom_d",4],
   ["rhsusf_m998_d_s_4dr",4],
   ["rhsusf_m998_d_s_2dr",4]]],

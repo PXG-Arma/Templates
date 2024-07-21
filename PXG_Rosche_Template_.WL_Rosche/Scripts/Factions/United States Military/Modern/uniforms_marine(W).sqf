@@ -2,13 +2,13 @@ params["_side","_faction","_variant", "_loadout"];
 
 // add uniform
 switch (_loadout) do {
-	default { player forceAddUniform "rhs_uniform_FROG01_d"};
-	case "pil": { player forceAddUniform "rhs_uniform_FROG01_d"};
+	default { player forceAddUniform "rhs_uniform_FROG01_wd"};
+	case "pil": { player forceAddUniform "rhs_uniform_FROG01_wd"};
 };
 	
 // add helmet
 switch (_loadout) do {
-	default { player addHeadgear "rhsusf_mich_helmet_marpatd_norotos_arc"};
+	default { player addHeadgear "rhsusf_mich_helmet_marpatwd_norotos_arc"};
 	case "sup_mmg_l";
 	case "sup_hat_l";
 	case "sup_aa_l";
@@ -16,13 +16,13 @@ switch (_loadout) do {
 	case "sqd_ld";
 	case "plt";
 	case "logi";
-	case "tacp": { player addHeadgear "rhsusf_mich_helmet_marpatd_norotos_arc_headset"};
+	case "tacp": { player addHeadgear "rhsusf_mich_helmet_marpatwd_norotos_arc_headset"};
 	case "rcn_dmr";
 	case "rcn_drone";
 	case "rcn_spe";
 	case "rcn_ld": {player addHeadgear "rhsusf_opscore_ut_pelt_cam"};
     case "ar_ld";
-	case "ar_c": {player addHeadgear "rhsusf_cvc_helmet"};
+	case "ar_c": {player addHeadgear "rhsusf_cvc_green_helmet"};
 	case "pil": {randomOfficerHelmetArray1 = ["rhsusf_hgu56p_visor","rhsusf_hgu56p_visor_mask_mo","rhsusf_hgu56p_visor_mask_skull"];
 		player addHeadgear selectRandom randomOfficerHelmetArray1;};
 };

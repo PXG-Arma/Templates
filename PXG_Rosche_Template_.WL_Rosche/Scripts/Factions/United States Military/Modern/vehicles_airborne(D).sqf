@@ -8,7 +8,6 @@ _availableVehicles =
 			['UK3CB_B_MTVR_Reammo_DES', 4], 
 			['UK3CB_B_MTVR_Refuel_DES', 4], 
 			['UK3CB_B_MTVR_Recovery_DES', 4], 
-			["rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy",8],
 			['rhsusf_m1025_d', 4], 
 			['rhsusf_m998_d_2dr_fulltop', 4]
 		]
@@ -25,8 +24,7 @@ _availableVehicles =
 	['APC', 
 		[
 			['rhsusf_m113d_usarmy', 4], 
-			['rhsusf_m113d_usarmy_supply', 4],
-			['rhsusf_m113d_usarmy_medical', 4], 
+			['rhsusf_m113d_usarmy_supply', 4], 
 			['rhsusf_M1117_D', 4]
 		]
 	],

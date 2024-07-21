@@ -23,7 +23,6 @@ switch (_loadout) do {
 	default { player addVest "UK3CB_CW_US_B_LATE_V_PASGT_Rif_Vest"};
 	case "sup_mmg_g";
 	case "sqd_ar": { player addVest "UK3CB_CW_US_B_LATE_V_PASGT_MG_Vest"};
-	case "plt_med";
 	case "sqd_med": { player addVest "UK3CB_CW_US_B_LATE_V_PASGT_Medic_Vest"};
 	case "rcn_ld";
 	case "rcn_dmr";
@@ -37,7 +36,6 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "UK3CB_B_Invisible"};
-	case "plt_med";
 	case "sqd_med";
 	case "sup_mmg_l";
 	case "sup_mmg_g";
