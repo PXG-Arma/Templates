@@ -20,6 +20,7 @@ _availableVehicles =
   [["rhsusf_m113d_usarmy_supply",4],
   ["rhsusf_m113d_usarmy",4],
   ["rhsusf_m113d_usarmy_MK19",4],
+  ["rhsusf_m113d_usarmy_medical",4],
   ["rhsusf_M1117_D",0]]],
  
   ["IFV",

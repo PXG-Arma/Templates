@@ -8,6 +8,7 @@ _availableVehicles =
 			['UK3CB_B_MTVR_Reammo_USMC_DES', 4],  
 			['UK3CB_B_MTVR_Refuel_USMC_DES', 4], 
 			['UK3CB_B_MTVR_Recovery_USMC_DES', 4], 
+			["rhsusf_M1085A1P2_B_D_Medical_fmtv_usarmy",8],
 			['rhsusf_m998_d_s_2dr', 4], 
 			['rhsusf_m998_d_s_4dr', 4], 
 			['rhsusf_m998_d_s_4dr_fulltop', 4]

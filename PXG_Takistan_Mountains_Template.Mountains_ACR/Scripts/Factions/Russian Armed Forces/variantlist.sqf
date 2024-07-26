@@ -1,12 +1,12 @@
 _avialableVariants = ["------- Airborne -------",
-                      "VDV(W) Modern",
+                      "VDV(WD) Modern",
 					  "VDV(D) Modern",
 					  "--------- Army ---------",
-					  "MSV Modern",
-					  "USSR Early",
+					  "USSR(WD) Early",
+					  "MSV(WD) Modern",
 					  "---- Marine Corps ----",
-					  "VMF Modern",
+					  "VMF(WD) Modern",
 					  "--- Special Forces ---",
-					  "Spetsnaz Modern"];
+					  "Spetsnaz(WD) Modern"];
 
 _avialableVariants

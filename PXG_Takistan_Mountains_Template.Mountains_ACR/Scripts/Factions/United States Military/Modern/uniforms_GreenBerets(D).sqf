@@ -45,6 +45,7 @@ switch (_loadout) do {
 	case "sqd_ar": { player addVest "dr_ARDfacp_mg"};
 	case "sqd_brc": { player addVest "dr_ARDpar_br"};
 	case "rcn_spe";
+	case "plt_med";
 	case "sqd_med": { player addVest "dr_ARDpar_op"};
 	case "sup_mmg_g": { player addVest "dr_ARDpar_mg"};
 	case "pil": { player addVest "CarrierRig_Operator_Arid"};
@@ -54,6 +55,7 @@ switch (_loadout) do {
 switch (_loadout) do {
 	default { player addBackpack "Arid_Backpack_kitbag"};
 	case "sqd_med";
+	case "plt_med";
 	case "sup_mmg_l";
 	case "sup_hat_l";
 	case "sup_hat_g";

@@ -7,7 +7,7 @@ _availableVehicles =
 			["UK3CB_BAF_MAN_HX58_Transport_Sand_MTP", 8],
 			["UK3CB_BAF_MAN_HX58_Transport_Green_MTP", 8],
 			["UK3CB_BAF_MAN_HX58_Cargo_Sand_A_MTP", 0],
-			["UK3CB_BAF_LandRover_Soft_FFR_Sand_A_MTP", 0],
+			["UK3CB_BAF_MAN_HX58_Cargo_Green_A_MTP", 0],
 			["UK3CB_BAF_MAN_HX58_Fuel_Sand_MTP", 2],
 			["UK3CB_BAF_MAN_HX58_Fuel_Green_MTP", 2],	
 			["UK3CB_BAF_LandRover_Amb_FFR_Sand_A_MTP", 4],

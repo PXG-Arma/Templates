@@ -10,6 +10,16 @@ switch (_loadout) do {
 	
 };
 
+// NVG swap recon
+switch (_loadout) do {
+    default {};
+	case "rcn_ld";
+	case "rcn_spe";
+	case "rcn_amr";
+	case "rcn_dmr";
+	case "rcn_drone": {player linkItem "UK3CB_PVS5A"};
+};
+
 // add Spotting Scope
 switch (_loadout) do {
 	case "rcn_dmr": {player addItemToBackpack "ACE_SpottingScope";

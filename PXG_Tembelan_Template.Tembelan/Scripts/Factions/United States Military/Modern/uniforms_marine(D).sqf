@@ -43,6 +43,7 @@ switch (_loadout) do {
 	case "sqd_ld";
 	case "sqd_gre": { player addVest "rhsusf_spc_teamleader"};
 	case "rcn_spe";
+	case "plt_med";
 	case "sqd_med": { player addVest "rhsusf_spc_corpsman"};
 	case "sup_mmg_g": { player addVest "rhsusf_spc_mg"};
 	case "rcn_dmr": { player addVest "rhsusf_spc_marksman"};
@@ -59,6 +60,7 @@ switch (_loadout) do {
 // add backpack 
 switch (_loadout) do {
 	default { player addBackpack "rhsusf_assault_eagleaiii_coy"};
+	case "plt_med";
 	case "sqd_med": {player addBackpack "UK3CB_KRG_B_B_FieldPack_SF_MED"};
 	case "sup_mmg_l";
 	case "sup_mmg_g";
