@@ -7,6 +7,11 @@ switch (_loadout) do {
 		for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_FNFAL_20rnd_762x51_R"};
 	};
 	case "rcn_drone";
+	case "sqd_ar": {
+		for "_i" from 1 to 2 do { player addItemToVest "150Rnd_762x54_Box"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "150Rnd_762x54_Box"};
+		for "_i" from 1 to 2 do { player addItemToBackpack "150Rnd_762x54_Box_Tracer"};
+	};
 	case "sqd_med": {
 		for "_i" from 1 to 4 do { player addItemToVest "UK3CB_FNFAL_20rnd_762x51"};
 		for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_FNFAL_20rnd_762x51_R"};
@@ -43,10 +48,6 @@ switch (_loadout) do {
 // add assistant ammo 
 switch (_loadout) do {
 	default {};
-	case "sqd_ar": {
-		for "_i" from 1 to 4 do { player addItemToBackpack "150Rnd_762x54_Box"};
-		for "_i" from 1 to 4 do { player addItemToBackpack "150Rnd_762x54_Box_Tracer"};
-	};
 	case "sup_mmg_l": {
 		for "_i" from 1 to 3 do { player addItemToBackpack "150Rnd_762x51_Box"};
 		for "_i" from 1 to 3 do { player addItemToBackpack "150Rnd_762x51_Box_Tracer"};
@@ -98,8 +99,20 @@ switch (_loadout) do {
 		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell"};
 		for "_i" from 1 to 2 do {player addItemToBackpack "UGL_FlareWhite_F"};
 	};
-	case "sqd_ld";
-	case "sqd_gre";
+	case "sqd_ld": {
+		for "_i" from 1 to 5 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"}; 
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "UGL_FlareWhite_F"};
+	};
+	case "sqd_gre": {
+		for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"}; 
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell"};
+		for "_i" from 1 to 2 do {player addItemToBackpack "UGL_FlareWhite_F"};
+	};
 	case "rcn_ld": {
 		for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"};
 		for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell"};

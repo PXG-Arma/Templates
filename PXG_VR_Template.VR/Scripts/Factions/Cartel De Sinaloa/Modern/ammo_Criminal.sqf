@@ -16,15 +16,27 @@ switch (_loadout) do {
                 for "_i" from 1 to 4 do { player addItemToVest "rhs_30Rnd_762x39mm_polymer"; };
                 for "_i" from 1 to 4 do { player addItemToBackpack "rhs_30Rnd_762x39mm_polymer_tracer"; };
             };
-            case "srifle_DMR_02_F": {
-                for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_30Rnd_556x45_M855_PMAG"; };
-                for "_i" from 1 to 4 do { player addItemToBackpack "rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red"; };
-            };
             case "rhs_weap_m16A4": {
                 for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_30Rnd_556x45_M855_PMAG"; };
                 for "_i" from 1 to 4 do { player addItemToBackpack "rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red"; };
             };
+			case "rhs_weap_m16a4": {
+                for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_30Rnd_556x45_M855_PMAG"; };
+                for "_i" from 1 to 4 do { player addItemToBackpack "rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red"; };
+            };
             case "rhs_weap_m16A4_carryhandle_m203": {
+                for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_30Rnd_556x45_M855_PMAG"; };
+                for "_i" from 1 to 4 do { player addItemToBackpack "rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red"; };
+            };
+			case "rhs_weap_m16a4_carryhandle_m203": {
+                for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_30Rnd_556x45_M855_PMAG"; };
+                for "_i" from 1 to 4 do { player addItemToBackpack "rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red"; };
+            };
+			case "rhs_weap_m16a4_carryhandle_M203": {
+                for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_30Rnd_556x45_M855_PMAG"; };
+                for "_i" from 1 to 4 do { player addItemToBackpack "rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red"; };
+            };
+			case "rhs_weap_m16A4_carryhandle_M203": {
                 for "_i" from 1 to 4 do { player addItemToVest "rhs_mag_30Rnd_556x45_M855_PMAG"; };
                 for "_i" from 1 to 4 do { player addItemToBackpack "rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red"; };
             };
@@ -42,7 +54,7 @@ switch (_loadout) do {
             };
             case "srifle_DMR_02_F": {
                 for "_i" from 1 to 4 do { player addItemToVest "10Rnd_338_Mag"; };
-                for "_i" from 1 to 4 do { player addItemToBackpack "rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red"; };
+                for "_i" from 1 to 4 do { player addItemToBackpack "ACE_10Rnd_338_300gr_HPBT_Mag"; };
             };
             case "rhs_weap_svdp_npz": {
                 for "_i" from 1 to 4 do { player addItemToVest "rhs_10Rnd_762x54mmR_7N14"; };

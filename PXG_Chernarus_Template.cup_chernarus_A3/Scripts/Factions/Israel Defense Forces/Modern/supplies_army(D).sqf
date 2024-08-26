@@ -7,7 +7,8 @@ _resupplyAvailable = [
 	],
 	["AR Resupply",
 		[
-			["rhsusf_200rnd_556x45_mixed_box",20]
+			["150Rnd_762x54_Box",10],
+			["150Rnd_762x54_Box_Tracer",10]
 		]
 	],
 	["MMG Resupply",
@@ -19,13 +20,13 @@ _resupplyAvailable = [
 	],
 	["DMR Resupply",
 		[
-			["rhsusf_20Rnd_762x51_m62_Mag",15],
-			["rhsusf_20Rnd_762x51_m993_Mag",15]
+			["rhsusf_20Rnd_762x51_SR25_m118_special_Mag",15],
+			["rhsusf_20Rnd_762x51_SR25_m62_Mag",15]
 		]
 	],
 	["LAT Resupply",
 		[
-			["rhs_weap_M136",8]
+			["BWA3_RGW90_Loaded",8]
 		]
 	],
 	["MAT Resupply",
@@ -123,7 +124,7 @@ _resupplyAvailable = [
 	["Squad Resupply",
 		[
 			["rhs_mag_30Rnd_556x45_M855_Stanag", 24],
-			["rhsusf_200rnd_556x45_mixed_box", 4],
+			["150Rnd_762x54_Box", 4],
 			["rhs_weap_M136", 1],
 			["1Rnd_HE_Grenade_Shell", 12],
 			["rhsusf_mag_6Rnd_M441_HE", 2],

@@ -5,6 +5,12 @@ switch (_loadout) do {
 	default {player addWeapon "UK3CB_FNFAL_OSW";
 			player addPrimaryWeaponItem "rhsusf_acc_eotech_552";
 	};
+	case "sqd_ld":{player addWeapon "UK3CB_FNFAL_OSW_GL";
+					player addPrimaryWeaponItem "rhsusf_acc_eotech_552";
+	};
+	case "plt":{player addWeapon "UK3CB_FNFAL_OSW_GL";
+					player addPrimaryWeaponItem "rhsusf_acc_eotech_552";
+	};
 	case "sqd_gre":{player addWeapon "UK3CB_FNFAL_OSW_GL";
 					player addPrimaryWeaponItem "rhsusf_acc_eotech_552";
 	};

@@ -6,6 +6,12 @@ _resupplyAvailable = [
 			["rhsusf_mag_15Rnd_9x19_JHP",20]
 		]
 	],
+	["AR Resupply",
+		[
+			["150Rnd_762x54_Box_Tracer",10],
+			["150Rnd_762x54_Box",10]
+		]
+	],
 	["MMG Resupply",
 		[
 			["150Rnd_762x51_Box_Tracer",10],
