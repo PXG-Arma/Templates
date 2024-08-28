@@ -35,7 +35,7 @@ _availableVehicles =
 
 	['MBT', 
 		[
-			['LOP_IRAN_T72BA']
+			['LOP_IRAN_T72BA', 4]
 		]
 	],
 

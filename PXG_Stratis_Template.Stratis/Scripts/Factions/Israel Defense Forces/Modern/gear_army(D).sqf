@@ -20,3 +20,13 @@ switch (_loadout) do {
 switch (_loadout) do {
 	case "sup_hat_g": {player addWeapon "UK3CB_BAF_Javelin_CLU"};
 };
+
+// NVG swap
+switch (_loadout) do {
+    default {};
+	case "rcn_spe";
+	case "rcn_dmr";
+	case "rcn_drone";
+	case "rcn_ld": {player linkItem "UK3CB_PVS5A"};
+};
+

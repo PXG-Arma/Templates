@@ -7,6 +7,8 @@ _resupplyAvailable = [
 			["rhs_30Rnd_545x39_AK_plum_green",20],
 			["rhs_30Rnd_762x39mm_Savz58_tracer",20],
 			["rhs_30Rnd_762x39mm_Savz58",20],
+			["UK3CB_AUG_30Rnd_556x45_Magazine_Y",20],
+			["UK3CB_AUG_30Rnd_556x45_Magazine_YT",20],
 			["UK3CB_G3_20rnd_762x51_YT",20],
 			["UK3CB_G3_20rnd_762x51_Y",20]
 		]

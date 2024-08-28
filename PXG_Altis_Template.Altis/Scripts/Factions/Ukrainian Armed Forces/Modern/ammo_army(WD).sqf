@@ -36,8 +36,8 @@ switch (_loadout) do {
 			};
 
 			case "uk3cb_auga1_carb": {
-					for "_i" from 1 to 4 do { player addItemToVest "UK3CB_ACR_30rnd_556x45_Y"};
-		            for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_ACR_30rnd_556x45_YT"};
+					for "_i" from 1 to 4 do { player addItemToVest "UK3CB_AUG_30Rnd_556x45_Magazine_Y"};
+		            for "_i" from 1 to 4 do { player addItemToBackpack "UK3CB_AUG_30Rnd_556x45_Magazine_YT"};
 			};
 
 			case "rhs_weap_m4": {

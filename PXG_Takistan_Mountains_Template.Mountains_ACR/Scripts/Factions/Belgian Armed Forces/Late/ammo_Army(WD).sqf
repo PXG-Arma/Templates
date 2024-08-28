@@ -38,7 +38,7 @@ switch (_loadout) do {
 	};
 };
 
-// add secondary ammo
+/// add secondary ammo
 switch (_loadout) do {
 	default { for "_i" from 1 to 2 do { player addItemToUniform "UK3CB_BHP_9_13Rnd"}; };
 	    case "plt";
