@@ -1,7 +1,7 @@
 _avialableVariants = [
 	                  "--------- Army ---------",
 	                  "Army(WD) Modern",
-                      "Army(W) Modern",
+                      "Army(W) Modern"
 					  //"--- Special Forces ---",
                       //"Jegertroppen Modern"
                       ];

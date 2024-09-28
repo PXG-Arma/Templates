@@ -35,7 +35,7 @@ _resupplyAvailable = [
 	],
 	["LAT Resupply",
 		[
-			["UK3CB_BAF_AT4_CS_AP_Launcher",8]
+			["UK3CB_M72A1_law_loaded",8]
 		]
 	],
 	["MAT Resupply",
@@ -127,7 +127,7 @@ _resupplyAvailable = [
 		[
 			["rhs_30Rnd_762x39mm_polymer", 32],
 			["rhs_mag_30Rnd_556x45_M855_PMAG",40],
-			["UK3CB_BAF_AT4_CS_AP_Launcher", 1],
+			["UK3CB_M72A1_law_loaded", 1],
 			["rhs_VOG25", 12],
 			["1Rnd_HE_Grenade_shell",30],
 			["handgrenade", 6],

@@ -28,7 +28,7 @@ switch (_loadout) do {
 	case "sqd_med";
 	case "plt_med" : { player addVest "LOP_V_6B23_Medic_IDPM"};
     case "ar_ld";
-	case "ar_c": {player addHeadgear "LOP_V_6B23_CrewOfficer_IDPM"};
+	case "ar_c": {player addVest "LOP_V_6B23_CrewOfficer_IDPM"};
 	case "pil": { player addVest "LOP_V_6B23_sniper_IDPM"};
 };
 

@@ -164,7 +164,35 @@ switch (_loadout) do {
                 for "_i" from 1 to 2 do { player addItemToBackpack "rhs_GRD40_green"; };
                 for "_i" from 1 to 2 do { player addItemToBackpack "rhs_VG40OP_white"; };
             };
-            case "UK3CB_M16A4_UGL": {
+            case "UK3CB_m16a4_UGL": {
+                for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"}; 
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "UGL_FlareWhite_F"};
+            };
+            case "rhs_weap_m16A4_carryhandle_m203": {
+                for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"}; 
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "UGL_FlareWhite_F"};
+            };
+			case "rhs_weap_m16a4_carryhandle_m203": {
+                for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"}; 
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "UGL_FlareWhite_F"};
+            };
+			case "rhs_weap_m16a4_carryhandle_M203": {
+                for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"}; 
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeGreen_Grenade_shell"};
+		        for "_i" from 1 to 2 do {player addItemToBackpack "UGL_FlareWhite_F"};
+            };
+			case "rhs_weap_m16A4_carryhandle_M203": {
                 for "_i" from 1 to 10 do {player addItemToBackpack "1Rnd_HE_Grenade_shell"}; 
 		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell"};
 		        for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_SmokeRed_Grenade_shell"};

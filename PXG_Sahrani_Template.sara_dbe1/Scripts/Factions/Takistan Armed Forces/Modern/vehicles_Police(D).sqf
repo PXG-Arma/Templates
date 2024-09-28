@@ -5,6 +5,7 @@ _availableVehicles =
 	["UK3CB_TKA_O_Ural_Ammo", 4],
 	["UK3CB_TKA_O_Ural_Fuel", 4], 
 	["UK3CB_TKP_O_LandRover_Open", 4], 
+	["UK3CB_TKP_B_Lada_Police", 4], 
 	["UK3CB_MEC_O_Van_Transit_Medevac", 4]]
 	],
 	

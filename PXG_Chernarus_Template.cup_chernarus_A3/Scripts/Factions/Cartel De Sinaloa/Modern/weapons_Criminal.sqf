@@ -2,7 +2,7 @@ params["_side","_faction","_variant", "_loadout"];
 
 // weapon arrays
 randomPrimaryArray = ["rhs_weap_hk416d145","rhs_weap_m16A4","rhs_weap_m4a1_blockII_bk","arifle_AK12_F"];
-randomGLArray = ["arifle_AK12_GL_F","rhs_weap_hk416d145_m320","rhs_weap_m16A4_carryhandle_m203"]; 
+randomGLArray = ["arifle_AK12_GL_F","rhs_weap_hk416d145_m320","rhs_weap_m16A4_carryhandle_m203"]; //fuck the rhs m16a4 i hate this POS 
 randomDMRArray = ["rhs_weap_svdp_npz","rhs_weap_svds_npz"];
 randomSqdDMRArray = ["arifle_SPAR_03_blk_F","srifle_DMR_02_F"];
 randomPistolArray = ["hgun_ACPC2_F","rhsusf_weap_glock17g4","UK3CB_Micro_Uzi","rhsusf_weap_MP7A2_folded"];
