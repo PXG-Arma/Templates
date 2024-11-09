@@ -1,5 +1,5 @@
 params["_side", "_faction", "_variant", "_loadout"];
-
+ 
 // add primary ammo 
 switch (_loadout) do {
     default {
@@ -74,12 +74,13 @@ switch (_loadout) do {
         for "_i" from 1 to 1 do { player addItemToVest "150Rnd_762x51_Box"; };
         for "_i" from 1 to 2 do { player addItemToBackpack "150Rnd_762x51_Box_Tracer"; };
     };
-    case "sqd_ar": {};
+    case "sqd_ar": {
+        for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200Rnd_556x45_M855_soft_pouch"; };
+        for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"; };
+    };
     case "ar_ld": {};
     case "ar_c": {};
-    case "pil": {
-        for "_i" from 1 to 2 do { player addItemToVest "50Rnd_570x28_SMG_03"; };
-    };
+    case "pil": {};
 };
 
 
@@ -103,14 +104,29 @@ switch (_loadout) do {
             };
         };
     };
+    case "ar_ld";
+    case "ar_c";
+    case "pil": {
+        switch (handgunWeapon player) do {
+            case "hgun_ACPC2_F": {
+                    for "_i" from 1 to 2 do { player addItemToUniform "9Rnd_45ACP_Mag"; };
+                };
+                case "rhsusf_weap_glock17g4": {
+                    for "_i" from 1 to 2 do { player addItemToUniform "rhsusf_mag_17Rnd_9x19_JHP"; };
+                };
+                case "UK3CB_Micro_Uzi": {
+                    for "_i" from 1 to 2 do { player addItemToUniform "UK3CB_Uzi_32Rnd_Magazine"; };
+                };
+                case "rhsusf_weap_MP7A2_folded": {
+                    for "_i" from 1 to 2 do { player addItemToUniform "rhsusf_mag_40Rnd_46x30_FMJ"; };
+                };
+                default {};
+        };
+    };
 };
 
 // add assistant ammo 
 switch (_loadout) do {
-    case "sqd_ar": {
-        for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200Rnd_556x45_M855_soft_pouch"; };
-        for "_i" from 1 to 2 do { player addItemToBackpack "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch"; };
-    };
     case "sup_mmg_l": {
         for "_i" from 1 to 2 do { player addItemToBackpack "150Rnd_762x51_Box"; };
         for "_i" from 1 to 2 do { player addItemToBackpack "150Rnd_762x51_Box_Tracer"; };

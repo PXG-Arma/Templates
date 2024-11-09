@@ -48,9 +48,7 @@ switch (_loadout) do {
 	};
 	case "ar_ld";
 	case "ar_c";
-	case "pil": {
-		player addWeapon "SMG_02_F";
-		};
+	case "pil": {};
 };
 
 // add secondary weapon

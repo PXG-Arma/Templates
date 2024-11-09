@@ -17,6 +17,12 @@ _resupplyAvailable = [
 			["rhsusf_mag_40Rnd_46x30_FMJ",20]
 		]
 	],
+	["AR Resupply",
+		[
+			["rhsusf_200Rnd_556x45_M855_mixed_soft_pouch" ,10],
+			["rhsusf_200Rnd_556x45_M855_soft_pouch" ,10]
+		]
+	],
 	["MMG Resupply",
 		[
 			["150Rnd_762x51_Box_Tracer",10],
