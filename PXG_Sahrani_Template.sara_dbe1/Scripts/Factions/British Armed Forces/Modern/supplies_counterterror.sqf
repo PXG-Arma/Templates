@@ -57,13 +57,6 @@ _resupplyAvailable = [
 			["UGL_FlareCIR_F",20]
 		]
 	],
-	["Breaching Charges",
-		[
-			["tsp_popperCharge_mag",16],
-			["tsp_stickCharge_mag",8],
-			["tsp_frameCharge_mag",8]
-		]
-	],
 	["Explosives",
 		[
 			["ACE_Clacker",2],

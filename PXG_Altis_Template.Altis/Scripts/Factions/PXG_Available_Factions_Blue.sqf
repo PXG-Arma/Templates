@@ -1,6 +1,7 @@
 _availableFactions = [
 	"Belgian Armed Forces",
 	"British Armed Forces",
+	"Bundespolizei",
 	"Bundeswehr",
 	"Colombian Armed Forces",
 	"Finnish Defense Forces",

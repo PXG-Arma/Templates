@@ -90,7 +90,7 @@ switch (_loadout) do {
 	};
 	case "sqd_brc": {
 		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_an_m8hc"};
-		for "_i" from 1 to 2 do { player addItemToVest "ACE_M84"};
+		for "_i" from 1 to 4 do { player addItemToVest "ACE_M84"};
 		for "_i" from 1 to 2 do { player addItemToVest "HandGrenade"};
 	};
 };
