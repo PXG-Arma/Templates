@@ -6,6 +6,7 @@ switch (_loadout) do {
 	};
 	case "plt";
 	case "sqd_ld";
+	case "rcn_ld";
 	case "sqd_gre": {player addWeapon "UK3CB_G3KA4_GL";
 	};
 	case "sqd_ar": {player addWeapon "UK3CB_RPKN_BLK";

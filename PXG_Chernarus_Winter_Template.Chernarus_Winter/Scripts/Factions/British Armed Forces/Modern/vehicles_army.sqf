@@ -93,6 +93,5 @@ _availableVehicles =
 	   ["UK3CB_BAF_MAN_HX58_Container_Green", 30]
 	  ]
 	] 
-	
 ];
 _availableVehicles

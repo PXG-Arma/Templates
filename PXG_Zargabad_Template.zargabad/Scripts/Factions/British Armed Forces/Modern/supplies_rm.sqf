@@ -28,6 +28,16 @@ _resupplyAvailable = [
 			["UK3CB_BAF_762_200Rnd_T",10]
 		]
 	],
+	["HAT Resupply",
+		[
+			["UK3CB_BAF_Javelin_Slung_Tube",6]
+		]
+	],
+	["AA Resupply",
+		[
+			["rhs_fim92_mag",8]
+		]
+	],
 	["DMR/Sniper Resupply",
 		[
 			["UK3CB_BAF_338_5Rnd",10],
@@ -69,13 +79,6 @@ _resupplyAvailable = [
 			["UGL_FlareCIR_F",20]
 		]
 	],
-	["Breaching Charges",
-		[
-			["tsp_popperCharge_mag",16],
-			["tsp_stickCharge_mag",8],
-			["tsp_frameCharge_mag",8]
-		]
-	],
 	["Explosives",
 		[
 			["ACE_Clacker",2],
@@ -95,8 +98,7 @@ _resupplyAvailable = [
 		[
 			["ACE_elasticBandage", 50],
 			["ACE_packingBandage", 50],
-			["ACE_quikclot", 50],
-			["dev_enzymeCapsule", 50]
+			["ACE_quikclot", 50]
 		]
 	],
 	["Autoinjectors",

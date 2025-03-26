@@ -9,8 +9,8 @@ _resupplyAvailable = [
 	],
 	["AR Resupply",
 		[
-			["rhsusf_200Rnd_556x45_box",10],
-			["rhsusf_200rnd_556x45_mixed_box",10]
+			["150Rnd_762x54_Box",10],
+			["150Rnd_762x54_Box_Tracer",10]
 		]
 	],
 	["PDW Resupply",
@@ -79,13 +79,6 @@ _resupplyAvailable = [
 			["UGL_FlareCIR_F",20]
 		]
 	],
-	["Breaching Charges",
-		[
-			["tsp_popperCharge_mag",16],
-			["tsp_stickCharge_mag",8],
-			["tsp_frameCharge_mag",8]
-		]
-	],
 	["Explosives",
 		[
 			["ACE_Clacker",2],
@@ -127,7 +120,7 @@ _resupplyAvailable = [
 		[
 			["rhs_30Rnd_545x39_AK_plum_green",20],
 			["UK3CB_ACR_30rnd_556x45_YT",20],
-			["rhsusf_200Rnd_556x45_box",10],
+			["150Rnd_762x54_Box_Tracer",10],
 			["30Rnd_9x21_Yellow_Mag",20],
 			["rhs_weap_M136",2],
 			["HandGrenade",10],

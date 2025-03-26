@@ -1,8 +1,8 @@
 _availableFactions = [
-		"Russian Armed Forces",
 		"People's Liberation Army",
-		"Venezuelan Armed Forces",
-		"Revolutionary Armed Forces of Colombia"
+		"Revolutionary Armed Forces of Colombia",
+		"Russian Armed Forces",
+		"Venezuelan Armed Forces"
 ];
 
 _availableFactions

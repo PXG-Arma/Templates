@@ -17,7 +17,7 @@ switch (_loadout) do {
 
 // add vest
 switch (_loadout) do {
-	default { player addVest "VSM_LBT1961_Black"};
+	default { player addVest "V_Chestrig_blk"};
 	case "pil":{};
 };
 

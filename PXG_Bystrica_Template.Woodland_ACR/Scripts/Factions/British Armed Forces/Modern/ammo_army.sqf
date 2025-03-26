@@ -46,6 +46,12 @@ switch (_loadout) do {
 		for "_i" from 1 to 1 do { player addItemToBackpack "UK3CB_BAF_762_200Rnd"};
 		for "_i" from 1 to 2 do { player addItemToBackpack "UK3CB_BAF_762_200Rnd_T"};
 	};
+	case "sup_aa_g": {
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_fim92_mag"};
+	};
+	case "sup_aa_l": {
+		for "_i" from 1 to 2 do { player addItemToBackpack "rhs_fim92_mag"};
+	};
 };
 
 // add other ammo 
@@ -63,7 +69,7 @@ switch (_loadout) do {
 	};
 	case "sqd_brc": {
 		for "_i" from 1 to 2 do { player addItemToVest "rhs_mag_an_m8hc"};
-		for "_i" from 1 to 2 do { player addItemToVest "ACE_M84"};
+		for "_i" from 1 to 4 do { player addItemToVest "ACE_M84"};
 		for "_i" from 1 to 2 do { player addItemToVest "HandGrenade"};
 	};
 };

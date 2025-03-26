@@ -1,5 +1,12 @@
 params["_side","_faction","_variant", "_loadout"]; 
 
+// 152 for arty cuz lazy 
+	
+switch (_loadout) do {
+	default {};
+	case "sup_mor_l" : {player addItemToVest "ACRE_PRC152"};
+};
+
 // add primary ammo 
 switch (_loadout) do {
 	default {

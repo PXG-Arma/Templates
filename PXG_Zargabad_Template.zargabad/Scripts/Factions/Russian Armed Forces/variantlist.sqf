@@ -7,6 +7,8 @@ _avialableVariants = ["------- Airborne -------",
 					  "---- Marine Corps ----",
 					  "VMF(WD) Modern",
 					  "--- Special Forces ---",
-					  "Spetsnaz(WD) Modern"];
+					  "Spetsnaz(WD) Modern",
+					  "-- Law Enforcement --",
+					  "Police Modern"];
 
 _avialableVariants

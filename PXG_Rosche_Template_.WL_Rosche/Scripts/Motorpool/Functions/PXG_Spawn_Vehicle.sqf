@@ -69,6 +69,7 @@ if (count _nearVehicles > 0) then {
 	_vehicleCargo = tvValue [461502, _indexVehicle];	// Get cargo value from tvValue
 	
 	if (_vehicleCargo >= 0) then {						// If value is 0 or greater, set it to that value. If it is negative, leave it alone.
+		[_vehicle, 99] call ace_cargo_fnc_setSpace;	    // Sets it to 99 first then to correct value as with some vics the ace-cargo_space dosent work withou the value havig changed its dumb DO NOT REMOVE ME 
 		[_vehicle, _vehicleCargo] call ace_cargo_fnc_setSpace;	
 	};
 

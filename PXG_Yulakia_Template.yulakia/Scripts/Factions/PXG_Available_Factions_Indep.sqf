@@ -1,10 +1,10 @@
 _availableFactions = [
-	"United Nations",
-	"Ukrainian Armed Forces",
+	"Cartel De Sinaloa",
+	"Islamic Republic of Iran",
 	"Takistan Armed Forces",
 	"Taliban",
-	"Cartel De Sinaloa",
-	"Islamic Republic of Iran"
+	"United Nations",
+	"Ukrainian Armed Forces"
 ];
 
 _availableFactions

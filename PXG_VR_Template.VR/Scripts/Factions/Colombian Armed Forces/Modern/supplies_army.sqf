@@ -113,6 +113,7 @@ _resupplyAvailable = [
 	["Squad Resupply",
 		[
 			["UK3CB_FNFAL_20rnd_762x51", 32],
+			["150Rnd_762x54_Box",3],
 			["rhs_weap_M136", 1],
 			["1Rnd_HE_Grenade_Shell", 12],
 			["HandGrenade", 6],
