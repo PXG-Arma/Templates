@@ -1,0 +1,3 @@
+[submodule "Altis_PXG_Template.Altis/Scripts"]
+	path = Altis_PXG_Template.Altis/Scripts
+	url = https://github.com/PXG-Arma/Scripts.git
